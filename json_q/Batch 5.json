@@ -1,0 +1,232 @@
+[
+  {
+    "category": "ERP Access & Permissions",
+    "flow": [
+      {
+        "Q1": "Are you facing ERP login issues or need role assignment?",
+        "Yes": {
+          "Q2": "Is this for a new user or existing user?",
+          "Yes": {
+            "Q2a": "Do you need access to specific modules or functions?",
+            "No": {
+              "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+            }
+          },
+          "No": {
+            "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+          }
+        },
+        "No": {
+          "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+        }
+      }
+    ]
+  },
+  {
+    "category": "Workflow & Approvals",
+    "flow": [
+      {
+        "Q1": "Are you experiencing workflow errors or approval delegation issues?",
+        "Yes": {
+          "Q2": "Is this affecting your workflow only or multiple users?",
+          "Yes": {
+            "Q2a": "Have you received any error messages or notifications?",
+            "No": {
+              "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+            }
+          },
+          "No": {
+            "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+          }
+        },
+        "No": {
+          "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+        }
+      }
+    ]
+  },
+  {
+    "category": "Financial Reports & Period Close",
+    "flow": [
+      {
+        "Q1": "Are you having issues with GL, budgeting, or period close reporting?",
+        "Yes": {
+          "Q2": "Is this related to a specific module or multiple modules?",
+          "Yes": {
+            "Q2a": "Have you tried any troubleshooting steps?",
+            "No": {
+              "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+            }
+          },
+          "No": {
+            "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+          }
+        },
+        "No": {
+          "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+        }
+      }
+    ]
+  },
+  {
+    "category": "Sales Orders & Invoice Issues",
+    "flow": [
+      {
+        "Q1": "Are you facing sales or invoice discrepancies?",
+        "Yes": {
+          "Q2": "Is this affecting a single order/invoice or multiple?",
+          "Yes": {
+            "Q2a": "Have you checked the transaction logs or reports?",
+            "No": {
+              "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+            }
+          },
+          "No": {
+            "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+          }
+        },
+        "No": {
+          "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+        }
+      }
+    ]
+  },
+  {
+    "category": "Purchase Requisition & PO Issues",
+    "flow": [
+      {
+        "Q1": "Are you having PR/PO processing errors?",
+        "Yes": {
+          "Q2": "Is this issue affecting your PR/PO only or multiple users?",
+          "Yes": {
+            "Q2a": "Do you see any error messages or workflow blocks?",
+            "No": {
+              "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+            }
+          },
+          "No": {
+            "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+          }
+        },
+        "No": {
+          "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+        }
+      }
+    ]
+  },
+  {
+    "category": "Stock & Inventory Management",
+    "flow": [
+      {
+        "Q1": "Are you seeing inventory discrepancies?",
+        "Yes": {
+          "Q2": "Is this affecting one warehouse or multiple locations?",
+          "Yes": {
+            "Q2a": "Have you checked the recent stock updates or transactions?",
+            "No": {
+              "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+            }
+          },
+          "No": {
+            "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+          }
+        },
+        "No": {
+          "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+        }
+      }
+    ]
+  },
+  {
+    "category": "Expense Reports & Approvals",
+    "flow": [
+      {
+        "Q1": "Are you facing issues with expense submissions or approvals?",
+        "Yes": {
+          "Q2": "Is this issue affecting your reports only or multiple users?",
+          "Yes": {
+            "Q2a": "Have you checked the approval workflow for errors?",
+            "No": {
+              "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+            }
+          },
+          "No": {
+            "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+          }
+        },
+        "No": {
+          "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+        }
+      }
+    ]
+  },
+  {
+    "category": "Data Integration & Reporting",
+    "flow": [
+      {
+        "Q1": "Are you experiencing ERP data integration issues?",
+        "Yes": {
+          "Q2": "Is this affecting one module or multiple modules?",
+          "Yes": {
+            "Q2a": "Have you tried checking the integration logs?",
+            "No": {
+              "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+            }
+          },
+          "No": {
+            "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+          }
+        },
+        "No": {
+          "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+        }
+      }
+    ]
+  },
+  {
+    "category": "Customer/Vendor/Product Data Management",
+    "flow": [
+      {
+        "Q1": "Are you facing master data management errors?",
+        "Yes": {
+          "Q2": "Is this affecting customers, vendors, or products?",
+          "Yes": {
+            "Q2a": "Have you tried validating the master data or logs?",
+            "No": {
+              "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+            }
+          },
+          "No": {
+            "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+          }
+        },
+        "No": {
+          "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+        }
+      }
+    ]
+  },
+  {
+    "category": "Module Setup & Updates",
+    "flow": [
+      {
+        "Q1": "Do you need ERP module configuration or updates?",
+        "Yes": {
+          "Q2": "Is this a new module or an existing module update?",
+          "Yes": {
+            "Q2a": "Is this affecting your user account or multiple users?",
+            "No": {
+              "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+            }
+          },
+          "No": {
+            "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+          }
+        },
+        "No": {
+          "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+        }
+      }
+    ]
+  }
+]

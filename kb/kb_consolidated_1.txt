@@ -1,0 +1,97 @@
+==============================
+ ERP SUPPORT
+==============================
+
+Issue: System working slow
+--------------------------------
+Symptoms:
+- System takes a long time to respond.
+- Applications freeze frequently.
+- Overall lag in performance.
+
+Possible Causes:
+- Too many applications running in the background.
+- Specific application cache/data overloaded.
+- Insufficient system memory (RAM).
+- Pending updates slowing down processes.
+
+Diagnosis Steps:
+1. Check if the system is slow only when using a specific application or at all times.
+2. If specific application: clear cache/data of that application and restart it.
+3. If system-wide: restart the system and close unused applications.
+4. Check Task Manager (Windows) or Activity Monitor (Mac) to see if CPU/memory is heavily used.
+5. If issue persists after restart: verify if disk space is almost full.
+
+Non-Technical Checks:
+- Ensure no heavy downloads or background processes are running.
+- Run a quick system cleanup (delete temporary files).
+- Check if system updates are pending and complete them.
+- If the issue still persists, contact ERP technical support.
+
+Priority: Medium
+Last Updated: 2025-09-08
+Escalation Contact: erp-support@company.com
+
+
+Issue: Unable to open specific application
+--------------------------------
+Symptoms:
+- Application does not launch when clicked.
+- Shows error popup on startup.
+- Application crashes immediately after opening.
+
+Possible Causes:
+- Corrupt application files or cache.
+- Pending updates or compatibility issues.
+- Incorrect login credentials or expired license.
+
+Diagnosis Steps:
+1. Check if the application shows any specific error message. Note it down.
+2. Clear application cache or temporary files.
+3. Restart the system and attempt to open the application again.
+4. Check if the application is updated to the latest version.
+5. Try reinstalling the application if issue persists.
+
+Non-Technical Checks:
+- Verify login credentials (if required).
+- Ensure active internet connection if app requires it.
+- Contact ERP support if reinstall and restart do not fix the issue.
+
+Priority: High
+Last Updated: 2025-09-08
+Escalation Contact: erp-support@company.com
+
+
+==============================
+ NETWORK SUPPORT
+==============================
+
+Issue: Unable to connect to network and Wi-Fi
+--------------------------------
+Symptoms:
+- Wi-Fi not showing available networks.
+- Network connected but no internet access.
+- System disconnects frequently from Wi-Fi.
+
+Possible Causes:
+- Wi-Fi adapter turned off.
+- Router/modem issues.
+- Incorrect network password.
+- ISP service outage.
+
+Diagnosis Steps:
+1. Check if Wi-Fi is turned on in your system settings.
+2. Forget the Wi-Fi network and reconnect by entering the password again.
+3. Restart the router/modem and wait 2-3 minutes before reconnecting.
+4. Check if other devices can connect to the same network.
+5. If no device connects: issue may be with the ISP. Contact your provider.
+
+Non-Technical Checks:
+- Ensure airplane mode is turned off.
+- If using Ethernet cable, verify the cable is properly plugged in.
+- Run Windows Troubleshooter (if on Windows) or Network Diagnostics (Mac).
+- If not resolved, escalate to the Network administrator.
+
+Priority: Critical
+Last Updated: 2025-09-08
+Escalation Contact: network-support@company.com

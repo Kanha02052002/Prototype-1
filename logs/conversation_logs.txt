@@ -1,0 +1,179 @@
+[2025-09-12 00:37:34] User: Unable to connect to network and wi-fi 
+[2025-09-12 00:37:34] Bot: Did you recently change your Wi‑Fi password or move the router, and is the issue happening on all devices or just one?
+[2025-09-12 00:38:08] User: No
+[2025-09-12 00:38:08] Bot: 
+[2025-09-12 00:38:18] User: No
+[2025-09-12 00:38:18] Bot: Did you notice any error messages or a specific icon (e.g., “No Internet” vs. “Wi‑Fi not found”) when your device attempts to connect?
+[2025-09-12 00:38:24] User: yes
+[2025-09-12 00:38:24] Bot: 
+[2025-09-12 00:39:29] User: yes
+[2025-09-12 00:39:29] Bot: **Quick, Non‑Technical Troubleshooting Steps**
+
+1. **Toggle Airplane / Wi‑Fi Mode (Mobile Devices)**
+   - Open the notification shade or quick‑settings panel.
+   - Tap the airplane‑mode icon to enable it, wait 10 seconds, then tap again to disable.
+   - Re‑open the Wi‑Fi settings; the list of available networks should refresh.
+
+2. **Restart the Router / Modem**
+   - Locate your router/modem near the power outlet.
+   - Unplug the power cable, wait 30 seconds, then plug it back in.
+   - Allow 1–2 minutes for the device to fully reboot; check if Wi‑Fi appears on your phone/computer.
+
+3. **Forget & Re‑Add the Network (Computer)**
+   - On Windows:  
+     1. Press `Win + I` → **Network & Internet** → **Wi‑Fi** → **Manage known networks**.  
+     2. Click your network, choose **Forget**.  
+     3. Return to Wi‑Fi list, reconnect and re‑enter the password.
+   - On macOS:  
+     1. Open **System Settings** → **Network** → **Wi‑Fi** → **Advanced…**.  
+     2. Select your network, click “–” to remove it, then reconnect.
+
+4. **Check for Physical Wi‑Fi Switch (Laptops)**
+   - Many laptops have a dedicated Wi‑Fi button or `Fn + F2`/`F5` key combination.
+   - Press the switch/key to ensure the wireless radio is enabled.
+   - Re‑open Wi‑Fi settings; networks should now be visible.
+
+These steps usually resolve visibility or connectivity glitches without needing deeper technical changes. If the problem persists after trying them, let me know and we can dive into more advanced diagnostics.
+[2025-09-12 00:45:26] User: Issue solved thank you
+[2025-09-12 00:45:26] Bot: Solved by Bot | Category: Network Support | Backed by LM Studio Model: openai/gpt-oss-20b
+
+============================================================
+[2025-09-12 00:46:59] User: Unable to open specific application 
+[2025-09-12 00:46:59] Bot: Did you notice any error message or log entry when the application crashes?
+[2025-09-12 00:47:16] User: it is showing that visual c++ is not available
+[2025-09-12 00:47:16] Bot: 
+[2025-09-12 00:47:28] User: it is showing that visual c++ is not available
+[2025-09-12 00:47:28] Bot: Which version of Visual C++ Redistributable does your system currently have installed, and have you tried reinstalling or repairing it?
+[2025-09-12 00:47:40] User: i don't remember
+[2025-09-12 00:47:40] Bot: 
+[2025-09-12 00:48:35] User: i don't remember
+[2025-09-12 00:48:35] Bot: 1. **Run Windows Update**
+   - Go to **Settings** → **Update & Security** → **Windows Update** and click **Check for updates**.  
+   - Install any pending updates (especially “Visual C++ Redistributable” packages) and reboot.
+
+2. **Use the System File Checker**
+   - Press **Win + X**, choose **Command Prompt (Admin)** or **Windows Terminal (Admin)**.  
+   - Type `sfc /scannow` and press **Enter**.  
+   - Let it finish, then restart and try opening the application again.
+
+3. **Re‑install the Visual C++ Redistributable**
+   - Open **Control Panel** → **Programs** → **Programs and Features**.  
+   - Look for any entries titled “Microsoft Visual C++ 2015–2022 Redistributable (x64/x86)”.  
+   - Right‑click each one, choose **Repair**; if that’s not available, select **Uninstall**, then download the latest redistributables from Microsoft’s site and install them.
+
+4. **Create a New User Profile**
+   - Go to **Settings** → **Accounts** → **Family & other users** → **Add someone else to this PC**.  
+   - Create a new local account, log in with it, and attempt to open the application. If it works, the original profile may be corrupted.
+
+These steps address common non‑technical causes—missing updates, corrupt system files, or damaged user settings—before moving on to deeper diagnostics.
+[2025-09-12 00:48:41] User: no
+[2025-09-12 00:48:41] Bot: Ticket raised for the issue: Unable to open specific application  | Category: ERP Support | Backed by LM Studio Model: openai/gpt-oss-20b
+
+============================================================
+[2025-09-12 00:50:06] User:  System working slow
+[2025-09-12 00:50:06] Bot: Did you notice if the slowdown occurs only when a particular application is running, or does it happen regardless of which program you use?
+[2025-09-12 00:50:33] User: with whole system
+[2025-09-12 00:50:33] Bot: 
+[2025-09-12 00:50:43] User: with whole system
+[2025-09-12 00:50:43] Bot: Did you notice if the slowdown started after installing any new software, updating drivers, or after a recent Windows update?
+[2025-09-12 00:51:11] User: yes after last patch update
+[2025-09-12 00:51:11] Bot: 
+[2025-09-12 00:52:11] User: yes after last patch update
+[2025-09-12 00:52:11] Bot: **Quick, non‑technical diagnostics & fixes for a system slowdown after the latest Windows patch**
+
+1. **Restart in Clean Boot mode**  
+   - Press `Win + R`, type `msconfig`, hit Enter.  
+   - In the *General* tab choose **Selective startup**, uncheck **Load startup items**.  
+   - Go to the *Services* tab, check **Hide all Microsoft services**, then click **Disable all**.  
+   - Click *Apply*, reboot.  
+   - If performance improves, a background service or startup program is conflicting with the patch.
+
+2. **Check for pending updates / roll‑back the recent update**  
+   - Open Settings → Windows Update → View update history.  
+   - If the last patch appears under “Uninstall updates”, click it and uninstall.  
+   - After removal, reboot and test performance again.
+
+3. **Run a quick disk health check**  
+   - Press `Win + X`, choose *Windows Terminal (Admin)* or *Command Prompt (Admin)*.  
+   - Type `chkdsk /f /r C:` and press Enter. (You’ll be asked to schedule on next reboot.)  
+   - Reboot; the system will scan for bad sectors that might be slowing I/O.
+
+4. **Use the built‑in Performance Troubleshooter**  
+   - Open Settings → System → Troubleshoot → Other troubleshooters → *Performance*.  
+   - Run it and let Windows identify any obvious resource bottlenecks or misconfigurations caused by the update.
+
+These steps are quick to perform, don’t require deep technical knowledge, and can often isolate or resolve the slowdown before moving on to more advanced troubleshooting.
+[2025-09-12 00:52:29] User: Issue solved
+[2025-09-12 00:52:29] Bot: Solved by Bot | Category: ERP Support | Backed by LM Studio Model: openai/gpt-oss-20b
+
+============================================================
+[2025-09-12 02:30:15] User: My System is running slow
+[2025-09-12 02:30:15] Bot: Is the system slow only when running specific applications, or does it feel sluggish across all tasks?
+[2025-09-12 02:30:26] User: for all the application
+[2025-09-12 02:30:26] Bot: 
+[2025-09-12 02:30:29] User: for all the application
+[2025-09-12 02:30:29] Bot: Is the system slow even when no applications are running, or does the sluggishness only occur when applications are active?
+[2025-09-12 02:30:46] User: for all active sessions
+[2025-09-12 02:30:46] Bot: 
+[2025-09-12 02:30:57] User: for all active sessions
+[2025-09-12 02:30:57] Bot: - **Check for background apps running in the background**  
+  *Navigation:* On Windows, press `Ctrl + Shift + Esc` to open Task Manager; on Mac, open Activity Monitor (found in Applications > Utilities). Look for apps using high CPU, memory, or disk usage. Close any unnecessary or unknown apps that may be running silently.
+
+- **Restart the computer**  
+  *Reason:* A simple restart clears temporary files, stops stuck processes, and refreshes system resources. This is one of the fastest and most effective non-technical fixes for general slowness across all applications.
+
+- **Check for startup programs**  
+  *Navigation:* On Windows, press `Ctrl + Shift + Esc`, go to the "Startup" tab and disable any non-essential programs that start automatically. On Mac, go to System Settings > General > Login Items and remove unused apps. This reduces system load at startup and improves responsiveness.
+
+- **Scan for malware or virus infections**  
+  *Navigation:* Use built-in tools like Windows Defender (Windows) or XProtect (Mac) to run a quick full-system scan. Malware can run in the background and consume system resources without user awareness. A quick scan helps rule out malicious software as the cause.  
+
+> *Note: These steps are non-technical and can be performed by end-users without needing advanced knowledge. They address the core issue of system sluggishness across all active sessions.*
+[2025-09-12 02:31:05] User: Solved
+[2025-09-12 02:31:05] Bot: Solved by Bot | Category: ERP Support | Backed by LM Studio Model: qwen/qwen3-4b-2507
+
+============================================================
+[2025-09-12 11:11:08] User: One of the key in my keyboard is not working
+[2025-09-12 11:11:08] Bot: Did you check if that specific key works on another application or in a different device (e.g., another computer or a smartphone keyboard app)?
+[2025-09-12 11:11:41] User: No
+[2025-09-12 11:11:41] Bot: 
+[2025-09-12 11:11:57] User: No
+[2025-09-12 11:11:57] Bot: Have you tried cleaning or gently tapping around that key to see if any debris might be obstructing it?
+[2025-09-12 11:12:15] User: yes still the same
+[2025-09-12 11:12:15] Bot: 
+[2025-09-12 11:13:22] User: yes still the same
+[2025-09-12 11:13:22] Bot: **Quick, non‑technical checks you can try right now**
+
+1. **Test the key in a different program or on another device**  
+   - Open Notepad (or any plain text editor) and press the key.  
+   - If it still doesn’t register, try plugging the keyboard into another computer or using a USB hub to rule out a port issue.
+
+2. **Inspect the keycap and surrounding area for debris**  
+   - Tilt the laptop/keyboard so you can see under the key.  
+   - Gently blow air (or use compressed‑air canned) around the key; if it’s stuck, lightly tap the key with a small tool (e.g., a toothpick) to dislodge any obstruction.
+
+3. **Check for software or driver conflicts**  
+   - Open Device Manager → “Keyboards” → right‑click your keyboard → “Update driver.”  
+   - If an update is available, install it; otherwise, try uninstalling the device and rebooting so Windows reinstalls a fresh driver.
+
+4. **Reset keyboard settings to default**  
+   - Go to Settings → Time & Language → Keyboard → “Add a language” (if you have multiple languages).  
+   - Remove any non‑default layouts, then restart your
+[2025-09-12 11:14:07] User: No
+[2025-09-12 11:14:07] Bot: Ticket raised for the issue: One of the key in my keyboard is not working | Category: ERP Support | Backed by LM Studio Model: openai/gpt-oss-20b
+
+============================================================
+[2025-09-12 16:38:48] User: Unable to connect to wifi and network
+[2025-09-12 16:38:48] Bot: Is the Wi-Fi network visible on the device's screen?
+[2025-09-12 16:38:56] User: No
+[2025-09-12 16:38:56] Bot: 
+[2025-09-12 16:38:58] User: No
+[2025-09-12 16:38:58] Bot: Is the device turned on and within range of the Wi-Fi router?
+[2025-09-12 16:39:06] User: yes
+[2025-09-12 16:39:06] Bot: 
+[2025-09-12 16:39:09] User: yes
+[2025-09-12 16:39:09] Bot: - Is the router turned on and functioning (e.g., lights are on)?
+[2025-09-12 16:40:05] User: no
+[2025-09-12 16:40:05] Bot: Ticket raised for the issue: Unable to connect to wifi and network | Category: Network Support | Backed by LM Studio Model: qwen/qwen3-4b-2507
+
+============================================================

@@ -1,0 +1,232 @@
+[
+  {
+    "category": "Server Issues",
+    "flow": [
+      {
+        "Q1": "Are you unable to log in or use the server?",
+        "Yes": {
+          "Q2": "Is the server responding slowly or showing errors?",
+          "Yes": {
+            "Q2a": "Is this affecting one server or multiple servers (e.g., VM, SolidWorks)?",
+            "No": {
+              "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+            }
+          },
+          "No": {
+            "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+          }
+        },
+        "No": {
+          "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+        }
+      }
+    ]
+  },
+  {
+    "category": "SCADA Issues",
+    "flow": [
+      {
+        "Q1": "Is your SCADA system currently not working?",
+        "Yes": {
+          "Q2": "Is the failure happening in a specific site (Ajman, Germany, Lebanon, FZCL)?",
+          "Yes": {
+            "Q2a": "Is it affecting all users at that site or only your login?",
+            "No": {
+              "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+            }
+          },
+          "No": {
+            "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+          }
+        },
+        "No": {
+          "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+        }
+      }
+    ]
+  },
+  {
+    "category": "VM Provisioning",
+    "flow": [
+      {
+        "Q1": "Do you need a new VM to be provisioned?",
+        "Yes": {
+          "Q2": "Is this VM for a specific project or department?",
+          "Yes": {
+            "Q2a": "Do you need any special configuration (CPU, RAM, OS)?",
+            "No": {
+              "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+            }
+          },
+          "No": {
+            "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+          }
+        },
+        "No": {
+          "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+        }
+      }
+    ]
+  },
+  {
+    "category": "Resource Groups",
+    "flow": [
+      {
+        "Q1": "Do you need access to an Azure resource group?",
+        "Yes": {
+          "Q2": "Is this to create a new group or update an existing one?",
+          "Yes": {
+            "Q2a": "Should this group have specific roles or permissions assigned?",
+            "No": {
+              "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+            }
+          },
+          "No": {
+            "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+          }
+        },
+        "No": {
+          "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+        }
+      }
+    ]
+  },
+  {
+    "category": "Asset & Backup",
+    "flow": [
+      {
+        "Q1": "Are you unable to access or restore a backup?",
+        "Yes": {
+          "Q2": "Is the backup missing or corrupted?",
+          "Yes": {
+            "Q2a": "Is this for a single file/database or a full system backup?",
+            "No": {
+              "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+            }
+          },
+          "No": {
+            "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+          }
+        },
+        "No": {
+          "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+        }
+      }
+    ]
+  },
+  {
+    "category": "General Troubleshooting",
+    "flow": [
+      {
+        "Q1": "Are you facing issues with your server or VM?",
+        "Yes": {
+          "Q2": "Is it a performance issue (lag, crash) or access issue (login)?",
+          "Yes": {
+            "Q2a": "Is this problem recurring or happening for the first time?",
+            "No": {
+              "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+            }
+          },
+          "No": {
+            "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+          }
+        },
+        "No": {
+          "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+        }
+      }
+    ]
+  },
+  {
+    "category": "Storage & Keys",
+    "flow": [
+      {
+        "Q1": "Are you unable to access shared storage or drives?",
+        "Yes": {
+          "Q2": "Is this related to OneDrive/SharePoint or backup storage?",
+          "Yes": {
+            "Q2a": "Is the access issue user-specific or for the whole team?",
+            "No": {
+              "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+            }
+          },
+          "No": {
+            "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+          }
+        },
+        "No": {
+          "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+        }
+      }
+    ]
+  },
+  {
+    "category": "SharePoint / OneDrive",
+    "flow": [
+      {
+        "Q1": "Are you unable to open or sync a file?",
+        "Yes": {
+          "Q2": "Is this affecting just one file or multiple files?",
+          "Yes": {
+            "Q2a": "Can you open the same file from another device/browser?",
+            "No": {
+              "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+            }
+          },
+          "No": {
+            "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+          }
+        },
+        "No": {
+          "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+        }
+      }
+    ]
+  },
+  {
+    "category": "Laptop Issues",
+    "flow": [
+      {
+        "Q1": "Does your laptop power on when pressing the power button?",
+        "Yes": {
+          "Q2": "Does it reach the login screen successfully?",
+          "Yes": {
+            "Q2a": "Does it load completely after login or get stuck/slow?",
+            "No": {
+              "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+            }
+          },
+          "No": {
+            "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+          }
+        },
+        "No": {
+          "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+        }
+      }
+    ]
+  },
+  {
+    "category": "Printer Issues",
+    "flow": [
+      {
+        "Q1": "Is the printer powered on and connected?",
+        "Yes": {
+          "Q2": "Are you seeing any error lights or messages on the printer?",
+          "Yes": {
+            "Q2a": "Is the issue with printing, scanning, or both?",
+            "No": {
+              "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+            }
+          },
+          "No": {
+            "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+          }
+        },
+        "No": {
+          "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+        }
+      }
+    ]
+  }
+]

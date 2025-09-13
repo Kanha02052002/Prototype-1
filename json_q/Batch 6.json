@@ -1,0 +1,232 @@
+[
+  {
+    "category": "External System Interfaces",
+    "flow": [
+      {
+        "Q1": "Are you facing integration issues with external systems?",
+        "Yes": {
+          "Q2": "Is this affecting a single system or multiple systems?",
+          "Yes": {
+            "Q2a": "Have you checked logs or error messages from the external system?",
+            "No": {
+              "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+            }
+          },
+          "No": {
+            "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+          }
+        },
+        "No": {
+          "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+        }
+      }
+    ]
+  },
+  {
+    "category": "Process & Workflow Changes",
+    "flow": [
+      {
+        "Q1": "Do you need changes in ERP processes or workflows?",
+        "Yes": {
+          "Q2": "Is this change for a single module or multiple modules?",
+          "Yes": {
+            "Q2a": "Do you have approval or requirements documented?",
+            "No": {
+              "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+            }
+          },
+          "No": {
+            "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+          }
+        },
+        "No": {
+          "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+        }
+      }
+    ]
+  },
+  {
+    "category": "BI & Automation",
+    "flow": [
+      {
+        "Q1": "Do you need help with Power BI dashboards or automation?",
+        "Yes": {
+          "Q2": "Is this a new dashboard or modifying an existing one?",
+          "Yes": {
+            "Q2a": "Do you have source data ready or need assistance with it?",
+            "No": {
+              "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+            }
+          },
+          "No": {
+            "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+          }
+        },
+        "No": {
+          "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+        }
+      }
+    ]
+  },
+  {
+    "category": "Report Failures & Errors",
+    "flow": [
+      {
+        "Q1": "Are you experiencing report generation failures or errors?",
+        "Yes": {
+          "Q2": "Is this affecting a single report or multiple reports?",
+          "Yes": {
+            "Q2a": "Have you tried running the report with different filters or parameters?",
+            "No": {
+              "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+            }
+          },
+          "No": {
+            "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+          }
+        },
+        "No": {
+          "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+        }
+      }
+    ]
+  },
+  {
+    "category": "Report Enhancements",
+    "flow": [
+      {
+        "Q1": "Do you need enhancements to existing reports?",
+        "Yes": {
+          "Q2": "Is this for a single report or multiple reports?",
+          "Yes": {
+            "Q2a": "Do you have specific enhancement requirements documented?",
+            "No": {
+              "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+            }
+          },
+          "No": {
+            "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+          }
+        },
+        "No": {
+          "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+        }
+      }
+    ]
+  },
+  {
+    "category": "New Reports / Development",
+    "flow": [
+      {
+        "Q1": "Do you need a new report developed?",
+        "Yes": {
+          "Q2": "Is this report for ERP, BI, or external systems?",
+          "Yes": {
+            "Q2a": "Do you have source data and report requirements ready?",
+            "No": {
+              "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+            }
+          },
+          "No": {
+            "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+          }
+        },
+        "No": {
+          "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+        }
+      }
+    ]
+  },
+  {
+    "category": "Data Requests & Reports",
+    "flow": [
+      {
+        "Q1": "Do you have a custom data request or report requirement?",
+        "Yes": {
+          "Q2": "Is this for operational or analytical reporting?",
+          "Yes": {
+            "Q2a": "Do you have access to the required data sources?",
+            "No": {
+              "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+            }
+          },
+          "No": {
+            "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+          }
+        },
+        "No": {
+          "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+        }
+      }
+    ]
+  },
+  {
+    "category": "Dashboard & Reporting",
+    "flow": [
+      {
+        "Q1": "Do you need operational dashboards or reporting assistance?",
+        "Yes": {
+          "Q2": "Is this for Power BI, ERP, or another platform?",
+          "Yes": {
+            "Q2a": "Do you have existing dashboards or need creation from scratch?",
+            "No": {
+              "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+            }
+          },
+          "No": {
+            "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+          }
+        },
+        "No": {
+          "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+        }
+      }
+    ]
+  },
+  {
+    "category": "SQL / Databases",
+    "flow": [
+      {
+        "Q1": "Are you facing database queries or access issues?",
+        "Yes": {
+          "Q2": "Is this affecting a single database or multiple databases?",
+          "Yes": {
+            "Q2a": "Have you tried running queries or accessing from a different client?",
+            "No": {
+              "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+            }
+          },
+          "No": {
+            "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+          }
+        },
+        "No": {
+          "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+        }
+      }
+    ]
+  },
+  {
+    "category": "Data Issues / Schema & Object Changes / Data Sync Failures",
+    "flow": [
+      {
+        "Q1": "Are you facing data sync errors, schema updates, or object changes?",
+        "Yes": {
+          "Q2": "Is this for a single system or multiple systems?",
+          "Yes": {
+            "Q2a": "Have you reviewed logs or tried resyncing the data?",
+            "No": {
+              "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+            }
+          },
+          "No": {
+            "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+          }
+        },
+        "No": {
+          "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+        }
+      }
+    ]
+  }
+]

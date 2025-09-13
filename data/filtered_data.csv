@@ -1,0 +1,1071 @@
+Issue Type,Key,Summary,Assignee,Priority,Status,Request Type,Team
+[System] Service request,ITSD-17628,Requirement- Reconclication-Issue with Negative Balance in Warehouse,Sujai sharafudin,Low,In Progress,ERP Support,ERP Support
+[System] Service request,ITSD-17627,Requirement- Reconciliation-Expense report diff - AEOF-000027,Kavya Koyada,Low,In Progress,ERP Support,ERP Support
+[System] Service request,ITSD-17626,Requirement- Validation for Statistical accounts,Sujai sharafudin,Low,In Progress,ERP Support,ERP Support
+[System] Service request,ITSD-17625,Requirement-Purchase requisitions for Projects,Sujai sharafudin,Low,In Progress,ERP Support,ERP Support
+[System] Service request,ITSD-17607,Access to be added for Ronan for BOM WF approvals,Sujai sharafudin,Low,Waiting for approval,ERP Support,ERP Support
+[System] Service request,ITSD-17606,Please push these orders to Deposco,Anusha.Kotti,Medium,Resolved,ERP Support,ERP Support
+[System] Service request,ITSD-17581,Production module access request,Dolley Dunaboyina,Medium,Pending,ERP Support,ERP Support
+[System] Service request,ITSD-17580,Expense Management Workflow,Sujai sharafudin,Medium,Open,ERP Support,ERP Support
+[System] Service request,ITSD-17572,PO receiving in D365,Dolley Dunaboyina,High,Pending,ERP Support,ERP Support
+[System] Service request,ITSD-17563,UKGB-SO000579-Close the Old Sales Orders in UKGB Entity,Sujai sharafudin,Low,In Progress,ERP Support,ERP Support
+[System] Service request,ITSD-17562,Requirement-Inquality - item block status,Sujai sharafudin,Low,Pending,ERP Support,ERP Support
+[System] Service request,ITSD-17561,Requirement-Credit limit adjustment AEFZ-CLA-000053 & AEFZ-CLA-000054,Sujai sharafudin,Low,In Progress,ERP Support,ERP Support
+[System] Service request,ITSD-17560,Remove Credit limit hold for Intercompany Sales Orders,Sujai sharafudin,Low,Pending,ERP Support,ERP Support
+[System] Service request,ITSD-17546,Fixed Asset Module – Sub-Asset Code Creation,Sujai sharafudin,Medium,In Progress,ERP Support,ERP Support
+[System] Service request,ITSD-17505,Change in LM on ERP,Anusha.Kotti,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-17504,Change Line Manager ,Anusha.Kotti,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-17497,Request: Schedule GA4 Daily Sessions Users Update in Azure Data Factory,Kalagoni Saikiran,Low,In Progress,Data & Analytics Support,Data Support
+[System] Service request,ITSD-17493,cant post payment to supplier,Kavya Koyada,Medium,In Progress,ERP Support,ERP Support
+[System] Service request,ITSD-17475,POF2102421 migration to D365,Sujai sharafudin,High,Pending,ERP Support,ERP Support
+[System] Service request,ITSD-17419,"Missing Access to ""Request Change"" in PO entity USAS ",Dolley Dunaboyina,High,Resolved,ERP Support,ERP Support
+[System] Service request,ITSD-17377,Adding access for Batches module in AEFZ & AETT,Dolley Dunaboyina,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-17376,"pls delegate TA from Sotirios to Bassem Lotfy ""AEFT-PDJ000035",Anusha.Kotti,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-17375,Need access to raise PRs and receive POs in D365,Dolley Dunaboyina,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-17373,"pls delegate TA to Paul Clermont ""AEFT-PDJ000035""",Anusha.Kotti,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-17366,D365 Workflow Approval,Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-17353,CM Invoice Automation with MY Ops Approval Workflow,Sujai sharafudin,Low,Pending,ERP Support,ERP Support
+[System] Service request,ITSD-17323,Access for AETT entity for BR creation ,Dolley Dunaboyina,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-17284,Request for Reports from Germany ExitB,mohammed.shafeeq,Low,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-17270,D365 PR workflow issue ,Kavya Koyada,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-17269,pls create a new flavor,Dolley Dunaboyina,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-17148,"Unable to allow ""Place Sales Order"" and ""Allow Order Processing on customer account""",Anusha.Kotti,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-17146,Deploy US Engine1 E-commerce Staging Tables Optimization,Kalagoni Saikiran,Medium,Pending,Data & Analytics Support,Data Support
+[System] Service request,ITSD-17123,Unable to rmake product receipt in UKTP,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-17117,Adding Daniel and Miles to E-Mail notification for ADF pipelines,Abhishek Gautam,Medium,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-17115,Request to Cancel Purchase Request 034646,Anusha.Kotti,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-17108,Air Organization Changes for the Approvers- Entity details required for WF changes,Sujai sharafudin,Low,Resolved,ERP Support,ERP Support
+[System] Service request,ITSD-17091,AEFZ-BOM Line Detail To date to be cleared,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-17062,pls delegate the TAs,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-17060,Create a new procurement category,Sujai sharafudin,Low,Pending,ERP Support,ERP Support
+[System] Service request,ITSD-17059,Change the SO to Draft for Lebanon to update the PO # Reference nos.,Anusha.Kotti,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-17044,D 365 Access ,Dolley Dunaboyina,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-17041,Does not have Access to D 365 USAS ,Dolley Dunaboyina,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-17038,"Katelyn Baker, Timothy Gray, and Xaier Finnie unable to submit sales orders due to error message ""Cannot edit a record in Sales orders (Sales Table).  Security policy permission denied.",Dolley Dunaboyina,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-17036,unable to submit sales order due to error message,Dolley Dunaboyina,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-17028,PRs and Expense Report - Transfer Approver to Moomal Chhabria,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-16996,Cycle work PLFC RM,Sujai sharafudin,Low,Pending,ERP Support,ERP Support
+[System] Service request,ITSD-16994,Change of Workflow - Approval Expenses Report ,Sujai sharafudin,Medium,In Progress,ERP Support,ERP Support
+[System] Service request,ITSD-16983,Request to Delete and Recreate Folders and Tables for 2024 and 2025,Abhishek Gautam,Low,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-16974,Need access to SQL Database for company Data to work on Copilot program,Abhishek Gautam,Low,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-16952,SO Status to draft - AEOK-SO000011943,Anusha.Kotti,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-16949,RE: PwC Auditors access to Microsoft D365,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-16948,Budget issue in AEFZ,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-16937,PR- 035921-035922 Please delegate to Ahmed Muaz,Anusha.Kotti,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-16934,Access permission for our Warehouse Management Report App,mohammed.shafeeq,High,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-16854,request for service items creation for GROK,Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-16845,11040-Faslurahman Thekkekooripurath,Kavya Koyada,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-16833,data warehouse: GA4 staging tables,Abhishek Gautam,Medium,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-16822,pls create country North Cyprus in the address for Customer creation - UKGB entity,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-16817,REQUEST TO CONFIGURE CCTV CAMERA SWITCH,Yousef Aldarak,Low,Closed,Network Support,Network Support
+[System] Service request,ITSD-16816,Access permission for Hazardous Materials Inventory,Dolley Dunaboyina,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-16788,Request to Grant Read-Only Access to ClearPass for Cybersecurity Team,Yousef Aldarak,Low,Closed,Network Support,Network Support
+[System] Service request,ITSD-16778,"Approval error for AEOK-SO000011941, ANDAZ DUBAI THE PALM.",Kavya Koyada,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-16763,Need access to Data Management View ,Anusha.Kotti,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-16753,Problem with receipt of materials,Sujai sharafudin,Low,Resolved,ERP Support,ERP Support
+[System] Service request,ITSD-16751,forecast entry - template upload SOP7 2025b,Sujai sharafudin,Low,In Progress,ERP Support,ERP Support
+[System] Service request,ITSD-16749,no access to reset/change/edit expiry date for batches,Sujai sharafudin,Medium,In Progress,ERP Support,ERP Support
+[System] Service request,ITSD-16747,No access to edit Expiration Date in Batch,Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-16744,AEFZ-SO0006431 to put into draft,Anusha.Kotti,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-16741,Approval Delegation -SO# UKGB-SO000768 (UKGB),Anusha.Kotti,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-16735,pls change the sequence for AEFZ customer creation,Kavya Koyada,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-16732,Please delegate to PR-035781,Anusha.Kotti,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-16730,035715 : 033408 : TFWA_2025 Berth Application Fee_2-,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-16729,Change approver for PR,Anusha.Kotti,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-16689,Request to open the SO -AEFZ-SO0006582,Anusha.Kotti,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-16680,USOK-PO-000148 and USOK-PO-000157 (Escatec OOKA Accessories),Dolley Dunaboyina,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-16668,Change approver for PR,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-16659,Customer changes workflow report for KSPI,Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-16649,Ethan Lannan needs a D365 account for asset tracking,Dolley Dunaboyina,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-16643,Entity Access,Kavya Koyada,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-16628,KSA-Changing workflow of Customer changing + Adding,Sujai sharafudin,Low,In Progress,ERP Support,ERP Support
+[System] Service request,ITSD-16609,"the Site Master details for the new entity ""Zerosmoke.""",Sujai sharafudin,Medium,Pending,ERP Support,ERP Support
+[System] Service request,ITSD-16579,Access to PLFC SQL data ,mohammed.shafeeq,Low,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-16538,Access for Adham Kamil to approve Base Price Journals in ERP,Dolley Dunaboyina,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-16534,Voucher Transaction from Jan to April 2025 for USHD entity,Dolley Dunaboyina,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-16533,"pls create new market called ""Turkey Duty Free"" in item creation",Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-16493,PO lines with 0 remaining qty,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-16456,Option to change expiration date for batch,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-16454,pls create a new flavor,Anusha.Kotti,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-16442,Close the Old Sales Orders in UKGB Entity,Sujai sharafudin,High,Resolved,ERP Support,ERP Support
+[System] Service request,ITSD-16441,No access to distribute amounts in PO,Anusha.Kotti,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-16422,Air Corp user cert showing Error on new laptop,Kevin Halpin,Low,Closed,Network Support,End User Support
+[System] Service request,ITSD-16405,Not able to create expense in AEPV,Ankesh Jain,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-16404,Please check Ayushi Kedia roles,Sujai sharafudin,Medium,Pending,ERP Support,ERP Support
+[System] Service request,ITSD-16393,problem with CFC budget entry PLFC-BRE000077 workflow,Sujai sharafudin,Low,In Progress,ERP Support,ERP Support
+[System] Service request,ITSD-16385,Required New Location Code & GL Code in NAV India,Pravin Deore,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-16382,New Procurement category,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-16380,Budget entries number Cost Centre analysis Power Bi Report,Uday puramsetti,Low,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-16365,AEPV-VIJ000001046 & AEPV-VIJ000001047,Kavya Koyada,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-16352,Request to Restore Access to Data Management in D365,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-16345,Enable back the previous access,Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-16343,Closing Old Sales Order,Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-16321,Purchase requisitions for Projects,Sujai sharafudin,Low,Resolved,ERP Support,ERP Support
+[System] Service request,ITSD-16288,pls create new incoterm in UKGB,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-16271,Request to Delete and Recreate Folders and Tables for 2024,Abhishek Gautam,Low,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-16259,Issue with Settling Transactions,Kavya Koyada,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-16258,Issue with Settling Transactions – Remittance Address Mismatch,Kavya Koyada,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-16252,Employee creation in ERP ,Anusha.Kotti,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-16251,Remove Credit limit hold for Intercompany Sales Orders ,Sujai sharafudin,Low,Resolved,ERP Support,ERP Support
+[System] Service request,ITSD-16250,Business Justification in PR Level for OOKA_Multiple Source/Single Source,Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-16218,Michael Scott needs D365 account for asset tracking,Dolley Dunaboyina,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-16216,pls provide access to grds entity for products and released products and unit conversions,Dolley Dunaboyina,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-16189,WAN Interface Assigned Private IP Instead of Public IP – Corporate Office,Yousef Aldarak,Medium,Closed,Network Support,Network Support
+[System] Service request,ITSD-16178,OOKA Pool changes for PO workflow,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-16175,Access Request for Data warehouse-,Abhishek Gautam,Low,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-16174,Credit limit adjustment AEFZ-CLA-000053 & AEFZ-CLA-000054,Sujai sharafudin,Low,Resolved,ERP Support,ERP Support
+[System] Service request,ITSD-16157,Unable to connect to Air Corp,Kevin Halpin,Low,Closed,Network Support,End User Support
+[System] Service request,ITSD-16155, Request to Create Tables Using Files from SharePoint Location,Abhishek Gautam,Low,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-16154,"Request to Update Pipeline Logic, Schedule & File Drop Location",Abhishek Gautam,Low,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-16151,Statistical accounts,Kavya Koyada,Low,Resolved,ERP Support,ERP Support
+[System] Service request,ITSD-16146,pls route the customer to Osama Miqdad only as it's JV customer,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-16140,Adding Services Center on r07,Abhishek Gautam,High,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-16096,on one item I-0008135,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-16088,Expense report diff - AEOF-000027,Sujai sharafudin,Low,Resolved,ERP Support,ERP Support
+[System] Service request,ITSD-16078,pls create new financial dimension in market,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-16073,Offboarding for Ali Murad #11145,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-16053, Inquality - item block status,Sujai sharafudin,Low,Resolved,ERP Support,ERP Support
+[System] Service request,ITSD-16025,Customer names changes for KSA- Workflow to be Stopeed for Customer master data upload,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-16019,Access to Resources and Resource group,Dolley Dunaboyina,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-16017,Not able to receive POs,Dolley Dunaboyina,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-15997,ERP workflow changes requested by Mark Sidey.,Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-15989,NEW REPORT REQUIREMENT-OPEN PR/PO,Narayanan Santosh Kumar,Low,Pending,ERP Support,ERP Support
+[System] Service request,ITSD-15981,"We were unable to apply the filters associated with this view due to security restrictions on this page. However, personalizations for this view have been applied.",Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-15979,Access to AEAV,Dolley Dunaboyina,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-15966,Copy setup from UAT to PLFC,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-15957,"For Julian, Provide access to USOK for all the roles",Anusha.Kotti,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-15933,Offboarding for Shankar #11451,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-15932,Implement the name changes for purchase pools for POs,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-15923,Germany Office Network Upgrade,Yousef Aldarak,Low,Closed,Network Support,Network Support
+[System] Service request,ITSD-15903,Access to AETT entity,Dolley Dunaboyina,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-15897,Ajman IA ooka Telephone issue ,Yousef Aldarak,Low,Closed,Network Support,Network Support
+[System] Service request,ITSD-15868,Correct workflow approval in AEPV,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-15859,"Error while cancelling the remaining qty, in the AEFZ Sales Orders",Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-15858,receiving PO issue ,Dolley Dunaboyina,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-15857,add access in AEOF and AETT (OOKA related to create SO’s,Dolley Dunaboyina,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-15855,Batches - Expiration Date update,Dolley Dunaboyina,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-15844,Log Forwarding - US Berkeley ,Yousef Aldarak,Low,Closed,Network Support,Network Support
+[System] Service request,ITSD-15837, FW: Resignation- Latifa,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-15832,pls create new flavor,Dolley Dunaboyina,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-15825,Cycle count,Dolley Dunaboyina,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-15805,Scangun scanners for shipping no internet,Yousef Aldarak,Low,Closed,Network Support,Network Support
+[System] Service request,ITSD-15796,"Request for Azure Access – AD Group Management, Power BI, Pipelines",Abhishek Gautam,Low,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-15790,Journals not reflecting in AEFZ and AEOF ERP sandbox,Anusha.Kotti,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-15759,PR- approval workflows,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-15640,Request to Delete and Recreate Folders and Tables for 2025,Abhishek Gautam,Low,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-15596,Items to be added in GROK,Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-15586,i can not create a new batch in GROK,Dolley Dunaboyina,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-15570,Budget issue when confirming a PO,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-15555,In Correct WF Approval in AEOF for OOKA PO - AEOF-V001099 ,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-15500,Creation new FOC Customer group in KSPA Entity,Kavya Koyada,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-15498,Permeation to change the customer No. Sequence ,Kavya Koyada,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-15247,pls delegate the TAs to the respective workflow,Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-15223,Please update master data for GTIN registered with FTA in D365,Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-15217,Buffer zone,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-15162,Request to Create AD Groups for Power BI Access by Business Teams,Abhishek Gautam,Low,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-15157,Access to ERP system - Dynamics ,Anusha.Kotti,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-15155,pls delegate to Ziad Houdeib,Anusha.Kotti,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-15150,Test sub task ticket,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-15143,Access to create PPO - AEOF,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-15139,Journal posting details not appearing in D365 for approver,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-15124,Product Receipt function is missing,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-15115,Provide access to view D365 FTA Registered Codes,Dolley Dunaboyina,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-15087,Employee Id in D365,Kavya Koyada,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-15051,access to AEOF-OOKA TRADING portal,Anusha.Kotti,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-15042,e.asilo@air.global,Dolley Dunaboyina,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-15039,Payment Compliance Report ,Abhishek Gautam,High,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-15025,Unable to receive Invoice - Product receipt option not visible  ,Dolley Dunaboyina,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-15023,pls delegate all n.ahmar and ziad houdeib,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-15004,ADF Pipeline Request – Create New Table from SharePoint File,Abhishek Gautam,Medium,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-14992, PR line details are not visible to Mr. Imran,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-14983,Setup items for VANT-A007,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-14978,Access for Germany Databases,Abhishek Gautam,Low,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-14967,Purchase Requisitions,Dolley Dunaboyina,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-14955,D365 Access,Anusha.Kotti,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-14942,Reports from D365 for P2P process,Abhishek Gautam,Medium,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-14930,Access request,Dolley Dunaboyina,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-14911,Item code PR ,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-14905,Request access to view Sales order for Mohammad Kana and Tamer Abdeen,Dolley Dunaboyina,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-14903,"Lack access to many option in BOM, Route",Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-14900,D365 Access for New Employees,Anusha.Kotti,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-14889,ERP Access to Best Before Date,Anusha.Kotti,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-14883,UKGB SO WF,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-14880,"As process is not fully done, we request to open ITSD-14670 and fix the issue",Abhishek Gautam,High,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-14877,Purchase requisitions for Projects,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-14837,Incorrect data on FG Sales Report ,Uday puramsetti,Low,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-14832,access to text filed in batches,Dolley Dunaboyina,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-14816,Mistaken DOA Workflow GROK-PO-000516; GROK-PO-000766; AEOK-PO00000733; AEOK-PO00000623,Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-14796,Item master table that do not have shelf life days assigned.,Kavya Koyada,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-14688,Onboarding IT - AP Analyst position within the Accounting Department,Kevin Halpin,Low,Closed,ERP Support,End User Support
+[System] Service request,ITSD-14681,Expense Management,Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-14680,Workflow change,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-14671,Need cataloginventory_stock_item table from Magento for UAE_US and Germany,Abhishek Gautam,Medium,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-14670,Request access to records - Urgent,Abhishek Gautam,High,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-14654,pls create new payment terms in customer creation,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-14653,Requests raised by me need to go Hisham instead of Samer Nabil budget owner issue   ,Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-14652,Amend workflow for all Patrick Approvals,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-14647,Problem with copy and paste data in Released product detailes,Dolley Dunaboyina,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-14637,Problem with validate quality orders in Dynamics365,Dolley Dunaboyina,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-14616,Production Waste BI Report,Abhishek Gautam,Low,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-14614,pls delegate the TA,Anusha.Kotti,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-14599,adding 2 categories under expense management modules ,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-14586,amend old procurement categories,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-14583,pls assign the customer to Mark Sidey,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-14575,Bank Details submission,Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-14574,Workflow issues,Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-14568,Unable to create PO,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-14564,I dont have access to the new entity,Dolley Dunaboyina,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-14555,"Need to automate monthly SharePoint file imports into US_SOP_Reconciled_Sales table via ADF pipeline with proper tagging (ImportedDate, ReconciledDate) and audit logging.",Abhishek Gautam,Low,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-14548,Incorrect Workflow in AETT customer creation,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-14535,Cost Centre Analysis Report - Actuals not correct,Uday puramsetti,Low,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-14533,pls create new flavors,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-14426,pls create ingredient category and product range,Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-14425,Redirect Purchase Requesitions,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-14395,Request to Set Up Deposco Refresh Success Notification Email,Abhishek Gautam,Low,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-14393,Request to check last refresh timestamp for Deposco table,mohammed.shafeeq,Low,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-14389,Vulnerability Scan Report - Switches June 2025,Yousef Aldarak,Low,Closed,Network Support,Network Support
+[System] Service request,ITSD-14383,Inquality - item block status,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-14370,Address issue on AEFZ-SO0006338,Dolley Dunaboyina,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-14360,Remove unused tunnels from the zabbix ,Yousef Aldarak,Low,Closed,Network Support,Network Support
+[System] Service request,ITSD-14311,production database copy from UAE to UAT  ,Pravin Deore,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-14299,Request to Import SOP2025.csv into Azure SQL ([Silver].[SOP_Staging]),Abhishek Gautam,Low,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-14290,Onboarding IT - AP Supervisor - Accounting Department,Kevin Halpin,Low,Closed,ERP Support,End User Support
+[System] Service request,ITSD-14259,To combine the Warehouse Utilization report on our FG and RM Reports,mohammed.shafeeq,Low,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-14237,"Need to delete the data related to the listed below files, from the power Bi model for ""the OEE calculations & analysis"", due to having illogical output data in their related reports",Uday puramsetti,Low,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-14213,SO NOT VISIBLE,Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-14208,Decommissioning Big Query AS Data Source,Abhishek Gautam,Low,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-14206,Customer creation Workflow Stopped,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-14196,Not Correct Final Approver AEOF-PO-000803,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-14185,access to make Batch ID in system,Dolley Dunaboyina,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-14183,Add Reason Code D365,Kavya Koyada,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-14173,Need to follow running the power bi models several times to include the missing files & to adjust 1 file with duplicated values.,mohammed.shafeeq,High,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-14169,"Request for access to the ""Accrued Purchases excluding sales tax"" report",Dolley Dunaboyina,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-14164,UKGB - New Customer Account,Narayanan Santosh Kumar,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-14145,Addition of FG Utilization Report and FG Stock Aging to FG Reports in Power BI,Uday puramsetti,Low,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-14137,Account creation is not working,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-14124,Amend the Current WF for OOKA and Adding Vant,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-14104,Change Units from PCS to KG,Dolley Dunaboyina,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-14095,Access to Receive the PO ,Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-13993,Workflow authority Approval - Details not appearing,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-13971,Need Trans Type Details.,Pravin Deore,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-13961,create User in D365 for Daphney Wong#12566 to use ERP ,Anusha.Kotti,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-13895,New Hire Michael Maioriello needs D365 access,Dolley Dunaboyina,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-13872,Ronald Ndayisenga #11126,Anusha.Kotti,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-13871,Harshad Rahiman-10898,Anusha.Kotti,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-13868,create new city and state in UKGB,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-13857,D365 Access ( Zero Smoke ) for ,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-13856,Delegate POs to Calida on UK entities,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-13854,Adding Vendor creation date column to the Vendor V3 entity.,Pravin Deore,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-13853,Adding Customer creation date to the Customer V2 entity,Pravin Deore,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-13825,"Unable to submit vendor workflow in Entity GROK – error: ""Email address should not be blank""",Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-13798,UKPI-CANNOT MAKE NEW BUDGET ENTRY,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-13778,SO status to draft - AEOK-SO000011193,Anusha.Kotti,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-13773,Request Sales Data from 2015 till 2018 for Free Zone and Industrial Area Sales,Uday puramsetti,Low,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-13761,Granted Access USAS For Usman Waheed,Kavya Koyada,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-13758, please change the so status AEOK-SO000011193 to draft ,Anusha.Kotti,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-13755,Budget approval,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-13752,access to AEPV,Anusha.Kotti,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-13737,Cancel PR - 032180,Anusha.Kotti,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-13719,PR workflow request change for Ooka Germany,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-13716,Aruba Switch and AP renewal License ,Yousef Aldarak,Low,Closed,Network Support,Network Support
+[System] Service request,ITSD-13679,ACCESS FOR INVOICE JOURNAL AND ACCURED INVOICE,Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-13671,Granted Access to USAS,Anusha.Kotti,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-13670,SO Status to draft AEOK-SO000011191,Anusha.Kotti,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-13665,SO to draft status,Anusha.Kotti,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-13648,Create FOC Customer KSPI-C002330,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-13622,approval work flow adjustment ,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-13614,Access to UKGB & USAS,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-13611,Error in WF approval,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-13595,Change AEFZ customer account code to FOC customer code,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-13577,Change Banks account names,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-13571,Please update the GTIN list registered with FTA for D365,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-13536,"I am not able to raise an Expense report in ""my"" entity in D365",Dolley Dunaboyina,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-13525,set back UKGB customer account code,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-13508,Vendor Account - Registration ID - Country = Italy,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-13504,HA Network Connection Implementation – Ajman IA Office,Yousef Aldarak,Low,Closed,Network Support,Network Support
+[System] Service request,ITSD-13503,Acces to Workflow - PR module,Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-13501,routing from Air Corp VLAN and Default VLAN .,Yousef Aldarak,Low,Closed,Network Support,Network Support
+[System] Service request,ITSD-13462,Missing SKU in systems,Abhishek Gautam,Medium,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-13450,modification of payment method list under AEPV ,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-13443,Need access for a module on the System ,Anusha.Kotti,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-13442,Address issue on AEFZ-SO0006101  ,Anusha.Kotti,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-13437,Access permission for Hazardous Items -ITSD-6071,Shashank Tripathi,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-13425,Back to draft - PLFC-SO000776,Anusha.Kotti,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-13405,Deactivate Ibrahim Thwaib #10171,Anusha.Kotti,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-13400,Unable to edit information during product receipt for PO# : AEOF-PO-000440,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-13385,Historical reimbursement reports disappeared again ,Kavya Koyada,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-13380,Need help with customer aging calculations including how the AR_customer silver table / period calcs,mohammed.shafeeq,Low,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-13361,pls create new city and state,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-13354,SO status to draft - AETT-SO0000254,Anusha.Kotti,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-13347,Access Issue for Talal,Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-13344,move SO AEOK-SO000011169 to draft ,Anusha.Kotti,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-13337,Return SO status to draft AEOK-RM078: AEOK-SO000010927,Anusha.Kotti,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-13321,Need Google Analytics for hookah.com properties in SQL Server,Abhishek Gautam,Medium,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-13320,Need Magento EAV_ATTRIBUTE_OPTION and EAV_ATTRIBUTE_OPTION_VALUE in SQL Server,mohammed.shafeeq,High,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-13315,Update the views - Add customer accounts - FOC,mohammed.shafeeq,Low,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-13307,Power bi Production Report development ,mohammed.shafeeq,Low,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-13299,Processing prepayments in D365,Kavya Koyada,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-13287,Unable to delegate to a.tamimi@air.global,Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-13281,Access to scanner for new employee.,Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-13232,add the description to the new FD of Markets,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-13224,backup switch configuration on Poland office ,Yousef Aldarak,Low,Closed,Network Support,Network Support
+[System] Service request,ITSD-13222,Redirection of PR workflow,Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-13217,Posting error - Due to item cost,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-13196,create new procurement category,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-13187,SO status to confirmed - Online sales upload,Anusha.Kotti,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-13185,create new market in item,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-13180,AEFZ-SO0006127 WF delegate,Anusha.Kotti,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-13179,pls create new ingredient category,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-13170,Approval option disabled ,Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-13169,I dont have the menu for new expense report for expense management in AEOK entity ,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-13168,PR032812,Anusha.Kotti,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-13167,AEFZ-SO0006129 SO status change,Anusha.Kotti,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-13165,AEFZ-SO0006129 - WF delegation,Anusha.Kotti,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-13145,"Check store ids 47 and 50 are coming to Azure Magento tables listed below, please - are we getting them in the Azure database?",Abhishek Gautam,Low,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-13138,Expanding table Fact_GL,mohammed.shafeeq,Low,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-13127,SO status to draft - AETT-SO0000252 & AETT-SO0000254,Anusha.Kotti,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-13121,List of all Poland scaner users with warehouse access,Anusha.Kotti,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-13082,Workflow UK Entities,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-13073,The product receipt option is greyed out,Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-13040,Amine to be removed from All workflows,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-13025,SO Status change AEFT-SO0000610 AEFT-SO0000612,Anusha.Kotti,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-13024,Data Issue: Basem Merdan Specific Vendor - PO (NON-SOD),Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-13021,Sales orders status change for correcting the sales tax group,Anusha.Kotti,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-13017,Create Deposco ship report for March and April ,Anne Weeks,Low,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-13016,Incorrect inventory for FG / AEFT,mohammed.shafeeq,Low,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-12990,pls delegate the TAs in this approval matrix,Anusha.Kotti,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12941,Request to open the SO -AEFZ-SO0006196,Anusha.Kotti,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12939,Need internet switch and wifi router to connect cordless phone and wifi router for new factory pantry,Yousef Aldarak,Low,Closed,Network Support,Network Support
+[System] Service request,ITSD-12934,creation of flavor,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12925,Issue in UKOK,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12918,Power BI and Dynamics D365,mohammed.shafeeq,Low,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-12916,create a new unit of measure,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12910,pls delegate the TAs in this approval matrix,Anusha.Kotti,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12896,AEOK-SO000010922 - UAT confirmation of SO,Anusha.Kotti,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12879,SO status to draft - AEOK-SO000010924,Anusha.Kotti,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12852,Access to enter prices for Return Replacement SO in UAT,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12843,UAT testing - SO status to confirmed - AEOK-SO000010921,Anusha.Kotti,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12822,Warehouse Management is not working,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12811,GROK - request for credit orders confirmation (Critical task for month end close),Anusha.Kotti,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12810,pls delegate the TAs in this approval matrix,Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12790,"Create a retail price comparison between D 365, Plytix and Magento",Anne Weeks,Low,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-12789,Please add Base sales price (B2B) and Base sales price (B2C) to the Azuredata warehouse table -[D365].[AFZInventItemGTINStaging],mohammed.shafeeq,Low,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-12760,unable to receive POs,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12754,D365 - ticket related to Kyriba D365 project for GROK,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12735,OOKA LANDLINE ISSUE ,Imran Khan,High,Closed,Network Support,End User Support
+[System] Service request,ITSD-12734,UAE Testing - SO status to confirmed - AEOK-SO000010914,Anusha.Kotti,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12725,Create Intercompany Link Between AEFZ and GRDS ,Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12704,add WAN Link router to Zabbix for monitoring ,Yousef Aldarak,Low,Closed,Network Support,Network Support
+[System] Service request,ITSD-12702,Need support to cancel the PR ,Anusha.Kotti,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12701,UAT testing - Return SO to draft - RM077,Anusha.Kotti,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12695,New Item Code Creation & Sales Price updation with effect to 01.05.2025,Pravin Deore,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12694,Put to Draft Status -AEFZ-SO0006198,Anusha.Kotti,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12691,Cancelling the remaining qty. ,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12690,WF error,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12687,pls delegate to Osama,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12682,arrange session with Aruba tag team and check the WIFI issue ,Yousef Aldarak,Low,Closed,Network Support,Network Support
+[System] Service request,ITSD-12679,Request to remove movement post access permission,Anusha.Kotti,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12675,kindly move the SO AEOK-SO000010917 to draft,Anusha.Kotti,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12668,Request to Power-Bi dashboards access,mohammed.shafeeq,Low,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-12663,New Market - South Cyprus,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12656,New Product Categories,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12651,Omar Laptop has network issues ,Imran Khan,Medium,Closed,Network Support,End User Support
+[System] Service request,ITSD-12647,For Sujai support: Need SO approval for support Mikolaj,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12632,Registration ID for Czech Republic,Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12628,Unable to submit PR - Distribution error PR 032180,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12626,NC2 Printer network issues,Safeer PS,Low,Closed,Network Support,Security Support
+[System] Service request,ITSD-12619,Correct PO workflow approval for KSPI entity,Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12608,AEFZ-SO0005830 - Delegation,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12607,Enhancement in the Purchase Order Cycle Time report,mohammed.shafeeq,Medium,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-12604,Request for Support on Front-End Enhancements for Developed Report,mohammed.shafeeq,Low,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-12602,Support Request for Power BI Development Dashboard Issues,mohammed.shafeeq,High,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-12589,RE: D365 Issue -MOHAMAD OBEIDAT,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12577,sales order approval workflow ,Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12573,FOC Customer Creation - Changing naming structure for FOC,Kavya Koyada,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12572,Request to Add Mapping for USAS Single Entity in Legal Entity Mapping Table,mohammed.shafeeq,Low,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-12571,Request to Add New Field to DW Table – CustCustomerV3Staging,mohammed.shafeeq,Medium,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-12570,Request to Add New Field to DW Table – VendVendorV2Staging,mohammed.shafeeq,Medium,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-12569,Create Purchase request (PR),Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12549,I'm facing and issue where i can't see the released orders in the Taxcise integration. ,Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12520,Intercompany generation button missing,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12517,no access to view the invoice,Kavya Koyada,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12514,ITSD-11552 - reopen,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12498,Unable to Export Customer Statement of Account,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12488,New Printer Potentially blocked ,Safeer PS,Low,Closed,Network Support,Security Support
+[System] Service request,ITSD-12460,"D365 - New Joiner, Ludwig Schirmer",Anusha.Kotti,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12445,USAD PR 28022 workflow error,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12444,Orders Partially Shipped,Dolley Dunaboyina,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12440,Generate US. engine1 eCommerce order and order items tables from views,mohammed.shafeeq,Medium,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-12439,Need manual sequencing turned on for USAD in order to create 2 customer FOC accounts,Kavya Koyada,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12432,ERP Admin required for Shivank Mehrotra- New ERP Functional Consultant,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12419,"Access Require - USA CRP, Kyriba Modules",Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12418,Access require - USA CRP SANDBOX (D365),Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12414,Error in the WF,Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12413,move the SO to draft SO000010911 - AEOK-RM076 to draft,Anusha.Kotti,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12412,PR approval workflow change,Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12411,AP naming convention,Yousef Aldarak,Low,Closed,Network Support,Network Support
+[System] Service request,ITSD-12409,D365 f. new Joiner Paul Zweiacker,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12385,Access to All expense reports,Anusha.Kotti,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12384,AEOK - Replacement devices - Accounting treatment,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12373,WIFI staff redirect URL issue ,Yousef Aldarak,Low,Closed,Network Support,Network Support
+[System] Service request,ITSD-12362,Delete transaction,Ankesh Jain,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12356,"Setup Inventory Management ""Transfer"" for my Account",Dolley Dunaboyina,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12340,AEOK SO posting error,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12339,creation of financial dimension,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12333,"Expense report stopped due to insufficient permission issue for Stuart, Workflow Configuration Issue",Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12332,Still being sent wrong employees' expense reports,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12330,USAD - Expense Management Workflow,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12316,Access to D365 For rais PR ,Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12314,UKBL Approval,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12311,Workflow error - AETT-SO0000238 & AETT-SO0000239,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12310,Warehouse adding request,Anusha.Kotti,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12306,Address issue on AEFZ-SO0005957,Anusha.Kotti,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12304,AEFZ-SO0006106 : AL TAKA METAL SCRAP EST TR - ,Anusha.Kotti,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12296,creation of new registration type in registration id in address for customer creation,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12271,Request to solve reimbursement approval,Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12265,disable Mustefa Ahmed Dawd #11013- Worker Account on ERP,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12259,Creation of new procurement category,Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12258,creation of flavors,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12255,Sales Order Delegation,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12247,"Request External Domain for All Suppliers listed attached for all Entities (UAE, US, and EU)",Anusha.Kotti,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12235,Not Receiving ERP eMail Notifications,Anusha.Kotti,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12222,Business expense workflow approval change for Ooka Germany,Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12215,Update Workflow Approval for OOKA's Entities as per latest DOA,Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12213,request for cancellation of the expneses of employee Ugur Sari,Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12208,integrate Zabbix with Jira system,Yousef Aldarak,Low,Closed,Network Support,Network Support
+[System] Service request,ITSD-12205,cannot download excel file from ERP,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12201,Changing APs at NC2,Kevin Halpin,Low,Closed,Network Support,End User Support
+[System] Service request,ITSD-12183,Expense management error for Reinhard Mieck,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12180,Creation of new procurement category,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12174,Deactivate Muhammed  Ahsan Umar #11483,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12169,Return SO status to draft - RM075 and AEOK-SO000010904 ,Kavya Koyada,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12164,Syslog Configuration - Aruba Central,Yousef Aldarak,Low,Closed,Network Support,Network Support
+[System] Service request,ITSD-12159,"Create the Kyriba Batch Job for AEOK, AEFT, AEOF, AETT, AEFD from D365 Live",Ankesh Jain,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12150,creation of market,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12147,Access for Add attachments on Credit Limit Adjustment,Anusha.Kotti,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12145,my clleague Philipp Gheytanchi cannot remove unsubmitted expense lines,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12141, Return SO status to draft RM075 and SO000010904 ,Anusha.Kotti,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12139,Personal Expenses,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12116,"Update D 365 prod Vendor cell number and email addresses for USAD, USAGH, and USOK to support MDM project",Shivank Mehrotra,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12105,New warehouse creation - DISPOSAL,Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12103,Back to approve - PLFC-SO000653,Anusha.Kotti,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12098,Back to draft - PLFC-SO000653,Anusha.Kotti,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12094,PR Approval,Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12092,Snow Project - Creation of New Warehouse,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12086,Creation of new product range,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12079,AEFZ-SO0006086 - UAT printing PI,Anusha.Kotti,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12062,Change AEFZ-SO0005941 to Draft,Anusha.Kotti,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12060,check the switch connectivity on Ajman IA ,Yousef Aldarak,Low,Closed,Network Support,Network Support
+[System] Service request,ITSD-12036,workflow approver has left the company pls delgate it to the correct one,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12033,creation of FOC customer,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-12018,"Create a sales report for customer 'Canada', from May 2024 til now, for ",Anne Weeks,Low,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-11993,Create Procurement category (in PR) Outbound Freight ,Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11992,URGENT RE: Items blocked and On-hold due to incorrect Item Model Group,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11991,Items blocked and On-hold due to incorrect Item Model Group,Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11989,D365 Access,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11988,RE: Resignation Maryam,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11986,Manual create cerificate for Jessica Baxter,Ihab Alhasanat,Low,Closed,Network Support,Cloud Support
+[System] Service request,ITSD-11967,AEFZ-SO0006028 Change to Draft as Excise Charges are not captured,Anusha.Kotti,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11965,"Need to delete the vendor's bank account in ""Draft"" status",Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11963,Network Diagram  - Trendmicro SOC ,Yousef Aldarak,Low,Closed,Network Support,Network Support
+[System] Service request,ITSD-11960,cancle D365,Anusha.Kotti,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11942,Please update Item code for two SKUs,Abhishek Gautam,High,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-11940,USOK Line Approver Issue,Dolley Dunaboyina,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11939,Need ability to export from the USAS entity in production,Dolley Dunaboyina,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11936,Re order AF report columns and remap data ,Anne Weeks,Low,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-11935,Add an approver ,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11933,new line manager in business expenses workflow,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11922,SO Status to draft - AEOK-SO000010620,Anusha.Kotti,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11910,Update 2024 Fall Sales report with additional attributes,Anne Weeks,Low,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-11898,inventory value report - access,Anusha.Kotti,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11890,change unit from lbs to lb,Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11889,Need to update the Price,Pravin Deore,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11887,Aruba Central Foundation License [switch and AP],Yousef Aldarak,Low,Closed,Network Support,Network Support
+[System] Service request,ITSD-11885,PYJ - Payroll Journal,Anusha.Kotti,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11884,"creation of lb (pounds) in purchase, bom, inventory, unit sequence group id and selling unit for USAD and USGH",Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11883,Ajman IA office site visit ,Yousef Aldarak,Low,Closed,Network Support,Network Support
+[System] Service request,ITSD-11881,creation of new item group and cost group in USGH and USAD,Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11878,D365 new joiner Ergys Hasalliu,Anusha.Kotti,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11877,D365 f. new joiner - Milan Dave,Anusha.Kotti,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11875,creation of new weights,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11869,Jira Tickets-Reports-Power BI Dashboard Ageing report dont have Filters ,Uday puramsetti,Low,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-11868,Sales invoice email log - USAD/USGH - Access for William Stack,Dolley Dunaboyina,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11857,Wrong WF Approval for AEOK-PO00000671 Doesn't follow as per new DOA,Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11855,Method of Payment - Change from None to Approved,Anusha.Kotti,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11852,Posting error for PO # AEOF-PO-000008,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11846,customize WAN dashboard for all location ,Yousef Aldarak,Low,Closed,Network Support,Network Support
+[System] Service request,ITSD-11845,Please create these flavors,Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11844,View workflow history option in D365,Anusha.Kotti,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11842,PowerBI report creation,Uday puramsetti,Low,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-11839,Please add UKTP to purchase requisitions ,Kavya Koyada,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11836,Correction the Correct Intercompany PO AEOK-PO00000680,Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11834,All sales order module - ability to view SO and issue sales invoice,Anusha.Kotti,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11833,Pending Expense report (AEFZ-007316) on D365 for approval,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11814,Access to use Budget models ,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11811,Access to USHD - Setup - Sales Tax rate ,Dolley Dunaboyina,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11807,Sales Tax rate upload to ERP and Magento,Dolley Dunaboyina,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11806,please submit order USGH-SO0006897 in workflow,Kavya Koyada,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11803,"Create a report showing all available vendor names, numbers, emails and telephone number",Anne Weeks,Low,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-11798,D365 login not working,Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11790,March 2025 purchase order info. ,Anne Weeks,Medium,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-11788,tax rates inconsistent with whats shown in Magento,Dolley Dunaboyina,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11782,Add 'Blocked' column in the customer and Vendor entity,Pravin Deore,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11781, Zabbix Automation report by email ,Yousef Aldarak,Low,Closed,Network Support,Network Support
+[System] Service request,ITSD-11778,Single Source- Removal of unnecessary business justification,Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11775,Dubai office zabbix  NOC View ,Yousef Aldarak,Low,Closed,Network Support,Network Support
+[System] Service request,ITSD-11761,Request Granted Access to create SO under AEOF to create intercompany PO,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11758,IC link between USAL and UKBD,Narayanan Santosh Kumar,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11756,GRDS vendor invoice deletion,Narayanan Santosh Kumar,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11753,"Update the Address, phone number and email for Vendors in Entity PLFC",Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11734,Access to 365,Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11729,Access Point - Log Collector ,Yousef Aldarak,Medium,Closed,Network Support,Network Support
+[System] Service request,ITSD-11719,Error in Posting AEFT-SO0000509,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11717,Issue with Log Generation from Switches,Yousef Aldarak,Medium,Closed,Network Support,Network Support
+[System] Service request,ITSD-11699,Sales Tax Groups - VA-Tobacco,Dolley Dunaboyina,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11698,Create a 2025 ytd D 365 sales report for Mazaya,Anne Weeks,Low,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-11697,Order USGH-SO0006868 shows $0.00,Anusha.Kotti,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11695,Expense reports visibility role needed for the mentioned list of users,Anusha.Kotti,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11692,Excise tax not calculating ,Anusha.Kotti,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11690,Dynamics ,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11680,order USGH-C029332 tax not applied,Dolley Dunaboyina,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11669,Mapping GL accounts in the Management PnL Reports,Dolley Dunaboyina,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11664,Need entity to be USAD as default,Anusha.Kotti,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11657,"Delegate sales order,",Dolley Dunaboyina,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11647,Create a report showing $ shipped to Shisha Casa from Deposco,Anne Weeks,Low,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-11639,Addition of two columns to OOKA Device Data Table,Abhishek Gautam,Medium,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-11636,AEOF-PO-000740 - status not confirmed,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11634,Request full ERP access - AEFZ entity ,Dolley Dunaboyina,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11632,Delegate the WF Approval -AEFZ-SO0005979,Dolley Dunaboyina,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11629,Data required for IT SteerCO,Yousef Aldarak,Low,Closed,Network Support,Network Support
+[System] Service request,ITSD-11626,I am facing an issue when logging into Dynamics.,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11624,ERP UAT Server Access,Pravin Deore,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11623,Providing Access to Inventory Ageing Report,Dolley Dunaboyina,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11618,PR and Expense Reports Missing,Anusha.Kotti,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11615,Expense Claim Submitting Error,Kavya Koyada,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11610,Need manual sequencing turned on for USAD and USGH,Anusha.Kotti,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11609,D365 issue,Anusha.Kotti,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11607,CREATE FUNCTION permission request,mohammed.shafeeq,Low,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-11594,Please reassign AEFZ-SO0005830 from Mohammed Hamdan to Ziad Houdieb,Dolley Dunaboyina,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11592,Workflow issue. The PR's are stuck in error due to the fact that Leona Aguon no longer works here. ,Anusha.Kotti,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11591,Cre],Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11587,PR- 029716,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11586,Need AETT access for Luigi to approve production sales order,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11585,Add the Vendor Reference Number,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11584,QARETSAMPL  ,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11553,SO for approval error,Dolley Dunaboyina,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11552,Permisions to reset distributions for Bogusław Danel and Skinga Stegnienko,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11550,PR workflow error,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11545,Creation of flavors ,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11543,Please reassign AEFZ-SO0005845 from Mohammed Hamdan to Ziad Houdieb,Dolley Dunaboyina,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11537,Request for access ,Dolley Dunaboyina,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11536,Need access to AEFZ in Dynamics,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11534,Payment method missing,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11533,Payment method disappearing on the drop down,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11530,ACCESS FOR SO CREATION IN AEOK,Dolley Dunaboyina,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11529,Need access to create trade agreements,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11515,D365 Access,Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11509,Provide access to UKPI,Dolley Dunaboyina,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11506,Net Requirements not showing ,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11503,Please reassign AEFZ-SO0005743 from Mohammed Hamdan to Ziad Houdieb,Dolley Dunaboyina,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11502,workflow issue in the sales order,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11499,Need access to AEPV in Dynamics,Dolley Dunaboyina,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11498,Need Mirror Access like Faisal Anwar,Dolley Dunaboyina,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11493,Urgent problem with JPK VAT generation ,Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11486,Support on vendor onboardings of NEDs,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11481,Revise the PR workflow,Kavya Koyada,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11479,SO Workflow Error - AETT-SO0000233,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11473,Missing Expense Reports ,Anusha.Kotti,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11471,how should ooka de sales targets be put into sql server,Abhishek Gautam,Low,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-11469,Not able to post sales invoice,Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11468,In D365 I have no ability to see my PR's or Expense Reports. Nothing populates. I can see PO's though.,Anusha.Kotti,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11452,AEAV entity access request to process order,Dolley Dunaboyina,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11436,Pleas reassign AEFZ-SO0005839 from Mohammed Hamdan to Ziad Houdieb,Dolley Dunaboyina,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11434,Update completion workflow Draft POs - OOKA WMS Go Live ,Narayanan Santosh Kumar,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11429,USGH-SO0006692 : Blaze N Puff 305 - Excise tax not calculating and unable to submit to WF,Jayasudha,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11426,request for change travel expneses workflow approval for Max Fisher,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11425,"USHD-SO0024417 is stuck as ""Open Order""",Anusha.Kotti,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11402,WMS Error,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11401,Change workflow/Line manager in system,Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11390,Signing off from the workflow,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11388,Problem with accessing the account,Karol Kaiser,Low,Closed,ERP Support,End User Support
+[System] Service request,ITSD-11383,change the D365 user from US to KSA,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11379, Projects IT Support  ITSD-10969   Implementing the Policy in ERP to make fields mandatory for Vendors,Pravin Deore,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11370,Need Activity Number - USAD,Anusha.Kotti,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11368,"What is the amount of sales in dollars, shipped to Texas?",Anne Weeks,Low,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-11360,joint delegation,Anusha.Kotti,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11350,Cost Centre Analysis Report,Uday puramsetti,Low,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-11345,Update workflow approval,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11344,Profit & Loss  Report with Toggle for Intercompany/Non-Intercompany (US Request by Anne),mohammed.shafeeq,Low,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-11343,Balance Sheet Report with Toggle for Intercompany/Non-Intercompany (US Request by Anne),mohammed.shafeeq,Low,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-11342,Trail Balance Report with Toggle for Intercompany/Non-Intercompany (US Request by Anne),mohammed.shafeeq,Low,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-11341,Accounts Payables Accounting Currency Report with Toggle Button Feature for Intercompany and Non-Intercompany Selection (US Request by Anne),mohammed.shafeeq,Low,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-11340,Accounts Receivables Accounting Currency Report with Toggle Button Feature for Intercompany and Non-Intercompany Selection (US Request by Anne),mohammed.shafeeq,Low,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-11339,Accounts Receivables Report with Toggle Button Feature for Intercompany and Non-Intercompany Selection (US Request by Anne),mohammed.shafeeq,Low,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-11336,: Accounts Payable Report with Toggle Button Feature for Intercompany and Non-Intercompany Selection (US Request by Anne),mohammed.shafeeq,Low,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-11321,Access required for D365 AEOF Financial Report View,Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11315,An error occurred while confirming the Sales Order in AEFZ,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11313,USAD - Inventory Value for Bonded warehouse,Dolley Dunaboyina,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11293,need acccess to Steve's expenses only for today and tomorrow,Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11275,access to PBI reports,Abhishek Gautam,Low,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-11265,"Creation of new procurement category, cost group and item group",Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11263,Add a category on payment method on Expenses,Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11262,PR 030218 - Need to update approval workflow,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11260,Free Text Invoice   Workflow,Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11258,New Warehouse and location under production in AETT,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11251,PR's 2025 not populating ,Anusha.Kotti,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11248,List of persons authorised to post in the ERP system,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11243,Please reassign AEFZ-SO0005793 from Mohammed Hamdan to Ziad Houdieb,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11237,Delegate Access - Steve Wichary UKGB,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11228,Release customer account to USGH - FC000001 -Samples For Testing - Local,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11227,Create the BI Trade report to compare the D-365 item level profit center and the customer channel assignment ,Anne Weeks,Low,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-11225,New FOC Customer Account,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11223,Need access to AFZTaxRegistrationOnCustomerEntity,mohammed.shafeeq,Low,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-11218,create market in products for Kazakhstan,Dolley Dunaboyina,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11217,create the following flavors and markets,Dolley Dunaboyina,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11212,add state to azerbaijan as baku,Dolley Dunaboyina,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11208,there is no state or city for kazakhstan,Dolley Dunaboyina,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11207,WF reassign,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11205,Delegate the WF Approval -AEFZ-SO0005936,Dolley Dunaboyina,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11204,create a new city called Baku for Azerbaijan,Dolley Dunaboyina,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11202,Creation of new procurement category,Dolley Dunaboyina,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11195,created new customer group,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11167,PR Cancellation  - Urgnet ,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11166,D365 Access ,Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11152,ERP - additional permisions ,Dolley Dunaboyina,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11151,Access to scanner aplication,Karol Kaiser,Low,Closed,ERP Support,End User Support
+[System] Service request,ITSD-11148,Enable Syslog - Aruba Switches & AP VC's ,Yousef Aldarak,Low,Closed,Network Support,Network Support
+[System] Service request,ITSD-11134,Reg: Create User group for Adrelian journal posting,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11133,Raw Data for the dashboard ,Uday puramsetti,Low,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-11119,Vendor Master Data and Vendor Bank Master Data download for ALL Non UAE  markets,Kavya Koyada,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11112,Marc Messer co-assigned to sales order approvals,Anusha.Kotti,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11110,USGH / USAD - Access,Anusha.Kotti,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11108,Po's are assigning to person who left the organisation,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11096,Cancel AEFZ-SO0001249 & AEFZ-SO0001251,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11059,Power BI automatic refresh failure,mohammed.shafeeq,Low,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-11056,Purchase order info (February 2025),Anne Weeks,Medium,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-11053,USAD-PDJ000143 - Commercial invoice price not reflecting,Kavya Koyada,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11045,Need to delegate Monique Buitendag approvals to Luigi Bologna,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11036,workflow error for humphery,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11029,Intercompany USGH & USHD RMA number,Dolley Dunaboyina,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11027,Help with parsing GA4 SQL Server export,Abhishek Gautam,Low,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-11024,order 000526940 not sent to Deposco,Anusha.Kotti,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11022,Generate DE_order_items AND DE_orders from views,mohammed.shafeeq,Low,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-11013,Error in ERP during shipment,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11011,"Creation of brand, product range, flavor and color",Dolley Dunaboyina,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11002,"Granted Access for Expenses Management Menu in D365 for Entities AEOF, AEOK, and AETT ",Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10969,Implementing the Policy in ERP to make fields mandatory for Customers ,Pravin Deore,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10967,Request for the ERP access,Dolley Dunaboyina,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10960,Change Line Manager for Approval,Dolley Dunaboyina,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10955,SQL Server - Table Creation,mohammed.shafeeq,Low,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-10952,Access to Yonda Sales Tax in all entities,Dolley Dunaboyina,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10949,New State Fed Tax - USA discrepancies,Dolley Dunaboyina,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10942,Export hooka.com b2c and b2b GA4 data into SQL Server,Abhishek Gautam,Low,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-10938,Question - Can the PO's under me get assigned to another employee while I am on leave?,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10936,Fixed Asset Journal posting,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10920,Access Issue for Safwat to access Trade agreements,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10916,AIR mail signature,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10899,Error in Opening Production Schedule shortcut,Pravin Deore,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10898,create a FD - market,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10897,Create a new state and city for Tanzania in AEFZ,Dolley Dunaboyina,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10895,access to post the cash advance ,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10891,Removal of Trail Phase - Quality order,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10887,Pr Issue,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10886,Creation of new procurement category,Dolley Dunaboyina,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10876,Vendor Bank Account workflow approval error (George),Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10868,Please grant access to AZURE SQL (D365) table Inventitemgtin,Abhishek Gautam,Low,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-10855,Need access to consumption data in Nav system,Pravin Deore,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10845,Receive/Post journal button is missing,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10842,order USGH-SO0006266 showing inconsistent tax rates,Anusha.Kotti,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10824,Access to a  hand-held scanner for new warehouse staff,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10819,D365 for Mihael Jozic,Anusha.Kotti,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10804,029425 : Office supply requirements,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10801,Request full ERP access - AEOK entity ,Dolley Dunaboyina,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10799,Order USGH-SO0006266 showing inconsistent tax rates,Kavya Koyada,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10797,RMA with no Physical Inventory returned,Anusha.Kotti,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10794,Seeking auto notifications when PO received. Link the receipt to the invoices ,Anusha.Kotti,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10787,WF Submit access,Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10782,no workflow defined in UKBD,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10776,Budgeting in D365,Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10771,Wrong workflow approver assigned when selecting the right approver,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10767,Reassign AEFZ-C001198 from Hamdan to Ziad Houdieb,Dolley Dunaboyina,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10765,Power Bi,mohammed.shafeeq,Medium,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-10761,USGH and USHD Products & Released Products access,Dolley Dunaboyina,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10756,error message USAD PO 2417,Kavya Koyada,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10755,Error when submitting JE,Kavya Koyada,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10754,USAD-SO001081 - Put back into Draft - Update Financial Dimensions,Kavya Koyada,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10753,Weighted average cost price issue on the item,Kavya Koyada,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10752,Update for Tax Paid Invoices - VA Tobacco,Narayanan Santosh Kumar,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10751,Can not login to Power BI Desktop,mohammed.shafeeq,Medium,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-10741,Tax applying differently in Magento and ERP for Hookahookah	USGH-C003653	USGH-SO0006266	8000096221,Anusha.Kotti,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10740,FOC USGH / USAD - Turn on Manual Number Sequence for Accounts,Kavya Koyada,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10738,Orders not sent to Deposco,Kavya Koyada,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10708,Please create a new batch ID for EOS and settlement and link the HR monthly from Adrinalin to D365 to the new batch ID ,Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10697,Seeking Alora Gardiner to be added to Sales Orders workflow ,Jayasudha,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10692,USAD-PO-002405 PO Receipt,Anusha.Kotti,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10691,order USGH-SO0006187 stuck in approved status,Kavya Koyada,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10688,Unable Receive Intercompany PO AEOF-PO-000635 & AEOF- PO-000676 ,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10679,Access to financial reports,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10676,Employee number - update in ERP,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10674,petty cash error ,Dolley Dunaboyina,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10653,"please create a new customer group for OOKA replacement customer (AEOK-FC000004), ",Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10650,Need product receipt access for GR,Dolley Dunaboyina,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10649,Payment Compliance report  Enhancement,mohammed.shafeeq,Low,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-10631,Cost not able to be Keyed in Transfer/Inventory Adjsutment,Anusha.Kotti,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10621,Block Release/Production without Testing Groups,Ankesh Jain,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10613,Implementing the Policy in ERP to stop editing in Released Product ,Pravin Deore,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10609,Workflow stopped by error  AEFT-SO0000472,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10603,Access to Released Products V2- template,Dolley Dunaboyina,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10602,PR Workflow Tracking details,Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10601,Cost price Discrepancies on the OOKA items-- Needs to corrected,Anusha.Kotti,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10595,USAD - bond PO issue (D365 error),Kavya Koyada,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10594,Order 000523751 not sent to Deposco,Kavya Koyada,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10592,PR 029233,Kavya Koyada,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10589,"Access Needed ""Cost Objects""",Kavya Koyada,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10585,UAE PR Workflow Screenshot and list of Approvers,Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10569,VA - Tobacco tax group in USAD - Not Calculating ,Kavya Koyada,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10550,Access required for D365 AEOF Financial Report View,Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10547,Wrong workflow approver assigned,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10540,ERP workflow issue,Kavya Koyada,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10538,GTIN values not in d365.ecoresreleasedproductv2staging ,Abhishek Gautam,Low,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-10536,USAD-SO001070 Item-I-0012925 COGS error,Kavya Koyada,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10532,SQL Server Gold update permission problem,mohammed.shafeeq,Low,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-10508,Power Bi,mohammed.shafeeq,Low,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-10506,Vendor Invoice Journal and Approval rights,Dolley Dunaboyina,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10463,RE: ITSD-10462 New State Fed tax reports,Kavya Koyada,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10461,Access to State Fed Tax - New - USA,Kavya Koyada,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10460,Akses SO AEOK,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10458,Acces for new joiner,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10454,Update status of SO,Dolley Dunaboyina,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10443,"Workflow Stopped - 152493 : Sales order: USGH-SO0005809, Unique Distributor Inc",Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10441,USGH-RM122 wont allow unit update ,Kavya Koyada,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10440,Email notification needs to be setup for all the US users for approval,Kavya Koyada,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10437,Inventory Adjustment Cost USGH and USAD,Anusha.Kotti,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10422,request access to Procurement Division,Dolley Dunaboyina,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10368,Need full ERP access ,Dolley Dunaboyina,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10361,AEFZ-SO0005781 WF delegation,Dolley Dunaboyina,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10355,No Ledger Account in Procurement Category CAPEX ONLY (FIXED ASSETS) Communications Devices (Communications Devices) or Tools & Equipment (Tools & Equipment),Kavya Koyada,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10354,Error in USAD-PO-002676 when submitting for approval ,Kavya Koyada,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10349,Sales Order Visibility Issue USGH-ICS0000020,Kavya Koyada,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10343,Require D365 Procurement and Sourcing ,Kavya Koyada,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10335,Change in Address - UK,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10324,WF issues,Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10322,Wrong workflow approver assigned to TAs,Dolley Dunaboyina,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10272,Cannot Receive Invoice for PO,Kavya Koyada,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10271,order USGH-SO0005883,Kavya Koyada,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10270,"Workflow Stopped - 154316 : Sales order: USGH-SO0005638, Pars Outdoor LLC ",Kavya Koyada,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10269,D365 access and Expense approval for new Line Manager ,Kavya Koyada,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10268,Cannot submit expense report ,Kavya Koyada,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10255,Delivery Note (USER MANAGMENT PRINT) access,Dolley Dunaboyina,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10254,Marta rights to accept purchase invoices and GL journals,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10251,Workflow error for TA,Dolley Dunaboyina,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10214,FOC USGH / USAD - Turn on Manual Number Sequence for Accounts,Kavya Koyada,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10213,order USGH-C029884 needs excise tax applied,Kavya Koyada,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10212,order USGH-ISC0021541 shows blank for unit price on Eternal Smoke ,Kavya Koyada,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10211,"Intercompany ""Change Management"" Error",Anusha.Kotti,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10210,Wrong workflow approver assigned as he left the company,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10206,KSA KSPI - D365 Workflow Images - Purchase Order and Sales Order,Kavya Koyada,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10143,Power BI- support,mohammed.shafeeq,Low,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-10133,"USGH - WF Stopped - Sales order: USGH-SO0005638, Pars Outdoor LLC",Kavya Koyada,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10112,Payment ,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10106,I cannot submit an expense report,Kavya Koyada,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10103,Add Permissions,Kavya Koyada,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10099,Workflow needs to be configurated to move to Julian for USHD bank accounts,Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10098,Seeking MS365 Bank reconciliation submit button for Alora Gardiner,Anusha.Kotti,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10095,Wrong workflow approver assigned when selecting the right approver,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10094,Payroll and EOS JV upload,Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10089,change of approval matrix for customer approval GROk,Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10074,Access required for D365 AEOK Order and Financial Report View,Dolley Dunaboyina,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10073,Deactivate D365 access for Tomas Mazur,Dolley Dunaboyina,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10065,Access to reports in USHD,Kavya Koyada,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10064,Vendor Account ,Kavya Koyada,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10062,Mouth tips on B2B site not populating,Rajath SB,Low,Closed,ERP Support,Digital Support
+[System] Service request,ITSD-10055,creating a new column of D365 codes for OOKA Products,Abhishek Gautam,High,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-10051,user ID for D365,Dolley Dunaboyina,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10048,user ID for D365,Dolley Dunaboyina,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10010,Access to Receive transfer orders,Dolley Dunaboyina,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-9999,Non-AlFakher Item Group/Cost Group USAD,Kavya Koyada,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-9997,Need to attach approval email to expense report,Kavya Koyada,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-9996,"USAD PR #28022, workflow stopped error",Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-9995,USAD - Settle and Post Sales Tax for California is error,Kavya Koyada,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-9993,USAD-SO001038 - SINBAD GRAND CAFE LLC -  FOC - WF Stopped,Kavya Koyada,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-9992,FOC Tax-Paid Transactions,Kavya Koyada,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-9990,Can't receive PO,Kavya Koyada,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-9988,Incorrect Quantity in State Fed Tax,Jayasudha,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-9986,Error Message and Non Receipt ,Kavya Koyada,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-9974,Data Refresh Required for Customer Experience Tables,Abhishek Gautam,Medium,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-9932,"Sales order: USGH-SO0005809, Unique Distributor Inc - WF Stopped",Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-9929,Order needs to process (push),Kavya Koyada,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-9917,"Data sync from ERP, Swiftbox, AIRtable to DW - UAE",Abhishek Gautam,Low,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-9910,Worklfow amendments for UKGB,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-9886,Kacper Szpalerski - access to Backorder lines (SO) & All Sales order  ,Dolley Dunaboyina,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-9859,SO Status to draft - AEOK-SO000010069 & AEOK-SO000010072,Kavya Koyada,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-9786,Over cahrge,Kavya Koyada,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-5899,ME Ticket No: 5899 | Payment Gateway.,Jayasudha,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-7639,ME Ticket No: 7639 | Unable to post invoices - Online upload,Kavya Koyada,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-7658,"ME Ticket No: 7658 | 132580 : Purchase requisition: 024101, UK VAT BidcoMidco ... still not solved",Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-7670,ME Ticket No: 7670 | PLFC-SO000616: missing WH location in order line,Kavya Koyada,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-7682,ME Ticket No: 7682 | Item coverage -template,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-7751,ME Ticket No: 7751 | GRDS-PO000386 : GRDS-V001069 - Custom Office Buende,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-7768,ME Ticket No: 7768 | PLFC-PO003017 - no charges to allocate,Kavya Koyada,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-7810,ME Ticket No: 7810 | Error when submitting expense,Kavya Koyada,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-7923,ME Ticket No: 7923 | Removal of Tickets already Approved,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-7947,ME Ticket No: 7947 | RE: IRQ new order / PO 24IRQAF0066 /AEFZ-SO0005393,Kavya Koyada,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-7992,ME Ticket No: 7992 | RE: Consignment Spain and Corsica - Nov. 2024,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-8058,ME Ticket No: 8058 | RV: Temp joiner - Tanja Schropp,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-8082,ME Ticket No: 8082 | Access to Sales Orders,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-9781,Please sync order 8000094730 to ERP,Kavya Koyada,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-9777,Unable to apply Excise tax ,Kavya Koyada,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-9776,USA D365 Workflow - Change Approver from Fahad Cheema to Craig Griggs (All US Workflows),Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-9767,Change to FOC naming structure instead of the regular one for AEOK,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-9766,Create a new state and city for Spain in UKGB,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-9765,Critical - Turn off the Advanced Reconciliation in AEFZ Mashreq AED Account,Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-9761,Return lot ID or return cost price is missing for returned item,Kavya Koyada,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-9758,Workflow Error Vendor Adalya,Dolley Dunaboyina,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-9745,"Issue receiving - AEPV-PO-001203 : AEPV-V001209 - Adobe Systems Software Ireland Limited"" and ""AEPV-PO-001221 : AEPV-V001209 - Adobe Systems Software Ireland Limited"" ",Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-9741,Please support to move open invenotry PO from 2024 to 2025,Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-9738,D365 - General Journal - JV-2025 - needs to be enabled,Kavya Koyada,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-9737,RE: [Request ID :##2465##]  Old Ticket AEPV Free Text Invoice Format,Narayanan Santosh Kumar,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-9736,***Required**Customer Master - Mandatory Fields: Raised from Old Ticket Request : ##7702 ,Pravin Deore,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-9733,AETT-FOC001014 - FOC WF ,Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-9732,Not able to calculate depreciation - ESAR,Anusha.Kotti,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-9731,AEOF-PO-000688,Kavya Koyada,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-9727,Procurement Category creation - MIX Kloud King item,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-9725,Read Access to Data Management in  D365,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-9722,Reimbursement error,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-9721,Assistance Required for PBI Dashboard,Abhishek Gautam,Low,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-9705,Under Delivery on PO USAD Item I-0044725,Kavya Koyada,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-9644,Granting table create access on Silver Layer,Abhishek Gautam,Low,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-9594,RE: ITSD-9240 change log report access,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-9593,Problem with posting of expenses of our new employee Ugur,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-9592,Error PPO Item Code,Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-9586,Follow up for ticket number 7356,Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-9584,AEFZ-SO0005575 Error releasing ,Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-9569,Kyriba Intermediary Table change batch for PSR from every 3 minutes to every 15 minutes,Narayanan Santosh Kumar,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-9565,SSMS Setup,mohammed.shafeeq,Low,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-9556,Error in Balance sheet report,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-9555,"Access denied to Dynamics 365 You are not authorized to log in with your current credentials. You will be redirected to the login page in a few seconds. To troubleshoot sign-in issues, see https://go.microsoft.com/fwlink/?linkid=2252604.",Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-9549,Expense Requests workflow issue (KSA),Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-9548,GROK-PO-000411 : GROK-V001115 - Labelco International (FZE)  - Cancelled from D365,Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-9547,D365 URL address,Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-9544,ERP access issues,Dolley Dunaboyina,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-9530,Creation of new procurement category,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-9528,AIR mail signature,Kavya Koyada,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-9525,Approved PR ,Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-9503,GSC is still failing to recognize this domain.,Kevin Halpin,Low,Closed,Network Support,End User Support
+[System] Service request,ITSD-7766,ME Ticket No: 7766 | Sync ZOHO USA data into DW air-prod-edw-sqldw-01,Abhishek Gautam,Low,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-6749,ME Ticket No: 6749 | Cash Conversion Cycle,Uday puramsetti,Low,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-6118,ME Ticket No: 6118 | Warehouse Daily transaction reports-dashboard( old ticket no: #2395),Uday puramsetti,Low,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-9442,Pending transaction from 2024 on project,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-9441,Back to draft - PLFC-SO000647 PLFC-SO000660,Kavya Koyada,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-3920,ME Ticket No: 3920 | Bulk export Google Search data to BigQuery data warehouse,Abhishek Gautam,Low,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-6288,ME Ticket No: 6288 | FW: Urgent  RE: Invoice format,Pravin Deore,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-6685,ME Ticket No: 6685 | RE: (Ticket #48108) Air (Advanced Inhalation Rituals) [Fastpath] Updated RE: Fastpath Alert,Pravin Deore,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-6738,ME Ticket No: 6738 | Request for Temporary System Admin Access to Address D365 Workflow Issues,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-7009,ME Ticket No: 7009 | Access to upload files to Azure for Tagetik,Ankesh Jain,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-6689,"ME Ticket No: 6689 | Re: Shafeeq Ahmed shared ""D365.Stg_AirInventoryOnHand"" with you",Pravin Deore,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-2465,ME Ticket No: 2465 | FW: March.24 Urgent,Narayanan Santosh Kumar,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-7448,ME Ticket No: 7448 | #Update the ticket 6913,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-7691,ME Ticket No: 7691 | Sales including excise Report and State Fed Tax HDS,Pravin Deore,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-9440,AEFT-FOC001001  - FOC Set-up in Incorrect,Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-9436,Back to draft - PLFC-SO000661,Kavya Koyada,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-9435,Bank Details Status,Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-9415,D365 Workflow Images Trade Agreements - EU Entities,Kavya Koyada,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-9414,D365 Workflow Images Sales Order - EU Entities,Kavya Koyada,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-9413,D365 Workflow Images Purchase Order - EU Entities,Kavya Koyada,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-9411,D365 access,Kavya Koyada,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-9410,On hand list not matching with Inventory report,Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-9382,Samer workflow approval issue,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-9381,Reverse shipment confirmation- transfer order,Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-9351,FOC Customer Creation - Changing naming structure for FOC,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-9250,Bank and cash management workflow issue,Dolley Dunaboyina,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-9249,Daily Monitoring of the Batch Jobs (ERP Daily Check Status),Jayasudha,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-9240,change log report access,Dolley Dunaboyina,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-9229,Payment Compliance report - trend analysis report,mohammed.shafeeq,Medium,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-9228,Wrong workflow approver assigned when selecting the right approver,Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-9227,Purchase Order compliance Rate,mohammed.shafeeq,Medium,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-9168,Patrycja rights,Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-9166,Access to ERP pre-prod for Marc Messer,Anusha.Kotti,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-9134,customer Proposed change not available to the approvers ,Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-9130,Financial Dimension Market Issue,Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-9126,Settlement unsettled VAT transactions on closing balances,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-9125,AEFD customer approval workflow error ,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-9124,Request Access for Expense Management for Reimbursement,Dolley Dunaboyina,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-9111,Fixed Asset Module Setup - AEAV,Narayanan Santosh Kumar,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-9110,Request for access for data management,Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-9101,open the view option for all approvers ,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-9100,the attachment option not working in credit limit adjustment ,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-9082,possibility of adding column with EANs in Prd Control & SO,Pravin Deore,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-9074,Network Outage Test,Kevin Halpin,Low,Closed,Network Support,End User Support
+[System] Service request,ITSD-9026,backorder lines report - improvement,Pravin Deore,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-8978,As per our previous meeting we need assistance in developing BI Data for comparison on factory overhead between budget and actual on monthly basis. ,Uday puramsetti,Low,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-8749,To convert QARETSAMPL room from WMS to non-WMS,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-8744,Uploading TLs & TRNs updated Registration No & Issued date & Expiry Date,Kavya Koyada,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-8695,D365 - Date and Time format change,Dolley Dunaboyina,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-8693,Error - Receiving PO#: AETT-PO-002492,Kavya Koyada,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-8686,KYRIBA APPROVAL STATUS - PAYMENT BATCH WINDOW,Narayanan Santosh Kumar,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-8674,ERP - Trade Agreement Journal Approval Workflow (PP),Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-8651,Access to ERP,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-8648,Keine Zugangsberechtigung für Dynamics 365,Kavya Koyada,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-8647,AEPV entity name on PO,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-8638,USGH-PO-0000157,Anusha.Kotti,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-8625,Need Master Data extract for Items,Shashank Tripathi,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-8616,D365 - ESAR invoicing,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-8611,Customer creation routed to wrong user,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-8585,Please change the line manager of Mikolaj and all Poland PRs from me to Frederic Tirelli,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-8555,PO undo receiving error,Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-8530,Access d365,Dolley Dunaboyina,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-8529,Access D365,Kavya Koyada,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-8500,Wrong approver of my PO,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-8499,Pending Sales Order Approvals -UKGB,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-8489,Save GSC data for AIR's domains in data warehouse,Abhishek Gautam,Low,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-7233,ME Ticket No: 7233 | Incorrect VAT - UKGB-PO000547 Invoice 05000544874,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-7697,ME Ticket No: 7697 | ODP: Action required: A purchase requisition is assigned to you for approval,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-7483,ME Ticket No: 7483 | lack of access to module business expenses in PLFC,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-7141,ME Ticket No: 7141 | Travel Requisition,Kavya Koyada,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-7696,ME Ticket No: 7696 | Access to Trial Balance,Dolley Dunaboyina,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-7607,ME Ticket No: 7607 | Seeking Workflow re-routed from John Glazer to Dan Nguyen,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-5305,ME Ticket No: 5305 | USGH - All Expenses Report,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-6799,ME Ticket No: 6799 | Auto Blocking SOs,Dolley Dunaboyina,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-6377,ME Ticket No: 6377 | Manually Change check numbers Ticket 4287,Dolley Dunaboyina,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-7867,ME Ticket No: 7867 | TE sumbission - Workflow error,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-7809,ME Ticket No: 7809 | GRDS - PR approval workflow,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-6514,ME Ticket No: 6514 | Cross references IC PO/SO,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-5502,ME Ticket No: 5502 | Ticket related 689-Hold Location Inventory -Reason and Process to discuss for tracking,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-7846,ME Ticket No: 7846 | Master Item List - Global,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-6992,ME Ticket No: 6992 | USHD and USGH transactions,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-4982,ME Ticket No: 4982 | AEFZ-PO-004168 Cancelled Order,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-7307,ME Ticket No: 7307 | PR Creators and Approver Update,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-2992,ME Ticket No: 2992 | AEFZ - excise tax set up in D365- Excise tax on release,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-6935,ME Ticket No: 6935 | FW: Expense Report has Invalid Accounting Distributions,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-7123,ME Ticket No: 7123 | Unable to log into expense management system,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-7546,ME Ticket No: 7546 | RE: IMPORTANT: SOA as at 24.10.2024,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-5962,ME Ticket No: 5962 | KSPI Price Update & SO/PO additional columns,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-7794,ME Ticket No: 7794 | RE: Requirement gathering  for the ticket-2400,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-7847,ME Ticket No: 7847 | Re: Trade Agreement: Ooka Germany Order -AEOF Entity,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-5765,ME Ticket No: 5765 | RE: PR approval - Fixed Assets,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-4531,ME Ticket No: 4531 | Payment proposal,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-7103,ME Ticket No: 7103 | Access to KSPI,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-7796,ME Ticket No: 7796 | access to transfer order in AEOK.,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-7679,ME Ticket No: 7679 | Urgent: workflow error - AETT-SO0000180,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-7278,ME Ticket No: 7278 | Inventory transaction not reflecting - AETT-RM008 - AETT-SO0000173,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-7871,ME Ticket No: 7871 | Global D365 SOD Risk Remediation - Action Point No. 2 (Internal Controls),Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-7513,ME Ticket No: 7513 | Data Management ERP,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-3146,ME Ticket No: 3146 | RE: Streamlining of OOKA process - Action points,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-7577,ME Ticket No: 7577 | RE: PR Creators and Approver Update,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-7868,ME Ticket No: 7868 | PR Approval Cycle,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-7683,ME Ticket No: 7683 | Lack of Workflow Visibility for PO,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-7474,ME Ticket No: 7474 | New Credit card (Laurence's card) as one of the options,Kavya Koyada,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-6233,ME Ticket No: 6233 | PA Workflow,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-7790,ME Ticket No: 7790 | Requesting Access to receive PO's,Dolley Dunaboyina,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-7419,ME Ticket No: 7419 | Workflow Permissions,Dolley Dunaboyina,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-1839,ME Ticket No: 1839 | FW: VENDOR MASTER DATA UPDATE 2024,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-7356,ME Ticket No: 7356 | Business Justification in PR Level for OOKA_Multiple Source/Single Source,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-7327,ME Ticket No: 7327 | My Employee Information in D365,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-7276,ME Ticket No: 7276 | PR 024885 Error,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-6617,"ME Ticket No: 6617 | Access for inventory turnover, inventory accuracy, and days in inventory",Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-2741,ME Ticket No: 2741 | Lebanon Bulk data update in D365,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-5639,ME Ticket No: 5639 | PLFC_Non-deductible expenses in D365,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-2020,ME Ticket No: 2020 | Expense management_JPK,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-7660,ME Ticket No: 7660 | Request - Counting Reason Codes,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-4465,"ME Ticket No: 4465 | Trade Agreements, Item Creation (when activated) and Customer Creation - Notifications Update through e-mails",Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-7624,ME Ticket No: 7624 | PR Error workflow,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-7473,ME Ticket No: 7473 | FW: Access Permission of Supply Chain / Sales Statistics Folder,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-5629,ME Ticket No: 5629 | Enhencing and simplifying Register function for WH goods,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-5628,ME Ticket No: 5628 | No workflow validation for selected changes within PR/ PO,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-7781,ME Ticket No: 7781 | PR - Budget Error,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-7744,ME Ticket No: 7744 | State creation,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-7723,ME Ticket No: 7723 | SO WF,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-7622,ME Ticket No: 7622 | RE: Shisha Art - Direct Distribution - AETT-RM009 - AETT-SO0000179 : P V G TRADING L.L.C,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-7398,ME Ticket No: 7398 | Nizar's sales group work flow errors,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-7377,ME Ticket No: 7377 | Sales tax group,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-6038,ME Ticket No: 6038 | SO status change,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-5955,ME Ticket No: 5955 | Sales Manager SO WF,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-7735,ME Ticket No: 7735 | Category for phone bills,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-7232,ME Ticket No: 7232 | VAT settlment correction in PLFC,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-7095,ME Ticket No: 7095 | Not Provided,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-7808,ME Ticket No: 7808 | please create new charging group for 20g at GROK,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-7684,ME Ticket No: 7684 | Re: AIR & OOKA Expenses - request for change of approval,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-7663,ME Ticket No: 7663 | possibility of deleting attachments to booked invoices in D365 - issue,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-5164,ME Ticket No: 5164 | error in sales - GROK,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-3584,ME Ticket No: 3584 | testing magento/ ExitB - sales upload to D365,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-7271,ME Ticket No: 7271 | Budget funds for PR014601,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-7091,ME Ticket No: 7091 | IC configuration,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-6646,ME Ticket No: 6646 | GRDS-PO000344,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-6482,ME Ticket No: 6482 | Fast SO shipment process,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-6480,ME Ticket No: 6480 | Response time,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-5845,ME Ticket No: 5845 | Route number in production order,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-7265,ME Ticket No: 7265 | RE: India	I-0046040	Zesty Fusion,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-5360,ME Ticket No: 5360 | Request for ERP training,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-7386,"ME Ticket No: 7386 | Cleaning ""backorder purchase lines"" report",Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-7765,ME Ticket No: 7765 | WorkFlow  - OOKA Spare Parts Approval Tree,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-7565,ME Ticket No: 7565 | REQUEST FOR MARKET SWITCH,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-7314,ME Ticket No: 7314 | Access (Cancel & Correct) for Product receipt journal,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-7355,ME Ticket No: 7355 | Credentials for new employee TM,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-2137,ME Ticket No: 2137 | Demand Forecast Entries- Action points,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-7743,ME Ticket No: 7743 | IL2023000115 - Review and Revisit User Access Rights in D365 System,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-7632,ME Ticket No: 7632 | Workflow,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-6311,"ME Ticket No: 6311 | Order q-ty is not updated in ""On hand"" and MRP",Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-5702,ME Ticket No: 5702 | Packing slip error on every SO,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-8477,lack of AIr Distribution loan vendor and AIR Global brands loan vendor in GROK and lack of Ooka Gmbh loan customer at GRDS,Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-8472,Request to deactivate non-active employees who are active users in D365,Dolley Dunaboyina,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-8451,Please move the Bi Report Inv Mgt to Production,mohammed.shafeeq,Low,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-8448,GRUL - enable GRUL-C000041,Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-8424,Request ID :##7614## - Error PR 024362 by Alexey,Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-8419,"Budget is net setup, we need the budget approval",Sujai sharafudin,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-8400,pls check who created below cost centers,Ankesh Jain,High,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-8398,OOKA Pro Pods Issue - AETT - Stock revaluation ,Sujai sharafudin,Medium,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-8330,Report enhancement for FG Sales and Warehouse Utilization report,mohammed.shafeeq,Low,Closed,Data & Analytics Support,Data Support
+[System] Service request,ITSD-14808,Farhan team network issue ,Yousef Aldarak,Low,Closed,Network Support,Network Support
+[System] Service request,ITSD-14662,check the internet connection on IA office ,Yousef Aldarak,Low,Closed,Network Support,Network Support
+[System] Service request,ITSD-13628,WAN Connection Update,Yousef Aldarak,Low,Closed,Network Support,Network Support
+[System] Service request,ITSD-13573,"Zabbix Alert , Ajman FZ Access Point showing down FO-FF-NewOffice",Yousef Aldarak,Low,Closed,Network Support,Network Support
+[System] Service request,ITSD-13300,VLAN Re-mapping & ClearPass Integration,Yousef Aldarak,Low,Closed,Network Support,Network Support
+[System] Service request,ITSD-12840,check the tass switch logs issue ,Yousef Aldarak,Low,Closed,Network Support,Network Support
+[System] Service request,ITSD-12684,integration Zabbix with Jira for Auto send email once the issue solve on zabbix ,Yousef Aldarak,Low,Closed,Network Support,Network Support
+[System] Service request,ITSD-12683,Ajman FZ ONT device not working ,Yousef Aldarak,Critical,Closed,Network Support,Network Support
+[System] Service request,ITSD-12681,check Zabbix trigger and manage it ,Yousef Aldarak,Low,Closed,Network Support,Network Support
+[System] Service request,ITSD-12457,"check the logs for IA , USNC2 , USWH ",Yousef Aldarak,Low,Closed,Network Support,Network Support
+[System] Service request,ITSD-12300,access to Zabbix,Yousef Aldarak,Low,Closed,Network Support,Network Support
+[System] Service request,ITSD-12130,update Azure Network recourses Diagram ,Yousef Aldarak,Low,Closed,Network Support,Network Support
+[System] Service request,ITSD-12129,Install New WAN connection For Ajman IA office ,Yousef Aldarak,Low,Closed,Network Support,Network Support
+[System] Service request,ITSD-11732,Unavailable by ICMP ping AP on Ajman IA ,Imran Khan,Low,Closed,Network Support,End User Support
+[System] Service request,ITSD-11713,Zabbix Dashboard ,Yousef Aldarak,Low,Closed,Network Support,Network Support
+[System] Service request,ITSD-11661,Zabbix Alerts Aruba 6200 Temp Sensor: Temperature is above critical threshold: >75,Yousef Aldarak,Low,Closed,Network Support,Network Support
+[System] Service request,ITSD-11231,RE: Requirement Gathering #6197- DTS Tracking [Integrate Delarue Tax Stamps],Narayanan Santosh Kumar,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-11030,Re: ITSD-8708 PO Receipt Sync Failure USGH-PO-0000338,Jayasudha,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10713,RE: ITSD-10676 Employee number - update in ERP,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10671,"Re: ITSD-10666 Access to the ""Detailed PO Analysis Report?"" ",Kavya Koyada,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10670,Re: ITSD-10667 State Fed Tax New - USA,Kavya Koyada,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10545,RE: ITSD-9897 RE: ITSD-9762 Request Access of PLFC D365 - for Silvi Oktavia ,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10369,RE: ITSD-10368 Need full ERP access ,Dolley Dunaboyina,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10350,Re: ITSD-10343 Require D365 Procurement and Sourcing ,Kavya Koyada,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10244,RE: ITSD-10241 access for ERP production order ,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10220,RE: ITSD-10103 Add Permissions,Kavya Koyada,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10205,RE: ITSD-8751 ADD NEW COST CENTER TO BUDGET GROUP,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10152,RE: ITSD-10139 WMS Error,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10077,RE: ITSD-10074 Access required for D365 AEOK Order and Financial Report View,Dolley Dunaboyina,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10050,D365 Access,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-10015,RE: ITSD-9098 Access on AEOK USAD GROK,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-9970,RE: ITSD-7670 ME Ticket No: 7670 | PLFC-SO000616: missing WH location in order line,Kavya Koyada,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-9966,Re: ITSD-9750 ERP Germany access,Dolley Dunaboyina,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-9964,Re: ITSD-9750 ERP Germany access,Dolley Dunaboyina,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-9945,ODP: ITSD-7768 ME Ticket No: 7768 | PLFC-PO003017 - no charges to allocate,Kavya Koyada,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-9942,Re: ITSD-9913 I need access for PO Registeration ,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-9939,RE: ITSD-7947 ME Ticket No: 7947 | RE: IRQ new order / PO 24IRQAF0066 /AEFZ-SO0005393,Kavya Koyada,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-9920,RE: ITSD-9886 Kacper Szpalerski - access to Backorder lines (SO) & All Sales order  ,Dolley Dunaboyina,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-9897,RE: ITSD-9762 Request Access of PLFC D365 - for Silvi Oktavia ,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-9542,"RE: ITSD-9527 Request to have an access in D365, to be able to adjust the Min & Max stock levels for the machines' maintenance spare parts, to control the planned orders for the items below the safety stock level",Dolley Dunaboyina,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-9349,Re: ITSD-8455 Access Issue in UAT,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-9170,RE: ITSD-9058 Access D365 for Anat Rattananukarun,Kavya Koyada,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-9116,RE: ITSD-8665 request for support in proper setting of AR aging report (FINANCE YEAR END CLOSE ),Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-9097,RE: ITSD-8465 Year End Closing - Urgent / Budget error in PR 026611 ,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-9088,Re: ITSD-9079 Require D365 access. ,Dolley Dunaboyina,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-8999,AW: ITSD-8786 request for access to D365 expense management module to new Ooka Germany employees Milian Post and Ugur Sari,Kavya Koyada,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-8757,"RE: ITSD-8311 Need Complete access to Production control module, to process are retention samples",Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-8714,Re: ITSD-8657 D365,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-8679,Re: ITSD-8468 Change the Name of My Line Manager for Approval Purposes,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-8560,Re: ITSD-8558 Issue with prices not reflecting on Sales Order,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-8543,RE: ITSD-8514 New warehouse creation - BUFFER,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-8362,RE: ITSD-8241 Access to Detailed PO Analysis report - All US entities,Dolley Dunaboyina,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-8346,RE: ITSD-8318 Access Rights Issue on UAT,Sujai sharafudin,Low,Closed,ERP Support,ERP Support
+[System] Service request,ITSD-8345,Re: ITSD-8318 Access Rights Issue on UAT,Sujai sharafudin,Low,Closed,ERP Support,ERP Support

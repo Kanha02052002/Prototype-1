@@ -1,0 +1,10 @@
+openai
+faiss-cpu
+scikit-learn
+lightgbm
+xgboost
+python-dotenv
+pandas
+numpy
+tqdm
+sentence-transformers

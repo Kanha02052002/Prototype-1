@@ -1,0 +1,232 @@
+[
+  {
+    "category": "VPN & Remote Access",
+    "flow": [
+      {
+        "Q1": "Are you unable to connect via VPN or remote access?",
+        "Yes": {
+          "Q2": "Is the issue affecting only your device or multiple users?",
+          "Yes": {
+            "Q2a": "Have you tried reconnecting or using a different network?",
+            "No": {
+              "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+            }
+          },
+          "No": {
+            "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+          }
+        },
+        "No": {
+          "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+        }
+      }
+    ]
+  },
+  {
+    "category": "Network Performance",
+    "flow": [
+      {
+        "Q1": "Are you experiencing slow network performance?",
+        "Yes": {
+          "Q2": "Is it affecting all devices or just your workstation?",
+          "Yes": {
+            "Q2a": "Have you run any speed tests or diagnostics?",
+            "No": {
+              "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+            }
+          },
+          "No": {
+            "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+          }
+        },
+        "No": {
+          "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+        }
+      }
+    ]
+  },
+  {
+    "category": "Switch Configuration & Logs",
+    "flow": [
+      {
+        "Q1": "Do you need switch configuration or logs checked?",
+        "Yes": {
+          "Q2": "Is this for a single switch or multiple switches?",
+          "Yes": {
+            "Q2a": "Do you need configuration changes applied or just logs reviewed?",
+            "No": {
+              "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+            }
+          },
+          "No": {
+            "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+          }
+        },
+        "No": {
+          "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+        }
+      }
+    ]
+  },
+  {
+    "category": "VLAN & Network Mapping",
+    "flow": [
+      {
+        "Q1": "Do you need VLAN mapping or network diagrams?",
+        "Yes": {
+          "Q2": "Is this for a specific network segment or entire infrastructure?",
+          "Yes": {
+            "Q2a": "Do you have existing diagrams that need updating?",
+            "No": {
+              "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+            }
+          },
+          "No": {
+            "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+          }
+        },
+        "No": {
+          "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+        }
+      }
+    ]
+  },
+  {
+    "category": "Firewall & Security Rules",
+    "flow": [
+      {
+        "Q1": "Do you need firewall configuration assistance?",
+        "Yes": {
+          "Q2": "Are you applying new rules or reviewing existing ones?",
+          "Yes": {
+            "Q2a": "Is this for a specific system or network-wide?",
+            "No": {
+              "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+            }
+          },
+          "No": {
+            "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+          }
+        },
+        "No": {
+          "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+        }
+      }
+    ]
+  },
+  {
+    "category": "Firewall Firmware / Upgrade",
+    "flow": [
+      {
+        "Q1": "Do you need to upgrade firewall firmware?",
+        "Yes": {
+          "Q2": "Is this a critical patch or regular maintenance?",
+          "Yes": {
+            "Q2a": "Is the firewall connected to live production traffic?",
+            "No": {
+              "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+            }
+          },
+          "No": {
+            "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+          }
+        },
+        "No": {
+          "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+        }
+      }
+    ]
+  },
+  {
+    "category": "Certificates & DNS",
+    "flow": [
+      {
+        "Q1": "Do you need SSL certificate or DNS configuration assistance?",
+        "Yes": {
+          "Q2": "Is this for a single service or multiple services?",
+          "Yes": {
+            "Q2a": "Is the certificate expired or upcoming renewal?",
+            "No": {
+              "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+            }
+          },
+          "No": {
+            "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+          }
+        },
+        "No": {
+          "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+        }
+      }
+    ]
+  },
+  {
+    "category": "VPN Access & Connectivity",
+    "flow": [
+      {
+        "Q1": "Are you unable to establish VPN connection?",
+        "Yes": {
+          "Q2": "Is it affecting only your connection or multiple users?",
+          "Yes": {
+            "Q2a": "Have you tried reconnecting or using a different device?",
+            "No": {
+              "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+            }
+          },
+          "No": {
+            "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+          }
+        },
+        "No": {
+          "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+        }
+      }
+    ]
+  },
+  {
+    "category": "Network Diagrams & Reports",
+    "flow": [
+      {
+        "Q1": "Do you need network diagrams or reports created?",
+        "Yes": {
+          "Q2": "Is this for documentation or troubleshooting purposes?",
+          "Yes": {
+            "Q2a": "Do you have any existing diagrams or data available?",
+            "No": {
+              "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+            }
+          },
+          "No": {
+            "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+          }
+        },
+        "No": {
+          "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+        }
+      }
+    ]
+  },
+  {
+    "category": "Office Network Projects",
+    "flow": [
+      {
+        "Q1": "Are you requesting office network project implementation?",
+        "Yes": {
+          "Q2": "Is this a new installation or an upgrade?",
+          "Yes": {
+            "Q2a": "Is it affecting a single office or multiple offices?",
+            "No": {
+              "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+            }
+          },
+          "No": {
+            "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+          }
+        },
+        "No": {
+          "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+        }
+      }
+    ]
+  }
+]

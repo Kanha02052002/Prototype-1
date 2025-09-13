@@ -1,0 +1,185 @@
+import json
+
+# Batch 2 categories (11-20) with Q1 -> Q2 -> Q2a -> Q3 flow
+batch2 = [
+    {
+        "category": "Peripheral Devices",
+        "flow": [
+            {
+                "Q1": "Do you need a docking station, keyboard, or mouse?",
+                "Yes": {
+                    "Q2": "Is this a replacement or a new device?",
+                    "Yes": {
+                        "Q2a": "Do you have any preferred brand or model?",
+                        "No": {"Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."}
+                    },
+                    "No": {"Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."}
+                },
+                "No": {"Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."}
+            }
+        ]
+    },
+    {
+        "category": "Hardware Procurement",
+        "flow": [
+            {
+                "Q1": "Do you need new IT equipment?",
+                "Yes": {
+                    "Q2": "Is this for office or home use?",
+                    "Yes": {
+                        "Q2a": "Do you have any specific configuration or brand requirement?",
+                        "No": {"Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."}
+                    },
+                    "No": {"Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."}
+                },
+                "No": {"Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."}
+            }
+        ]
+    },
+    {
+        "category": "End User Tools",
+        "flow": [
+            {
+                "Q1": "Do you need productivity tools installed?",
+                "Yes": {
+                    "Q2": "Which tool(s) do you want installed (MS Office, Adobe, etc.)?",
+                    "Yes": {
+                        "Q2a": "Is this installation for a single user or multiple users?",
+                        "No": {"Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."}
+                    },
+                    "No": {"Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."}
+                },
+                "No": {"Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."}
+            }
+        ]
+    },
+    {
+        "category": "Installations",
+        "flow": [
+            {
+                "Q1": "Are you facing software deployment issues?",
+                "Yes": {
+                    "Q2": "Is the issue happening on a specific machine or multiple machines?",
+                    "Yes": {
+                        "Q2a": "Is there any error message displayed during installation?",
+                        "No": {"Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."}
+                    },
+                    "No": {"Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."}
+                },
+                "No": {"Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."}
+            }
+        ]
+    },
+    {
+        "category": "Software Renewal & Access",
+        "flow": [
+            {
+                "Q1": "Do you need license renewal or access for software (Adobe, MS Office)?",
+                "Yes": {
+                    "Q2": "Is this renewal for an individual or team license?",
+                    "Yes": {
+                        "Q2a": "Are you facing access issues currently?",
+                        "No": {"Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."}
+                    },
+                    "No": {"Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."}
+                },
+                "No": {"Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."}
+            }
+        ]
+    },
+    {
+        "category": "DNS Records",
+        "flow": [
+            {
+                "Q1": "Do you need DNS updates or corrections?",
+                "Yes": {
+                    "Q2": "Are you seeing DNS errors currently?",
+                    "Yes": {
+                        "Q2a": "Is it affecting a single system or multiple systems?",
+                        "No": {"Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."}
+                    },
+                    "No": {"Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."}
+                },
+                "No": {"Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."}
+            }
+        ]
+    },
+    {
+        "category": "Connectivity Issues",
+        "flow": [
+            {
+                "Q1": "Are you experiencing LAN/WAN/network issues?",
+                "Yes": {
+                    "Q2": "Is it affecting your device only or multiple users?",
+                    "Yes": {
+                        "Q2a": "Is this intermittent or persistent connectivity issue?",
+                        "No": {"Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."}
+                    },
+                    "No": {"Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."}
+                },
+                "No": {"Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."}
+            }
+        ]
+    },
+    {
+        "category": "Wi-Fi Issues",
+        "flow": [
+            {
+                "Q1": "Is your wireless connection not working properly?",
+                "Yes": {
+                    "Q2": "Is it happening on a single device or multiple devices?",
+                    "Yes": {
+                        "Q2a": "Have you tried reconnecting or restarting your device/router?",
+                        "No": {"Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."}
+                    },
+                    "No": {"Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."}
+                },
+                "No": {"Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."}
+            }
+        ]
+    },
+    {
+        "category": "LAN / Port Issues",
+        "flow": [
+            {
+                "Q1": "Are you facing switch or port connectivity issues?",
+                "Yes": {
+                    "Q2": "Is it affecting your workstation only or multiple systems?",
+                    "Yes": {
+                        "Q2a": "Is there a blinking/error indicator on the switch port?",
+                        "No": {"Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."}
+                    },
+                    "No": {"Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."}
+                },
+                "No": {"Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."}
+            }
+        ]
+    },
+    {
+        "category": "WAN / Internet",
+        "flow": [
+            {
+                "Q1": "Is your internet not working or very slow?",
+                "Yes": {
+                    "Q2": "Is the issue affecting your device only or multiple devices?",
+                    "Yes": {
+                        "Q2a": "Is the outage intermittent or persistent?",
+                        "No": {"Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."}
+                    },
+                    "No": {"Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."}
+                },
+                "No": {"Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."}
+            }
+        ]
+    }
+]
+
+# Merge Batch 1 and Batch 2
+merged_batches = master_flow_full + batch2
+
+# Save merged JSON
+file_path_merged = '/mnt/data/chatbot_master_flow_merged.json'
+with open(file_path_merged, 'w') as f:
+    json.dump(merged_batches, f, indent=4)
+
+file_path_merged

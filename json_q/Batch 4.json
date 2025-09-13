@@ -1,0 +1,232 @@
+[
+  {
+    "category": "User / Role Access",
+    "flow": [
+      {
+        "Q1": "Do you need access to ERP, applications, or databases?",
+        "Yes": {
+          "Q2": "Is this for a new user or existing user?",
+          "Yes": {
+            "Q2a": "Do you need specific roles or permissions assigned?",
+            "No": {
+              "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+            }
+          },
+          "No": {
+            "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+          }
+        },
+        "No": {
+          "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+        }
+      }
+    ]
+  },
+  {
+    "category": "Azure AD / Entra ID / Groups / Roles",
+    "flow": [
+      {
+        "Q1": "Do you need role creation or assignment in Azure AD?",
+        "Yes": {
+          "Q2": "Is this for a new user, group, or existing role?",
+          "Yes": {
+            "Q2a": "Are there any specific permission requirements?",
+            "No": {
+              "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+            }
+          },
+          "No": {
+            "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+          }
+        },
+        "No": {
+          "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+        }
+      }
+    ]
+  },
+  {
+    "category": "Other Access / Jump Server / Remote",
+    "flow": [
+      {
+        "Q1": "Do you need remote or jump server access?",
+        "Yes": {
+          "Q2": "Is this for a temporary session or permanent access?",
+          "Yes": {
+            "Q2a": "Do you require special permissions or elevated privileges?",
+            "No": {
+              "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+            }
+          },
+          "No": {
+            "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+          }
+        },
+        "No": {
+          "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+        }
+      }
+    ]
+  },
+  {
+    "category": "Access & Permissions",
+    "flow": [
+      {
+        "Q1": "Do you need permission assignments or review?",
+        "Yes": {
+          "Q2": "Is this for a single application or multiple applications?",
+          "Yes": {
+            "Q2a": "Do you have a list of users to assign or review?",
+            "No": {
+              "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+            }
+          },
+          "No": {
+            "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+          }
+        },
+        "No": {
+          "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+        }
+      }
+    ]
+  },
+  {
+    "category": "Onboarding / Offboarding",
+    "flow": [
+      {
+        "Q1": "Is this a new hire onboarding or employee offboarding?",
+        "Yes": {
+          "Q2": "Do you need access provisioning or deactivation?",
+          "Yes": {
+            "Q2a": "Are there any special roles or system access required?",
+            "No": {
+              "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+            }
+          },
+          "No": {
+            "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+          }
+        },
+        "No": {
+          "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+        }
+      }
+    ]
+  },
+  {
+    "category": "Vulnerability Management & Security Config",
+    "flow": [
+      {
+        "Q1": "Do you need firewall, antivirus, or security configuration assistance?",
+        "Yes": {
+          "Q2": "Is this for a specific system or network-wide?",
+          "Yes": {
+            "Q2a": "Is this a one-time configuration or recurring check?",
+            "No": {
+              "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+            }
+          },
+          "No": {
+            "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+          }
+        },
+        "No": {
+          "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+        }
+      }
+    ]
+  },
+  {
+    "category": "Governance / Policy Changes / Access Review & Compliance",
+    "flow": [
+      {
+        "Q1": "Do you require compliance review or policy enforcement?",
+        "Yes": {
+          "Q2": "Is this for a specific department or organization-wide?",
+          "Yes": {
+            "Q2a": "Do you have existing policies or access logs to review?",
+            "No": {
+              "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+            }
+          },
+          "No": {
+            "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+          }
+        },
+        "No": {
+          "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+        }
+      }
+    ]
+  },
+  {
+    "category": "Authentication & MFA",
+    "flow": [
+      {
+        "Q1": "Are you facing MFA setup or authentication issues?",
+        "Yes": {
+          "Q2": "Is this affecting your account only or multiple users?",
+          "Yes": {
+            "Q2a": "Have you tried resetting MFA or your password?",
+            "No": {
+              "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+            }
+          },
+          "No": {
+            "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+          }
+        },
+        "No": {
+          "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+        }
+      }
+    ]
+  },
+  {
+    "category": "Unauthorized Access",
+    "flow": [
+      {
+        "Q1": "Are you reporting a security breach or unauthorized access?",
+        "Yes": {
+          "Q2": "Is this a suspected internal or external breach?",
+          "Yes": {
+            "Q2a": "Have you collected any logs or evidence?",
+            "No": {
+              "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+            }
+          },
+          "No": {
+            "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+          }
+        },
+        "No": {
+          "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+        }
+      }
+    ]
+  },
+  {
+    "category": "Cybersecurity Training",
+    "flow": [
+      {
+        "Q1": "Do you need phishing or cybersecurity awareness training?",
+        "Yes": {
+          "Q2": "Is this for an individual or team?",
+          "Yes": {
+            "Q2a": "Do you have specific topics to cover?",
+            "No": {
+              "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+            }
+          },
+          "No": {
+            "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+          }
+        },
+        "No": {
+          "Q3": "Please share a screenshot or error message, I am creating a ticket in JIRA."
+        }
+      }
+    ]
+  }
+]
