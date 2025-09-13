@@ -1,3 +1,4 @@
+# src/rag_chatbot_ollama.py
 import os
 import faiss
 import pickle
@@ -11,11 +12,11 @@ import requests
 
 load_dotenv()
 
-# LM Studio configuration
-LM_STUDIO_API_BASE = "http://127.0.0.1:1234/v1" #http://localhost:1234/v1
-LM_STUDIO_MODEL = "qwen/qwen3-4b-2507"  # "openai/gpt-oss-20b" -> almost 6 mins with reasoning
+# Ollama configuration
+OLLAMA_API_BASE = "http://127.0.0.1:11434/api"
+OLLAMA_MODEL = "llama2"  # You can change this to phi, mistral, etc.
 
-class RAGChatbotLM:
+class RAGChatbotOllama:
     _sentence_model = None
     
     def __init__(self, embed_dir='embeddings'):
@@ -43,27 +44,34 @@ class RAGChatbotLM:
         """
             Lower temp - faster + deterministic response
             max_token - less = faster
-
         """
         try:
             response = requests.post(
-                url=f"{LM_STUDIO_API_BASE}/chat/completions",
+                url=f"{OLLAMA_API_BASE}/generate",
                 headers={
                     "Content-Type": "application/json",
                 },
                 data=json.dumps({
-                    "model": LM_STUDIO_MODEL,
-                    "messages": [{"role": "user", "content": prompt}],
-                    "temperature": 0.5,    # 0.7
-                    "max_tokens": 300,      # 500
-                    "top_p": 0.9,
-                    "frequency_penalty": 0,
-                    "presence_penalty": 0
+                    "model": OLLAMA_MODEL,
+                    "prompt": prompt,
+                    "stream": False,
+                    "options": {
+                        "temperature": 0.5,
+                        "num_predict": 300,
+                        "top_p": 0.9,
+                        "frequency_penalty": 0,
+                        "presence_penalty": 0
+                    }
                 }),
                 timeout=120  
             )
             response.raise_for_status()
-            return response.json()['choices'][0]['message']['content']
+            response_data = response.json()
+            return response_data.get('response', '').strip()
+        except requests.exceptions.ConnectionError:
+            error_msg = "❌ Cannot connect to Ollama. Please ensure Ollama is running."
+            print(error_msg)
+            return error_msg
         except Exception as e:
             print(f"Error generating response: {e}")
             return "I'm sorry, I'm having trouble generating a response right now."
@@ -94,7 +102,7 @@ class RAGChatbotLM:
             return "Unknown"
 
     def run(self):
-        print("Hello! I'm your IT Support Assistant. Please describe your issue.")
+        print("Hello! I'm your IT Support Assistant (Ollama Version). Please describe your issue.")
         initial_query = input("You: ")
         
         category = self.predict_category(initial_query)
@@ -102,10 +110,6 @@ class RAGChatbotLM:
         retrieved_chunks = self.retrieve(initial_query)
         context = "\n".join(retrieved_chunks)
 
-        # prompt = (
-        #     f"Based on the following context:\n{context}\n\n"
-        #     f"Generate a follow-up question to narrow down the issue described: '{initial_query}'"
-        # )
         prompt = f"""
             <prompt>
             <context>
@@ -113,7 +117,7 @@ class RAGChatbotLM:
             </context>
             
             <task>
-                Generate a follow-up question to narrow down the issue. focus on quick understanding.
+                Generate a follow-up question to narrow down the issue.
             </task>
             
             <constraints>
@@ -122,22 +126,6 @@ class RAGChatbotLM:
             </constraints>
             </prompt>
          """
-        # prompt = f"""
-        #     <prompt>
-        #     <context>
-        #         {context}
-        #     </context>
-            
-        #     <task>
-        #         Generate a follow-up question to narrow down the issue.
-        #     </task>
-            
-        #     <constraints>
-        #         <focus>{initial_query}</focus>
-        #         <format>single question</format>
-        #     </constraints>
-        #     </prompt>
-        #  """
 
         q1 = self.generate_response(prompt)
         print(f"Bot: {q1}")
@@ -146,12 +134,6 @@ class RAGChatbotLM:
         answer1 = input("You: ")
         self.log_interaction(answer1, "")
 
-        # prompt2 = (
-        #     f"Previously user said: '{initial_query}'.\n"
-        #     f"Then bot asked: '{q1}'\n"
-        #     f"User replied: '{answer1}'\n\n"
-        #     f"Now generate another follow-up question to further narrow down the issue."
-        # )
         prompt2 = f"""
             <prompt>
             <context>
@@ -161,7 +143,7 @@ class RAGChatbotLM:
             </context>
             
             <task>
-                Generate another follow-up question to further narrow down the issue. Quick and to the point.
+                Generate another follow-up question to further narrow down the issue.
             </task>
             
             <constraints>
@@ -179,33 +161,6 @@ class RAGChatbotLM:
         answer2 = input("You: ")
         self.log_interaction(answer2, "")
 
-        # prompt3 = (
-        #     f"Previously user said: '{initial_query}'.\n"
-        #     f"Then bot asked: '{q1}' and user replied: '{answer1}'.\n"
-        #     f"Then bot asked: '{q2}' and user replied: '{answer2}'.\n\n"
-        #     f"Now suggest 3-4 quick non-technical fixes or diagnostics related to this issue by observing the {context}. Give point-wise suggestions with navigation if needed."
-        # )
-        # prompt3 = f"""
-        #     <prompt>
-        #     <context>
-        #         Previously user said: '{initial_query}'.
-        #         Then bot asked: '{q1}' and user replied: '{answer1}'.
-        #         Then bot asked: '{q2}' and user replied: '{answer2}'.
-        #     </context>
-        #     <role>
-        #         Act as a IT person who work with resolving issue raised.
-        #     </role>
-        #     <task>
-        #         Suggest 3-4 quick non-technical fixes or diagnostics related to this issue.
-        #     </task>
-            
-        #     <constraints>
-        #         <format>point-wise</format>
-        #         <detail>include navigation if needed</detail>
-        #         <focus>{context}</focus>
-        #     </constraints>
-        #     </prompt>
-        # """
         prompt3 = f"""
             <prompt>
             <context>
@@ -217,7 +172,7 @@ class RAGChatbotLM:
                 Act as a IT person who work with resolving issue raised.
             </role>
             <task>
-                Suggest 1-2 quick non-technical fixes or diagnostics related to this issue. Keep it brief. 
+                Suggest 1-2 quick non-technical fixes or diagnostics related to this issue. Keep it brief.
             </task>
             
             <constraints>
@@ -238,12 +193,24 @@ class RAGChatbotLM:
         else:
             flag = f"Ticket raised for the issue: {initial_query}"
 
-        final_log_entry = f"{flag} | Category: {category} | Backed by LM Studio Model: {LM_STUDIO_MODEL}"
+        final_log_entry = f"{flag} | Category: {category} | Backed by Ollama Model: {OLLAMA_MODEL}"
         self.log_interaction(final_input, final_log_entry)
         self.save_log()
         print(f"\nFinal status: {flag}")
         print(f"Issue Category: {category}")
 
 if __name__ == "__main__":
-    bot = RAGChatbotLM()
+    # Check if Ollama is running
+    try:
+        response = requests.get("http://127.0.0.1:11434/api/tags", timeout=5)
+        if response.status_code == 200:
+            print("Connected to Ollama successfully")
+        else:
+            print("Ollama is not responding properly")
+            exit(1)
+    except requests.exceptions.ConnectionError:
+        print("Cannot connect to Ollama. Please ensure Ollama is installed and running.")
+        exit(1)
+    
+    bot = RAGChatbotOllama()
     bot.run()
