@@ -5,15 +5,11 @@ import json
 import time
 from datetime import datetime
 from sentence_transformers import SentenceTransformer
-from dotenv import load_dotenv
 import joblib
 import requests
 
-load_dotenv()
-
-# LM Studio configuration
-LM_STUDIO_API_BASE = "http://127.0.0.1:1234/v1" #http://localhost:1234/v1
-LM_STUDIO_MODEL = "qwen/qwen3-4b-2507"  # "openai/gpt-oss-20b" -> almost 6 mins with reasoning
+LM_STUDIO_API_BASE = "" #http://localhost:1234/v1
+LM_STUDIO_MODEL = ""  # "openai/gpt-oss-20b" -> almost 6 mins with reasoning
 
 class RAGChatbotLM:
     _sentence_model = None
