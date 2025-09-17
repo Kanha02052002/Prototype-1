@@ -1,179 +1,209 @@
-[2025-09-12 00:37:34] User: Unable to connect to network and wi-fi 
-[2025-09-12 00:37:34] Bot: Did you recently change your Wi‑Fi password or move the router, and is the issue happening on all devices or just one?
-[2025-09-12 00:38:08] User: No
-[2025-09-12 00:38:08] Bot: 
-[2025-09-12 00:38:18] User: No
-[2025-09-12 00:38:18] Bot: Did you notice any error messages or a specific icon (e.g., “No Internet” vs. “Wi‑Fi not found”) when your device attempts to connect?
-[2025-09-12 00:38:24] User: yes
-[2025-09-12 00:38:24] Bot: 
-[2025-09-12 00:39:29] User: yes
-[2025-09-12 00:39:29] Bot: **Quick, Non‑Technical Troubleshooting Steps**
-
-1. **Toggle Airplane / Wi‑Fi Mode (Mobile Devices)**
-   - Open the notification shade or quick‑settings panel.
-   - Tap the airplane‑mode icon to enable it, wait 10 seconds, then tap again to disable.
-   - Re‑open the Wi‑Fi settings; the list of available networks should refresh.
-
-2. **Restart the Router / Modem**
-   - Locate your router/modem near the power outlet.
-   - Unplug the power cable, wait 30 seconds, then plug it back in.
-   - Allow 1–2 minutes for the device to fully reboot; check if Wi‑Fi appears on your phone/computer.
-
-3. **Forget & Re‑Add the Network (Computer)**
-   - On Windows:  
-     1. Press `Win + I` → **Network & Internet** → **Wi‑Fi** → **Manage known networks**.  
-     2. Click your network, choose **Forget**.  
-     3. Return to Wi‑Fi list, reconnect and re‑enter the password.
-   - On macOS:  
-     1. Open **System Settings** → **Network** → **Wi‑Fi** → **Advanced…**.  
-     2. Select your network, click “–” to remove it, then reconnect.
-
-4. **Check for Physical Wi‑Fi Switch (Laptops)**
-   - Many laptops have a dedicated Wi‑Fi button or `Fn + F2`/`F5` key combination.
-   - Press the switch/key to ensure the wireless radio is enabled.
-   - Re‑open Wi‑Fi settings; networks should now be visible.
-
-These steps usually resolve visibility or connectivity glitches without needing deeper technical changes. If the problem persists after trying them, let me know and we can dive into more advanced diagnostics.
-[2025-09-12 00:45:26] User: Issue solved thank you
-[2025-09-12 00:45:26] Bot: Solved by Bot | Category: Network Support | Backed by LM Studio Model: openai/gpt-oss-20b
+[2025-09-14 23:51:31] User: System working slow
+[2025-09-14 23:51:31] Bot: Is the slowness happening during specific apps?
+[2025-09-14 23:51:42] User: no
+[2025-09-14 23:51:42] Bot: 
+[2025-09-14 23:51:44] User: no
+[2025-09-14 23:51:44] Bot: Is it slow at all times?
+[2025-09-14 23:52:21] User: yes
+[2025-09-14 23:52:21] Bot: 
+[2025-09-14 23:52:24] User: yes
+[2025-09-14 23:52:24] Bot: Is the system slow during boot?
+[2025-09-14 23:52:29] User: no
+[2025-09-14 23:52:29] Bot: 
+[2025-09-14 23:52:31] User: no
+[2025-09-14 23:52:31] Bot: Ticket raised for the issue: System working slow | Category: ERP Support | Backed by LM Studio Model: qwen/qwen3-4b-2507
 
 ============================================================
-[2025-09-12 00:46:59] User: Unable to open specific application 
-[2025-09-12 00:46:59] Bot: Did you notice any error message or log entry when the application crashes?
-[2025-09-12 00:47:16] User: it is showing that visual c++ is not available
-[2025-09-12 00:47:16] Bot: 
-[2025-09-12 00:47:28] User: it is showing that visual c++ is not available
-[2025-09-12 00:47:28] Bot: Which version of Visual C++ Redistributable does your system currently have installed, and have you tried reinstalling or repairing it?
-[2025-09-12 00:47:40] User: i don't remember
-[2025-09-12 00:47:40] Bot: 
-[2025-09-12 00:48:35] User: i don't remember
-[2025-09-12 00:48:35] Bot: 1. **Run Windows Update**
-   - Go to **Settings** → **Update & Security** → **Windows Update** and click **Check for updates**.  
-   - Install any pending updates (especially “Visual C++ Redistributable” packages) and reboot.
-
-2. **Use the System File Checker**
-   - Press **Win + X**, choose **Command Prompt (Admin)** or **Windows Terminal (Admin)**.  
-   - Type `sfc /scannow` and press **Enter**.  
-   - Let it finish, then restart and try opening the application again.
-
-3. **Re‑install the Visual C++ Redistributable**
-   - Open **Control Panel** → **Programs** → **Programs and Features**.  
-   - Look for any entries titled “Microsoft Visual C++ 2015–2022 Redistributable (x64/x86)”.  
-   - Right‑click each one, choose **Repair**; if that’s not available, select **Uninstall**, then download the latest redistributables from Microsoft’s site and install them.
-
-4. **Create a New User Profile**
-   - Go to **Settings** → **Accounts** → **Family & other users** → **Add someone else to this PC**.  
-   - Create a new local account, log in with it, and attempt to open the application. If it works, the original profile may be corrupted.
-
-These steps address common non‑technical causes—missing updates, corrupt system files, or damaged user settings—before moving on to deeper diagnostics.
-[2025-09-12 00:48:41] User: no
-[2025-09-12 00:48:41] Bot: Ticket raised for the issue: Unable to open specific application  | Category: ERP Support | Backed by LM Studio Model: openai/gpt-oss-20b
+[2025-09-14 23:58:59] User: System working slow 
+[2025-09-14 23:58:59] Bot: Is the slowness happening only during app use?
+[2025-09-14 23:59:05] User: no
+[2025-09-14 23:59:05] Bot: 
+[2025-09-14 23:59:08] User: no
+[2025-09-14 23:59:08] Bot: Is it slow during boot?
+[2025-09-14 23:59:13] User: no
+[2025-09-14 23:59:13] Bot: 
+[2025-09-14 23:59:15] User: no
+[2025-09-14 23:59:15] Bot: Is it slow when running background apps?
+[2025-09-14 23:59:19] User: yes
+[2025-09-14 23:59:19] Bot: 
+[2025-09-14 23:59:29] User: no
+[2025-09-14 23:59:29] Bot: Ticket raised for the issue: System working slow  | Category: ERP Support | Backed by LM Studio Model: qwen/qwen3-4b-2507
 
 ============================================================
-[2025-09-12 00:50:06] User:  System working slow
-[2025-09-12 00:50:06] Bot: Did you notice if the slowdown occurs only when a particular application is running, or does it happen regardless of which program you use?
-[2025-09-12 00:50:33] User: with whole system
-[2025-09-12 00:50:33] Bot: 
-[2025-09-12 00:50:43] User: with whole system
-[2025-09-12 00:50:43] Bot: Did you notice if the slowdown started after installing any new software, updating drivers, or after a recent Windows update?
-[2025-09-12 00:51:11] User: yes after last patch update
-[2025-09-12 00:51:11] Bot: 
-[2025-09-12 00:52:11] User: yes after last patch update
-[2025-09-12 00:52:11] Bot: **Quick, non‑technical diagnostics & fixes for a system slowdown after the latest Windows patch**
-
-1. **Restart in Clean Boot mode**  
-   - Press `Win + R`, type `msconfig`, hit Enter.  
-   - In the *General* tab choose **Selective startup**, uncheck **Load startup items**.  
-   - Go to the *Services* tab, check **Hide all Microsoft services**, then click **Disable all**.  
-   - Click *Apply*, reboot.  
-   - If performance improves, a background service or startup program is conflicting with the patch.
-
-2. **Check for pending updates / roll‑back the recent update**  
-   - Open Settings → Windows Update → View update history.  
-   - If the last patch appears under “Uninstall updates”, click it and uninstall.  
-   - After removal, reboot and test performance again.
-
-3. **Run a quick disk health check**  
-   - Press `Win + X`, choose *Windows Terminal (Admin)* or *Command Prompt (Admin)*.  
-   - Type `chkdsk /f /r C:` and press Enter. (You’ll be asked to schedule on next reboot.)  
-   - Reboot; the system will scan for bad sectors that might be slowing I/O.
-
-4. **Use the built‑in Performance Troubleshooter**  
-   - Open Settings → System → Troubleshoot → Other troubleshooters → *Performance*.  
-   - Run it and let Windows identify any obvious resource bottlenecks or misconfigurations caused by the update.
-
-These steps are quick to perform, don’t require deep technical knowledge, and can often isolate or resolve the slowdown before moving on to more advanced troubleshooting.
-[2025-09-12 00:52:29] User: Issue solved
-[2025-09-12 00:52:29] Bot: Solved by Bot | Category: ERP Support | Backed by LM Studio Model: openai/gpt-oss-20b
+[2025-09-15 00:09:37] User: System working slow 
+[2025-09-15 00:09:37] Bot: Is the slowness app-specific?
+[2025-09-15 00:09:43] User: no
+[2025-09-15 00:09:43] Bot: 
+[2025-09-15 00:09:47] User: no
+[2025-09-15 00:09:47] Bot: Is it slow everywhere?
+[2025-09-15 00:09:53] User: yes
+[2025-09-15 00:09:53] Bot: 
+[2025-09-15 00:09:58] User: yes
+[2025-09-15 00:09:58] Bot: Is it slow during peak usage?
+[2025-09-15 00:10:02] User: yes
+[2025-09-15 00:10:02] Bot: 
+[2025-09-15 00:10:16] User: no
+[2025-09-15 00:10:16] Bot: Ticket raised for the issue: System working slow  | Category: ERP Support | Backed by LM Studio Model: qwen/qwen3-4b-2507
 
 ============================================================
-[2025-09-12 02:30:15] User: My System is running slow
-[2025-09-12 02:30:15] Bot: Is the system slow only when running specific applications, or does it feel sluggish across all tasks?
-[2025-09-12 02:30:26] User: for all the application
-[2025-09-12 02:30:26] Bot: 
-[2025-09-12 02:30:29] User: for all the application
-[2025-09-12 02:30:29] Bot: Is the system slow even when no applications are running, or does the sluggishness only occur when applications are active?
-[2025-09-12 02:30:46] User: for all active sessions
-[2025-09-12 02:30:46] Bot: 
-[2025-09-12 02:30:57] User: for all active sessions
-[2025-09-12 02:30:57] Bot: - **Check for background apps running in the background**  
-  *Navigation:* On Windows, press `Ctrl + Shift + Esc` to open Task Manager; on Mac, open Activity Monitor (found in Applications > Utilities). Look for apps using high CPU, memory, or disk usage. Close any unnecessary or unknown apps that may be running silently.
-
-- **Restart the computer**  
-  *Reason:* A simple restart clears temporary files, stops stuck processes, and refreshes system resources. This is one of the fastest and most effective non-technical fixes for general slowness across all applications.
-
-- **Check for startup programs**  
-  *Navigation:* On Windows, press `Ctrl + Shift + Esc`, go to the "Startup" tab and disable any non-essential programs that start automatically. On Mac, go to System Settings > General > Login Items and remove unused apps. This reduces system load at startup and improves responsiveness.
-
-- **Scan for malware or virus infections**  
-  *Navigation:* Use built-in tools like Windows Defender (Windows) or XProtect (Mac) to run a quick full-system scan. Malware can run in the background and consume system resources without user awareness. A quick scan helps rule out malicious software as the cause.  
-
-> *Note: These steps are non-technical and can be performed by end-users without needing advanced knowledge. They address the core issue of system sluggishness across all active sessions.*
-[2025-09-12 02:31:05] User: Solved
-[2025-09-12 02:31:05] Bot: Solved by Bot | Category: ERP Support | Backed by LM Studio Model: qwen/qwen3-4b-2507
+[2025-09-15 00:33:07] User: Unable to connect to network and wi-fi
+[2025-09-15 00:33:07] Bot: Is Wi-Fi working on other devices?
+[2025-09-15 00:33:27] User: yes
+[2025-09-15 00:33:27] Bot: 
+[2025-09-15 00:33:34] User: yes
+[2025-09-15 00:33:34] Bot: Is Wi-Fi showing on the device?
+[2025-09-15 00:34:06] User: yes
+[2025-09-15 00:34:06] Bot: 
+[2025-09-15 00:34:16] User: yes
+[2025-09-15 00:34:16] Bot: Is internet working on other devices?
+[2025-09-15 00:34:22] User: no
+[2025-09-15 00:34:22] Bot: 
+[2025-09-15 00:34:24] User: d
+[2025-09-15 00:34:24] Bot: Ticket raised for the issue: Unable to connect to network and wi-fi | Category: Network Support | Backed by LM Studio Model: qwen/qwen3-4b-2507
 
 ============================================================
-[2025-09-12 11:11:08] User: One of the key in my keyboard is not working
-[2025-09-12 11:11:08] Bot: Did you check if that specific key works on another application or in a different device (e.g., another computer or a smartphone keyboard app)?
-[2025-09-12 11:11:41] User: No
-[2025-09-12 11:11:41] Bot: 
-[2025-09-12 11:11:57] User: No
-[2025-09-12 11:11:57] Bot: Have you tried cleaning or gently tapping around that key to see if any debris might be obstructing it?
-[2025-09-12 11:12:15] User: yes still the same
-[2025-09-12 11:12:15] Bot: 
-[2025-09-12 11:13:22] User: yes still the same
-[2025-09-12 11:13:22] Bot: **Quick, non‑technical checks you can try right now**
-
-1. **Test the key in a different program or on another device**  
-   - Open Notepad (or any plain text editor) and press the key.  
-   - If it still doesn’t register, try plugging the keyboard into another computer or using a USB hub to rule out a port issue.
-
-2. **Inspect the keycap and surrounding area for debris**  
-   - Tilt the laptop/keyboard so you can see under the key.  
-   - Gently blow air (or use compressed‑air canned) around the key; if it’s stuck, lightly tap the key with a small tool (e.g., a toothpick) to dislodge any obstruction.
-
-3. **Check for software or driver conflicts**  
-   - Open Device Manager → “Keyboards” → right‑click your keyboard → “Update driver.”  
-   - If an update is available, install it; otherwise, try uninstalling the device and rebooting so Windows reinstalls a fresh driver.
-
-4. **Reset keyboard settings to default**  
-   - Go to Settings → Time & Language → Keyboard → “Add a language” (if you have multiple languages).  
-   - Remove any non‑default layouts, then restart your
-[2025-09-12 11:14:07] User: No
-[2025-09-12 11:14:07] Bot: Ticket raised for the issue: One of the key in my keyboard is not working | Category: ERP Support | Backed by LM Studio Model: openai/gpt-oss-20b
+[2025-09-15 00:33:09] User: Unable to open specific application
+[2025-09-15 00:33:09] Bot: Does the app launch at all?
+[2025-09-15 00:33:26] User: no
+[2025-09-15 00:33:26] Bot: 
+[2025-09-15 00:33:30] User: no
+[2025-09-15 00:33:30] Bot: Does it crash on launch?
+[2025-09-15 00:34:04] User: yes
+[2025-09-15 00:34:04] Bot: 
+[2025-09-15 00:34:10] User: yes
+[2025-09-15 00:34:10] Bot: Crashes on startup? (yes/no)
+[2025-09-15 00:34:30] User: no
+[2025-09-15 00:34:30] Bot: 
+[2025-09-15 00:34:34] User: no
+[2025-09-15 00:34:34] Bot: Ticket raised for the issue: Unable to open specific application | Category: ERP Support | Backed by LM Studio Model: qwen/qwen3-4b-2507
 
 ============================================================
-[2025-09-12 16:38:48] User: Unable to connect to wifi and network
-[2025-09-12 16:38:48] Bot: Is the Wi-Fi network visible on the device's screen?
-[2025-09-12 16:38:56] User: No
-[2025-09-12 16:38:56] Bot: 
-[2025-09-12 16:38:58] User: No
-[2025-09-12 16:38:58] Bot: Is the device turned on and within range of the Wi-Fi router?
-[2025-09-12 16:39:06] User: yes
-[2025-09-12 16:39:06] Bot: 
-[2025-09-12 16:39:09] User: yes
-[2025-09-12 16:39:09] Bot: - Is the router turned on and functioning (e.g., lights are on)?
-[2025-09-12 16:40:05] User: no
-[2025-09-12 16:40:05] Bot: Ticket raised for the issue: Unable to connect to wifi and network | Category: Network Support | Backed by LM Studio Model: qwen/qwen3-4b-2507
+[2025-09-15 00:35:00] User: Unable to connect to network and wi-fi 
+[2025-09-15 00:35:00] Bot: Is Wi-Fi working on other devices?
+[2025-09-15 00:35:06] User: yes
+[2025-09-15 00:35:06] Bot: 
+[2025-09-15 00:35:09] User: yes
+[2025-09-15 00:35:09] Bot: Is Wi-Fi showing on the screen?
+[2025-09-15 00:35:17] User: yes
+[2025-09-15 00:35:17] Bot: 
+[2025-09-15 00:35:24] User: yes
+[2025-09-15 00:35:24] Bot: Is internet working on other devices?
+[2025-09-15 00:35:29] User: yes
+[2025-09-15 00:35:29] Bot: 
+[2025-09-15 00:35:32] User: no
+[2025-09-15 00:35:32] Bot: Ticket raised for the issue: Unable to connect to network and wi-fi  | Category: Network Support | Backed by LM Studio Model: qwen/qwen3-4b-2507
+
+============================================================
+[2025-09-15 00:37:08] User: Unable to connect to network and wi-fi 
+[2025-09-15 00:37:08] Bot: Do you see the Wi-Fi network name listed as unavailable?
+[2025-09-15 00:37:21] User: no
+[2025-09-15 00:37:21] Bot: 
+[2025-09-15 00:37:22] User: no
+[2025-09-15 00:37:22] Bot: Yes, the Wi-Fi network is listed as unavailable.
+[2025-09-15 00:37:38] User: no
+[2025-09-15 00:37:38] Bot: 
+[2025-09-15 00:37:40] User: no
+[2025-09-15 00:37:40] Bot: Do you see the Wi-Fi network listed as unavailable? (yes/no)
+[2025-09-15 00:37:46] User: no
+[2025-09-15 00:37:46] Bot: 
+[2025-09-15 00:37:47] User: 
+[2025-09-15 00:37:47] Bot: Ticket raised for the issue: Unable to connect to network and wi-fi  | Category: Network Support | Backed by LM Studio Model: liquid/lfm2-1.2b
+
+============================================================
+[2025-09-15 00:43:28] User: Unable to connect to network and wi-fi 
+[2025-09-15 00:43:28] Bot: Did you recently change your Wi‑Fi password?
+[2025-09-15 00:43:32] User: no
+[2025-09-15 00:43:32] Bot: 
+[2025-09-15 00:43:44] User: no
+[2025-09-15 00:43:44] Bot: Did you try restarting the router?
+[2025-09-15 00:43:49] User: yes
+[2025-09-15 00:43:49] Bot: 
+[2025-09-15 00:44:12] User: yes
+[2025-09-15 00:44:12] Bot: Did you try using another device to see if it detects the Wi‑Fi?
+[2025-09-15 00:44:28] User: yes
+[2025-09-15 00:44:28] Bot: 
+[2025-09-15 00:44:30] User: no
+[2025-09-15 00:44:30] Bot: Ticket raised for the issue: Unable to connect to network and wi-fi  | Category: Network Support | Backed by LM Studio Model: openai/gpt-oss-20b
+
+============================================================
+[2025-09-15 11:24:48] User: my outlook is not opening
+[2025-09-15 11:24:48] Bot: Does Outlook crash on launch?
+[2025-09-15 11:24:56] User: yes
+[2025-09-15 11:24:56] Bot: 
+[2025-09-15 11:24:58] User: yes
+[2025-09-15 11:24:58] Bot: Does it crash on startup?
+[2025-09-15 11:25:08] User: yes
+[2025-09-15 11:25:08] Bot: 
+[2025-09-15 11:25:11] User: yes
+[2025-09-15 11:25:11] Bot: Does it crash immediately?
+[2025-09-15 11:25:47] User: yes
+[2025-09-15 11:25:47] Bot: 
+[2025-09-15 11:25:53] User: Quick fixes provided
+[2025-09-15 11:25:53] Bot: 1. **Run Outlook as Administrator**  
+   Right-click on the Outlook shortcut or executable file and select "Run as administrator." This can resolve permission-related crashes that occur during startup.
+
+2. **Repair or Reinstall Outlook**  
+   Go to Control Panel > Programs > Programs and Features, select Microsoft Office, and choose "Repair." If that doesn’t work, uninstall and then reinstall Outlook to fix corrupted files or missing components.
+
+3. **Update or Reinstall .NET Framework and Visual C++ Redistributables**  
+   Since Outlook relies on these runtime components, outdated or missing versions can cause immediate crashes. Download and install the latest versions of .NET Framework 4.8 and Visual C++ Redistributable from Microsoft’s official website.
+[2025-09-15 11:26:45] User: no
+[2025-09-15 11:26:45] Bot: Ticket raised for the issue: my outlook is not opening | Category: ERP Support | Backed by LM Studio Model: qwen/qwen3-4b-2507
+
+============================================================
+[2025-09-16 23:38:51] User: need more resources for vm
+[2025-09-16 23:38:51] Bot: Is the VM running on a dedicated host?
+[2025-09-16 23:38:55] User: no
+[2025-09-16 23:38:55] Bot: 
+[2025-09-16 23:38:57] User: no
+[2025-09-16 23:38:57] Bot: Are there background apps running?
+[2025-09-16 23:39:07] User: no
+[2025-09-16 23:39:07] Bot: 
+[2025-09-16 23:39:10] User: no
+[2025-09-16 23:39:10] Bot: Is the VM shared with other VMs?
+[2025-09-16 23:39:17] User: yes
+[2025-09-16 23:39:17] Bot: 
+[2025-09-16 23:39:20] User: no
+[2025-09-16 23:39:20] Bot: Ticket raised for the issue: need more resources for vm | Category: ERP Support | Backed by LM Studio Model: qwen/qwen3-4b-2507
+
+============================================================
+
+============================================================
+[2025-09-17 00:24:41] User: unable to connect to network
+[2025-09-17 00:24:41] Bot: Is Wi-Fi working on other devices?
+[2025-09-17 00:24:45] User: yes
+[2025-09-17 00:24:45] Bot: 
+[2025-09-17 00:24:47] User: yes
+[2025-09-17 00:24:47] Bot: Is internet working on other devices?
+[2025-09-17 00:24:52] User: yes
+[2025-09-17 00:24:52] Bot: 
+[2025-09-17 00:24:54] User: yes
+[2025-09-17 00:24:54] Bot: Is Wi-Fi showing correct password?
+[2025-09-17 00:24:59] User: yes
+[2025-09-17 00:24:59] Bot: 
+[2025-09-17 00:25:00] User: No additional details provided
+[2025-09-17 00:25:00] Bot: Additional details collected
+[2025-09-17 00:25:00] User: Ticket raised automatically
+[2025-09-17 00:25:00] Bot: Ticket raised for the issue: unable to connect to network | Category: Network Support | Backed by LM Studio Model: qwen/qwen3-4b-2507
+
+============================================================
+[2025-09-17 13:07:13] User: need more resources for VMs
+[2025-09-17 13:07:13] Bot: New VMs needed?
+[2025-09-17 13:07:22] User: no
+[2025-09-17 13:07:22] Bot: 
+[2025-09-17 13:07:24] User: no
+[2025-09-17 13:07:24] Bot: Multiple VMs or single?
+[2025-09-17 13:07:44] User: yes
+[2025-09-17 13:07:44] Bot: 
+[2025-09-17 13:07:46] User: yes
+[2025-09-17 13:07:46] Bot: Single or multiple instances?
+[2025-09-17 13:07:49] User: no
+[2025-09-17 13:07:49] Bot: 
+[2025-09-17 13:07:50] User: No additional details provided
+[2025-09-17 13:07:50] Bot: Additional details collected
+[2025-09-17 13:07:50] User: Ticket raised automatically
+[2025-09-17 13:07:50] Bot: Ticket raised for the issue: need more resources for VMs | Category: ERP Support 
+                                | Backed by LM Studio Model: qwen/qwen3-4b-2507 | Initial Category: VM Provisioning
+                            
 
 ============================================================
