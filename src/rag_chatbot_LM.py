@@ -10,10 +10,11 @@ from sentence_transformers import SentenceTransformer, util
 import joblib
 import requests
 
-LM_STUDIO_API_BASE = "http://127.0.0.1:1234/v1"
-LM_STUDIO_MODEL = "qwen/qwen3-4b-2507"
+load_dotenv()
 
-QUERY_SRC="data/Queries.csv"
+# LM Studio configuration
+LM_STUDIO_API_BASE = "http://127.0.0.1:1234/v1" #http://localhost:1234/v1
+LM_STUDIO_MODEL = "qwen/qwen3-4b-2507"  # "openai/gpt-oss-20b" -> almost 6 mins with reasoning
 
 class RAGChatbotLM:
     _sentence_model = None
@@ -371,38 +372,9 @@ class RAGChatbotLM:
                             """
         self.log_interaction("Ticket raised automatically", final_log_entry)
         self.save_log()
-        # print(f"\nStatus: {flag}")
-        # print(f"Category: {category}")
-        
-        # Ask if user wants another conversation
-        # continue_chat = input("\nWould you like to ask another question? (y/n): ")
-        # if continue_chat.lower().strip() in ['y', 'yes']:
-        #     return True
-        # else:
-        #     print("Thank you for using IT Support Assistant!")
-        #     return False
+        print(f"\nFinal status: {flag}")
+        print(f"Issue Category: {category}")
 
-# if __name__ == "__main__":
-#     # Check LM Studio connection
-#     try:
-#         print("Checking LM Studio connection...")
-#         response = requests.get(f"{LM_STUDIO_API_BASE}/models", timeout=5)
-#         if response.status_code == 200:
-#             print("Connected to LM Studio successfully")
-#         else:
-#             print("LM Studio is not responding properly")
-#             exit(1)
-#     except requests.exceptions.ConnectionError:
-#         print("Cannot connect to LM Studio")
-#         print("Please ensure LM Studio is running with API enabled")
-#         exit(1)
-#     except Exception as e:
-#         print(f"Error connecting to LM Studio: {e}")
-#         exit(1)
-    
-#     # Main loop
-#     while True:
-#         bot = RAGChatbotLM()
-#         should_continue = bot.run()
-#         if not should_continue:
-#             break
+if __name__ == "__main__":
+    bot = RAGChatbotLM()
+    bot.run()
