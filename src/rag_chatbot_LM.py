@@ -10,7 +10,7 @@ from sentence_transformers import SentenceTransformer, util
 import joblib
 import requests
 
-load_dotenv()
+QUERY_SRC="data\Queries.csv"
 
 # LM Studio configuration
 LM_STUDIO_API_BASE = "http://127.0.0.1:1234/v1" #http://localhost:1234/v1
