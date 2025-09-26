@@ -6,6 +6,8 @@ from sklearn.ensemble import StackingClassifier
 from lightgbm import LGBMClassifier
 from xgboost import XGBClassifier
 import joblib
+import warnings
+warnings.filterwarnings('ignore')
 
 def train_hybrid_model(data_path='data/filtered_data.csv', model_path='models/hybrid_classifier.pkl'):
     df = pd.read_csv(data_path)

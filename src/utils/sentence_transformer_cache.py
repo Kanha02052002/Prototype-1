@@ -24,21 +24,21 @@ class SentenceTransformerCache:
             
             # Check if model is already downloaded
             if os.path.exists(cls._model_path) and os.path.isdir(cls._model_path):
-                print(f"🔄 Loading sentence transformer model from local cache: {cls._model_path}")
+                print(f"Loading sentence transformer model from local cache: {cls._model_path}")
                 model = SentenceTransformer(cls._model_path)
-                print("✅ Sentence transformer model loaded from cache!")
+                print("Sentence transformer model loaded from cache!")
             else:
-                print("📥 Downloading sentence transformer model (one-time setup)...")
+                print("Downloading sentence transformer model (one-time setup)...")
                 # Download model
                 model = SentenceTransformer('all-MiniLM-L6-v2')
                 
                 # Save model locally for future use
-                print(f"💾 Saving model to local cache: {cls._model_path}")
+                print(f"Saving model to local cache: {cls._model_path}")
                 model.save(cls._model_path)
-                print("✅ Sentence transformer model downloaded and cached!")
+                print("Sentence transformer model downloaded and cached!")
                 
             return model
         except Exception as e:
-            print(f"❌ Error loading sentence transformer model: {e}")
-            print("💡 Falling back to online loading...")
+            print(f"Error loading sentence transformer model: {e}")
+            print("Falling back to online loading...")
             return SentenceTransformer('all-MiniLM-L6-v2')
