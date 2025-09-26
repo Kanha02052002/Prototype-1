@@ -22,7 +22,5 @@ def main():
     bot = ChatLogic()
     bot.run()
 
-    
-
 if __name__ == "__main__":
     main()
