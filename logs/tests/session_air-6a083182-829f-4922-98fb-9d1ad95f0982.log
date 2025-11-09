@@ -1,0 +1,17 @@
+[18:29:45] BOT: Hello! 👋 I'm your IT Support Assistant. Please describe your issue.
+[18:29:52] USER: forgot password for Jira
+BOT: I found these top categories for your issue — please reply with the number (1-3) of the best match:
+1. Authentication & MFA
+2. Unauthorized Access
+3. ERP Access & Permissions
+[18:29:59] USER: selected 2
+BOT: Is it for your personal account?
+[18:30:40] USER: auto_answer_1_6
+BOT: Is it affecting only one user or multiple users?
+[18:31:01] USER: auto_answer_2_6
+BOT: Have you tried resetting the password via the Jira password reset link or email?
+[18:31:05] USER: auto_answer_3_6
+BOT: Please provide some more context or details about the issue, in form of text or screenshots. (optional)
+[18:31:07] USER: auto_answer_4_6
+BOT: Ticket creation returned: 401 - {"errorMessages":["You do not have permission to create issues in this project."],"errors":{}}
+[18:31:07] ✅ Chat completed successfully

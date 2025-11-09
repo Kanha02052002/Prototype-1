@@ -1,0 +1,17 @@
+[12:59:27] BOT: Hello! 👋 I'm your IT Support Assistant. Please describe your issue.
+[13:00:16] USER: laptop is running slow
+BOT: I found these top categories for your issue — please reply with the number (1-3) of the best match:
+1. Laptop Issues
+2. WAN / Internet
+3. Network Performance
+[13:00:45] USER: selected 1
+BOT: Is it just one app or the whole system?
+[13:01:06] USER: auto_answer_1_3
+BOT: Does it freeze randomly?
+[13:01:25] USER: auto_answer_2_3
+BOT: Have you recently installed any new software or updates?
+[13:01:27] USER: auto_answer_3_3
+BOT: Please provide some more context or details about the issue, in form of text or screenshots. (optional)
+[13:01:29] USER: auto_answer_4_3
+BOT: Ticket creation returned: 401 - {"errorMessages":["You do not have permission to create issues in this project."],"errors":{}}
+[13:01:29] ✅ Chat completed successfully

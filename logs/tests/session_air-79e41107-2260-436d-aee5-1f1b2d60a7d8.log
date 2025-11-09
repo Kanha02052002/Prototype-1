@@ -1,0 +1,17 @@
+[16:40:23] BOT: Hello! 👋 I'm your IT Support Assistant. Please describe your issue.
+[16:40:34] USER: Teams keeps crashing
+BOT: I found these top categories for your issue — please reply with the number (1-3) of the best match:
+1. Teams / Voice
+2. Wi-Fi Issues
+3. General Troubleshooting
+[16:40:53] USER: selected 1
+BOT: Is it crashing when you join a meeting?
+[16:41:14] USER: auto_answer_1_9
+BOT: Is this affecting your account only or multiple users?
+[16:41:29] USER: auto_answer_2_9
+BOT: Have you checked if the issue occurs during specific activities, like calling or sharing screens?
+[16:41:38] USER: auto_answer_3_9
+BOT: Please provide some more context or details about the issue, in form of text or screenshots. (optional)
+[16:41:43] USER: auto_answer_4_9
+BOT: Ticket creation returned: 401 - {"errorMessages":["You do not have permission to create issues in this project."],"errors":{}}
+[16:41:43] ✅ Chat completed successfully

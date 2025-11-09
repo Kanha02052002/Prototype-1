@@ -1,0 +1,17 @@
+[13:21:30] BOT: Hello! 👋 I'm your IT Support Assistant. Please describe your issue.
+[13:22:47] USER: email not syncing in Outlook
+BOT: I found these top categories for your issue — please reply with the number (1-3) of the best match:
+1. Email & Collaboration
+2. Data Issues / Schema & Object Changes / Data Sync Failures
+3. Mailbox & Group Emails
+[13:23:07] USER: selected 2
+BOT: Is it syncing at all?
+[13:23:37] USER: auto_answer_1_5
+BOT: Is it syncing at all?
+[13:23:51] USER: auto_answer_2_5
+BOT: Has the email been successfully synced with any other device or account?
+[13:23:55] USER: auto_answer_3_5
+BOT: Please provide some more context or details about the issue, in form of text or screenshots. (optional)
+[13:23:57] USER: auto_answer_4_5
+BOT: Ticket creation returned: 401 - {"errorMessages":["You do not have permission to create issues in this project."],"errors":{}}
+[13:23:57] ✅ Chat completed successfully

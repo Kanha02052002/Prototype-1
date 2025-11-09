@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT Support Chatbot</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #24243e 100%);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #e2e8f0;
+        }
+
+        .chat-container {
+            width: 400px;
+            height: 600px;
+            background: #1a202c;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            border: 1px solid #2d3748;
+        }
+
+        .chat-header {
+            background: linear-gradient(135deg, #4a5568 0%, #2d3748 100%);
+            color: white;
+            padding: 15px;
+            text-align: center;
+            font-weight: bold;
+            border-bottom: 1px solid #2d3748;
+        }
+
+        .chat-messages {
+            flex: 1;
+            padding: 15px;
+            overflow-y: auto;
+            background: #2d3748;
+        }
+
+        .message {
+            margin: 10px 0;
+            padding: 12px 15px;
+            border-radius: 12px;
+            max-width: 80%;
+            word-wrap: break-word;
+            font-size: 14px;
+            line-height: 1.4;
+        }
+
+        .user-message {
+            background: linear-gradient(135deg, #4299e1 0%, #3182ce 100%);
+            color: white;
+            margin-left: auto;
+            text-align: right;
+            border-bottom-right-radius: 4px;
+        }
+
+        .bot-message {
+            background: #4a5568;
+            color: #f7fafc;
+            border-bottom-left-radius: 4px;
+        }
+
+        .chat-input {
+            display: flex;
+            padding: 15px;
+            background: #2d3748;
+            border-top: 1px solid #4a5568;
+        }
+
+        .chat-input input {
+            flex: 1;
+            padding: 12px;
+            border: 1px solid #4a5568;
+            border-radius: 8px;
+            background: #4a5568;
+            color: #e2e8f0;
+            outline: none;
+            font-size: 14px;
+        }
+
+        .chat-input input:focus {
+            border-color: #4299e1;
+            box-shadow: 0 0 0 2px rgba(66, 153, 225, 0.2);
+        }
+
+        .chat-input button {
+            margin-left: 10px;
+            padding: 12px 20px;
+            background: linear-gradient(135deg, #4299e1 0%, #3182ce 100%);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+
+        .chat-input button:hover {
+            background: linear-gradient(135deg, #3182ce 0%, #2c5282 100%);
+            transform: translateY(-1px);
+        }
+
+        .typing-indicator {
+            display: none;
+            color: #a0aec0;
+            font-style: italic;
+            padding: 10px;
+            font-size: 13px;
+        }
+
+        .category-selection {
+            display: none;
+            padding: 10px;
+            background: #4a5568;
+            border-radius: 8px;
+            margin: 10px 0;
+        }
+
+        .category-btn {
+            display: block;
+            width: 100%;
+            padding: 12px;
+            margin: 8px 0;
+            background: linear-gradient(135deg, #4a5568 0%, #2d3748 100%);
+            border: 1px solid #4a5568;
+            border-radius: 8px;
+            color: #e2e8f0;
+            cursor: pointer;
+            text-align: left;
+            font-size: 14px;
+            transition: all 0.3s ease;
+        }
+
+        .category-btn:hover {
+            background: linear-gradient(135deg, #2d3748 0%, #4a5568 100%);
+            border-color: #4299e1;
+            transform: translateX(5px);
+        }
+
+        /* Scrollbar styling */
+        .chat-messages::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        .chat-messages::-webkit-scrollbar-track {
+            background: #2d3748;
+        }
+
+        .chat-messages::-webkit-scrollbar-thumb {
+            background: #4a5568;
+            border-radius: 3px;
+        }
+
+        .chat-messages::-webkit-scrollbar-thumb:hover {
+            background: #4299e1;
+        }
+
+        /* Animation for messages */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .message {
+            animation: fadeIn 0.3s ease-out;
+        }
+
+        /* Status indicator */
+        .status-indicator {
+            display: inline-block;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            margin-right: 8px;
+            background-color: #48bb78;
+            animation: pulse 1.5s infinite;
+        }
+
+        @keyframes pulse {
+            0% { opacity: 1; }
+            50% { opacity: 0.5; }
+            100% { opacity: 1; }
+        }
+
+        /* Header glow effect */
+        .chat-header {
+            position: relative;
+            overflow: hidden;
+        }
+
+        .chat-header::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(66, 153, 225, 0.1) 0%, transparent 70%);
+            animation: rotate 10s linear infinite;
+            z-index: 0;
+        }
+
+        @keyframes rotate {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+
+        .chat-header > span {
+            position: relative;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <span>IT Support Assistant</span>
+        </div>
+        <div class="chat-messages" id="chatMessages">
+            <div class="message bot-message">
+                <span class="status-indicator"></span>Hello! I'm your IT Support Assistant. Please describe your issue.
+            </div>
+        </div>
+        <div class="typing-indicator" id="typingIndicator">
+            <span class="status-indicator"></span>Assistant is typing...
+        </div>
+        <div class="category-selection" id="categorySelection">
+            <!-- Category buttons will be added here dynamically -->
+        </div>
+        <div class="chat-input">
+            <input type="text" id="userInput" placeholder="Type your message..." autocomplete="off">
+            <button onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+
+    <script>
+        let conversationState = {
+            step: 'initial',
+            session_id: null,
+            top_categories: [],
+            selected_category: null,
+            category_questions: [],
+            current_question_index: 0,
+            answers: {}
+        };
+
+        const API_URL = 'http://127.0.0.1:8000';
+
+        async function sendMessage() {
+            const input = document.getElementById('userInput');
+            const message = input.value.trim();
+            
+            if (!message) return;
+
+            // Add user message to chat
+            addMessage(message, 'user');
+            input.value = '';
+
+            if (conversationState.step === 'initial') {
+                // First message - get categories
+                await getInitialResponse(message);
+            } else if (conversationState.step === 'category_selection') {
+                // User selected a category number
+                const categoryChoice = parseInt(message);
+                if (categoryChoice >= 1 && categoryChoice <= conversationState.top_categories.length) {
+                    await selectCategory(categoryChoice);
+                } else {
+                    showBotMessage("Please select a valid category number (1-" + conversationState.top_categories.length + ")");
+                }
+            } else if (conversationState.step === 'answering_questions') {
+                // User answered a question
+                conversationState.answers[`Q${conversationState.current_question_index}`] = message;
+                await askNextQuestion();
+            } else if (conversationState.step === 'additional_details') {
+                // User provided additional details
+                await submitAdditionalDetails(message);
+            }
+        }
+
+        async function getInitialResponse(initial_query) {
+            showTypingIndicator();
+            
+            try {
+                const response = await fetch(`${API_URL}/chat`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        initial_query: initial_query,
+                        step: 'initial'
+                    })
+                });
+
+                const data = await response.json();
+                
+                if (response.ok) {
+                    conversationState.session_id = data.session_id;
+                    conversationState.step = data.step;
+                    
+                    // Extract categories from the message
+                    const categoriesMatch = data.message.match(/Top matching categories:\n((?:\d+\. .*\n?)*)/);
+                    if (categoriesMatch) {
+                        const categoriesText = categoriesMatch[1];
+                        const categoryLines = categoriesText.split('\n').filter(line => line.trim() !== '');
+                        conversationState.top_categories = categoryLines.map(line => {
+                            const parts = line.split('. ');
+                            return { category: parts[1] };
+                        });
+                    }
+                    
+                    showBotMessage(data.message);
+                } else {
+                    showBotMessage("Error: " + (data.detail || "Something went wrong"));
+                }
+            } catch (error) {
+                showBotMessage("Error connecting to server: " + error.message);
+            } finally {
+                hideTypingIndicator();
+            }
+        }
+
+        async function selectCategory(categoryChoice) {
+            showTypingIndicator();
+            
+            try {
+                const response = await fetch(`${API_URL}/chat`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        initial_query: "dummy", // This is just for structure
+                        category_choice: categoryChoice,
+                        session_id: conversationState.session_id,
+                        step: 'category_selection'
+                    })
+                });
+
+                const data = await response.json();
+                
+                if (response.ok) {
+                    conversationState.step = data.step;
+                    showBotMessage(data.message);
+                } else {
+                    showBotMessage("Error: " + (data.detail || "Something went wrong"));
+                }
+            } catch (error) {
+                showBotMessage("Error connecting to server: " + error.message);
+            } finally {
+                hideTypingIndicator();
+            }
+        }
+
+        async function askNextQuestion() {
+            showTypingIndicator();
+            
+            try {
+                const response = await fetch(`${API_URL}/chat`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        initial_query: "dummy", // This is just for structure
+                        user_answer: conversationState.answers[`Q${conversationState.current_question_index}`],
+                        session_id: conversationState.session_id,
+                        step: 'answering_questions'
+                    })
+                });
+
+                const data = await response.json();
+                
+                if (response.ok) {
+                    conversationState.step = data.step;
+                    conversationState.current_question_index++;
+                    
+                    if (data.step === 'additional_details') {
+                        showBotMessage(data.message);
+                    } else {
+                        showBotMessage(data.message);
+                    }
+                } else {
+                    showBotMessage("Error: " + (data.detail || "Something went wrong"));
+                }
+            } catch (error) {
+                showBotMessage("Error connecting to server: " + error.message);
+            } finally {
+                hideTypingIndicator();
+            }
+        }
+
+        async function submitAdditionalDetails(details) {
+            showTypingIndicator();
+            
+            try {
+                const response = await fetch(`${API_URL}/chat`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        initial_query: "dummy", // This is just for structure
+                        user_answer: details,
+                        session_id: conversationState.session_id,
+                        step: 'additional_details'
+                    })
+                });
+
+                const data = await response.json();
+                
+                if (response.ok) {
+                    conversationState.step = data.step;
+                    showBotMessage(data.message);
+                    
+                    // Reset conversation state
+                    conversationState = {
+                        step: 'initial',
+                        session_id: null,
+                        top_categories: [],
+                        selected_category: null,
+                        category_questions: [],
+                        current_question_index: 0,
+                        answers: {}
+                    };
+                } else {
+                    showBotMessage("Error: " + (data.detail || "Something went wrong"));
+                }
+            } catch (error) {
+                showBotMessage("Error connecting to server: " + error.message);
+            } finally {
+                hideTypingIndicator();
+            }
+        }
+
+        function showBotMessage(message) {
+            addMessage(message, 'bot');
+        }
+
+        function addMessage(message, sender) {
+            const chatMessages = document.getElementById('chatMessages');
+            const messageDiv = document.createElement('div');
+            messageDiv.className = `message ${sender}-message`;
+            
+            if (sender === 'bot') {
+                messageDiv.innerHTML = `<span class="status-indicator"></span>${message}`;
+            } else {
+                messageDiv.textContent = message;
+            }
+            
+            chatMessages.appendChild(messageDiv);
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+        }
+
+        function showTypingIndicator() {
+            document.getElementById('typingIndicator').style.display = 'block';
+        }
+
+        function hideTypingIndicator() {
+            document.getElementById('typingIndicator').style.display = 'none';
+        }
+
+        // Allow sending message with Enter key
+        document.getElementById('userInput').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                sendMessage();
+            }
+        });
+
+        // Initial focus on input
+        document.getElementById('userInput').focus();
+    </script>
+</body>
+</html> 

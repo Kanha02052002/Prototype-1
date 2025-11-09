@@ -1,0 +1,26 @@
+[
+  {
+    "user": 3,
+    "session_id": "air-f909d7df-a58e-40f7-bbda-b0ddd72f4106",
+    "status": "success",
+    "messages": 7,
+    "avg_latency": 2.88,
+    "total_duration": 30.38
+  },
+  {
+    "user": 2,
+    "session_id": "air-0554f00d-a423-4cea-a3ff-9b1f7a6505c6",
+    "status": "success",
+    "messages": 7,
+    "avg_latency": 3.24,
+    "total_duration": 32.15
+  },
+  {
+    "user": 1,
+    "session_id": "air-c03be3f8-f692-497b-96e1-b3e8c72859f4",
+    "status": "success",
+    "messages": 7,
+    "avg_latency": 3.08,
+    "total_duration": 33.97
+  }
+]

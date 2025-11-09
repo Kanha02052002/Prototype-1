@@ -1,0 +1,25 @@
+[2025-10-25 02:44:57] User-1: Starting session
+[2025-10-25 02:44:57] User-2: Starting session
+[2025-10-25 02:44:57] User-3: Starting session
+[2025-10-25 02:44:57] User-4: Starting session
+[2025-10-25 02:44:57] User-1 | Step: initial | Response: {'detail': "type object 'ChatLogic' has no attribute '_sentence_model'"}
+[2025-10-25 02:44:57] User-3 | Step: initial | Response: {'detail': "type object 'ChatLogic' has no attribute '_sentence_model'"}
+[2025-10-25 02:44:57] User-4 | Step: initial | Response: {'detail': "type object 'ChatLogic' has no attribute '_sentence_model'"}
+[2025-10-25 02:44:57] User-2 | Step: initial | Response: {'detail': "type object 'ChatLogic' has no attribute '_sentence_model'"}
+[2025-10-25 02:44:57] User-1 | Step: category_selection | Response: {'detail': "type object 'ChatLogic' has no attribute '_sentence_model'"}
+[2025-10-25 02:44:57] User-4 | Step: category_selection | Response: {'detail': "type object 'ChatLogic' has no attribute '_sentence_model'"}
+[2025-10-25 02:44:57] User-2 | Step: category_selection | Response: {'detail': "type object 'ChatLogic' has no attribute '_sentence_model'"}
+[2025-10-25 02:44:57] User-3 | Step: category_selection | Response: {'detail': "type object 'ChatLogic' has no attribute '_sentence_model'"}
+[2025-10-25 02:44:57] User-1 | Step: answering_questions | Response: {'detail': "type object 'ChatLogic' has no attribute '_sentence_model'"}
+[2025-10-25 02:44:57] User-4 | Step: answering_questions | Response: {'detail': "type object 'ChatLogic' has no attribute '_sentence_model'"}
+[2025-10-25 02:44:57] User-2 | Step: answering_questions | Response: {'detail': "type object 'ChatLogic' has no attribute '_sentence_model'"}
+[2025-10-25 02:44:57] User-3 | Step: answering_questions | Response: {'detail': "type object 'ChatLogic' has no attribute '_sentence_model'"}
+[2025-10-25 02:44:57] User-1 | Step: additional_details | Response: {'detail': "type object 'ChatLogic' has no attribute '_sentence_model'"}
+[2025-10-25 02:44:57] User-1: Completed all steps successfully.
+[2025-10-25 02:44:57] User-4 | Step: additional_details | Response: {'detail': "type object 'ChatLogic' has no attribute '_sentence_model'"}
+[2025-10-25 02:44:57] User-4: Completed all steps successfully.
+[2025-10-25 02:44:57] User-2 | Step: additional_details | Response: {'detail': "type object 'ChatLogic' has no attribute '_sentence_model'"}
+[2025-10-25 02:44:57] User-2: Completed all steps successfully.
+[2025-10-25 02:44:57] User-3 | Step: additional_details | Response: {'detail': "type object 'ChatLogic' has no attribute '_sentence_model'"}
+[2025-10-25 02:44:57] User-3: Completed all steps successfully.
+[2025-10-25 02:44:57] Total execution time: 0.39s

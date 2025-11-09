@@ -1,0 +1,82 @@
+[
+  {
+    "user": 1,
+    "session_id": "air-d394d0f1-24d5-47a0-a71c-2de63315208f",
+    "status": "success",
+    "messages": 7,
+    "avg_latency": 10.34,
+    "total_duration": 79.79
+  },
+  {
+    "user": 8,
+    "session_id": "air-b1628655-4b07-46a3-be16-605d1388ba15",
+    "status": "success",
+    "messages": 7,
+    "avg_latency": 10.08,
+    "total_duration": 79.74
+  },
+  {
+    "user": 4,
+    "session_id": "air-82d28504-8cce-487d-a850-08c0b45ae7d5",
+    "status": "success",
+    "messages": 7,
+    "avg_latency": 10.49,
+    "total_duration": 79.79
+  },
+  {
+    "user": 10,
+    "session_id": "air-e80af4e2-a396-47b2-a05d-0c6322f873f7",
+    "status": "success",
+    "messages": 7,
+    "avg_latency": 10.37,
+    "total_duration": 80.29
+  },
+  {
+    "user": 2,
+    "session_id": "air-2f819520-8b8a-43c2-aed7-7956ecc101ac",
+    "status": "success",
+    "messages": 7,
+    "avg_latency": 10.52,
+    "total_duration": 80.39
+  },
+  {
+    "user": 9,
+    "session_id": "air-fab8c645-7b11-46bf-b3e9-53632e3ba976",
+    "status": "success",
+    "messages": 7,
+    "avg_latency": 10.11,
+    "total_duration": 80.64
+  },
+  {
+    "user": 7,
+    "session_id": "air-57eee173-59bd-449c-ac9c-4718f6570662",
+    "status": "success",
+    "messages": 7,
+    "avg_latency": 10.36,
+    "total_duration": 80.66
+  },
+  {
+    "user": 5,
+    "session_id": "air-c722a403-2175-40b4-98ac-1132eab6d5ce",
+    "status": "success",
+    "messages": 7,
+    "avg_latency": 10.01,
+    "total_duration": 80.74
+  },
+  {
+    "user": 6,
+    "session_id": "air-6a083182-829f-4922-98fb-9d1ad95f0982",
+    "status": "success",
+    "messages": 7,
+    "avg_latency": 10.54,
+    "total_duration": 82.43
+  },
+  {
+    "user": 3,
+    "session_id": "air-e3ccd17b-0381-43ce-b738-991c77a0a144",
+    "status": "success",
+    "messages": 7,
+    "avg_latency": 10.7,
+    "total_duration": 83.9
+  }
+]

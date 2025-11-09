@@ -1,0 +1,17 @@
+[13:21:30] BOT: Hello! 👋 I'm your IT Support Assistant. Please describe your issue.
+[13:22:00] USER: VPN not connecting
+BOT: I found these top categories for your issue — please reply with the number (1-3) of the best match:
+1. VPN Access & Connectivity
+2. VPN & Remote Access
+3. Certificates & DNS
+[13:22:54] USER: selected 1
+BOT: Is it connecting to any server?
+[13:23:09] USER: auto_answer_1_4
+BOT: Is this affecting all users?
+[13:23:23] USER: auto_answer_2_4
+BOT: "Has the VPN been configured to use a specific server or profile, or is it relying on auto-selection?"
+[13:23:37] USER: auto_answer_3_4
+BOT: Please provide some more context or details about the issue, in form of text or screenshots. (optional)
+[13:23:42] USER: auto_answer_4_4
+BOT: Ticket creation returned: 401 - {"errorMessages":["You do not have permission to create issues in this project."],"errors":{}}
+[13:23:42] ✅ Chat completed successfully

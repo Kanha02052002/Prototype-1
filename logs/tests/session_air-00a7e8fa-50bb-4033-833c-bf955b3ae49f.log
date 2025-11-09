@@ -1,0 +1,17 @@
+[16:40:23] BOT: Hello! 👋 I'm your IT Support Assistant. Please describe your issue.
+[16:40:34] USER: system not booting up
+BOT: I found these top categories for your issue — please reply with the number (1-3) of the best match:
+1. Laptop Issues
+2. LAN / Port Issues
+3. Asset & Backup
+[16:40:45] USER: selected 1
+BOT: Is the power button working?
+[16:40:59] USER: auto_answer_1_7
+BOT: Does the screen turn on?
+[16:41:19] USER: auto_answer_2_7
+BOT: Have you recently connected or changed any hardware, like a power supply or external devices?
+[16:41:29] USER: auto_answer_3_7
+BOT: Please provide some more context or details about the issue, in form of text or screenshots. (optional)
+[16:41:43] USER: auto_answer_4_7
+BOT: Ticket creation returned: 401 - {"errorMessages":["You do not have permission to create issues in this project."],"errors":{}}
+[16:41:43] ✅ Chat completed successfully

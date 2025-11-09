@@ -1,0 +1,17 @@
+[20:02:39] BOT: Hello! 👋 I'm your IT Support Assistant. Please describe your issue.
+[20:02:44] USER: unable to access shared folder
+BOT: I found these top categories for your issue — please reply with the number (1-3) of the best match:
+1. Storage & Keys
+2. SharePoint / OneDrive
+3. SharePoint / OneDrive
+[20:02:55] USER: selected 3
+BOT: Can you access it from your device?
+[20:03:12] USER: auto_answer_1_10
+BOT: Is this affecting only your files or others?
+[20:03:18] USER: auto_answer_2_10
+BOT: Have you tried accessing the shared folder through the web client or desktop app?
+[20:03:18] USER: auto_answer_3_10
+BOT: Please provide some more context or details about the issue, in form of text or screenshots. (optional)
+[20:03:19] USER: auto_answer_4_10
+BOT: Ticket creation returned: 401 - {"errorMessages":["You do not have permission to create issues in this project."],"errors":{}}
+[20:03:19] ✅ Chat completed successfully

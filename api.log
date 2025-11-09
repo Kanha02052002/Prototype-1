@@ -1,0 +1,18 @@
+2025-10-25 02:24:14,492 - ERROR - Error with model caching: type object 'ChatLogic' has no attribute '_model_cache_path'
+2025-10-25 02:24:14,538 - INFO - Use pytorch device_name: cpu
+2025-10-25 02:24:14,538 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-25 02:24:20,242 - INFO - New conversation started with query: unable to access d365
+2025-10-25 02:24:22,424 - INFO - Added to instance cluster with session_id: air-a0c5aad5-7c7a-45e7-913b-b8ed64b6f5f2
+2025-10-25 02:29:09,170 - ERROR - Error with model caching: type object 'ChatLogic' has no attribute '_model_cache_path'
+2025-10-25 02:29:09,175 - INFO - Use pytorch device_name: cpu
+2025-10-25 02:29:09,176 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-25 02:29:12,341 - INFO - New conversation started with query: Issue RbzCiTil
+2025-10-25 02:29:12,732 - INFO - Added to instance cluster with session_id: air-fd49ba82-d10f-45c9-8340-5d95d6e07203
+2025-10-25 02:29:12,734 - INFO - New conversation started with query: Issue QYjEIUOd
+2025-10-25 02:29:12,917 - INFO - Added to instance cluster with session_id: air-a30fe468-059a-4fd7-9d59-84713615d105
+2025-10-25 02:29:12,919 - INFO - New conversation started with query: Issue gZvbGdrv
+2025-10-25 02:29:13,108 - INFO - Added to instance cluster with session_id: air-65b43706-9d33-4357-b3f4-3cf6743bbe89
+2025-10-25 02:29:13,109 - INFO - New conversation started with query: Issue yUUVCwat
+2025-10-25 02:29:13,320 - INFO - Added to instance cluster with session_id: air-bfbdeb0d-d478-4d0c-a2fd-d6eed9e3f62c
+2025-10-25 02:30:31,487 - INFO - New conversation started with query: unable to access d365
+2025-10-25 02:30:31,706 - INFO - Added to instance cluster with session_id: air-6117cd50-6b98-4727-a4d6-7104c100492a

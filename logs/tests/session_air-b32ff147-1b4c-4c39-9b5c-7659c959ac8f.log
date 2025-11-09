@@ -1,0 +1,17 @@
+[13:21:30] BOT: Hello! 👋 I'm your IT Support Assistant. Please describe your issue.
+[13:22:52] USER: printer not detected
+BOT: I found these top categories for your issue — please reply with the number (1-3) of the best match:
+1. Printer Issues
+2. LAN / Port Issues
+3. Laptop Issues
+[13:23:20] USER: selected 2
+BOT: Is the printer online or offline?
+[13:23:41] USER: auto_answer_1_8
+BOT: Is this a single or multiple port issue?
+[13:23:55] USER: auto_answer_2_8
+BOT: Has the printer been connected to a network or is it directly connected to a computer?
+[13:23:57] USER: auto_answer_3_8
+BOT: Please provide some more context or details about the issue, in form of text or screenshots. (optional)
+[13:23:59] USER: auto_answer_4_8
+BOT: Ticket creation returned: 401 - {"errorMessages":["You do not have permission to create issues in this project."],"errors":{}}
+[13:23:59] ✅ Chat completed successfully

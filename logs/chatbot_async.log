@@ -1,0 +1,679 @@
+2025-10-28 17:45:04,900 | INFO | MainThread | [global] 🚀 Starting IT Support Chatbot API...
+2025-10-28 17:45:04,902 | INFO | MainThread | [global] ✅ Readiness check passed — env, dataset, and model cache OK.
+2025-10-28 17:45:04,902 | INFO | MainThread | [global] 🧠 Preloading SentenceTransformer model asynchronously...
+2025-10-28 17:45:04,906 | INFO | Use pytorch device_name: cpu
+2025-10-28 17:45:04,907 | INFO | Load pretrained SentenceTransformer: models_cache/all-MiniLM-L6-v2
+2025-10-28 17:45:05,387 | INFO | MainThread | [global] ✅ Model loaded and cached successfully.
+2025-10-28 17:45:05,387 | INFO | MainThread | [global] 🧹 Background cleanup task started.
+2025-10-28 17:45:14,791 | INFO | MainThread | [global] 🆕 New session started: air-1daf7737-64ff-4995-b9dc-76356dab9510
+2025-10-28 17:45:14,793 | INFO | MainThread | [global] 🆕 New session started: air-e2d4d7b0-3aed-46ee-b75d-5e5c1b38ec50
+2025-10-28 17:45:14,794 | INFO | MainThread | [global] 🆕 New session started: air-fbc2a59d-48d1-4b41-a5d4-69ce8e62bc28
+2025-10-28 17:45:14,795 | INFO | MainThread | [global] 🆕 New session started: air-3a89b6be-1d12-4197-802d-b9947d6e6de5
+2025-10-28 17:45:14,796 | INFO | MainThread | [global] 🆕 New session started: air-1d6778d2-1e94-4a4a-9348-c2f16cb8de69
+2025-10-28 17:45:14,797 | INFO | MainThread | [global] 🆕 New session started: air-0e3d3144-a0df-48cb-bbf6-dfeeb22ad501
+2025-10-28 17:45:14,797 | INFO | MainThread | [global] 🆕 New session started: air-c7b20313-2122-495a-a2e9-cb75c04ea394
+2025-10-28 17:45:14,798 | INFO | MainThread | [global] 🆕 New session started: air-255651cc-df6a-4c80-ab85-0747971df3b9
+2025-10-28 17:45:14,799 | INFO | MainThread | [global] 🆕 New session started: air-c01b78c6-5455-4dd8-a0e7-d52d21c86019
+2025-10-28 17:45:14,800 | INFO | MainThread | [global] 🆕 New session started: air-784939ac-3789-44ea-804d-9e1a44f3ff33
+2025-10-28 17:45:15,733 | INFO | MainThread | [global] [air-784939ac-3789-44ea-804d-9e1a44f3ff33] USER: system not booting up
+2025-10-28 17:45:15,734 | INFO | MainThread | [air-784939ac-3789-44ea-804d-9e1a44f3ff33] STATE=waiting_for_query | USER='system not booting up'
+2025-10-28 17:45:15,734 | INFO | MainThread | [global] [air-3a89b6be-1d12-4197-802d-b9947d6e6de5] USER: email not syncing in Outlook
+2025-10-28 17:45:15,734 | INFO | MainThread | [air-3a89b6be-1d12-4197-802d-b9947d6e6de5] STATE=waiting_for_query | USER='email not syncing in Outlook'
+2025-10-28 17:45:15,763 | INFO | MainThread | [global] [air-1d6778d2-1e94-4a4a-9348-c2f16cb8de69] USER: forgot password for Jira
+2025-10-28 17:45:15,765 | INFO | MainThread | [air-1d6778d2-1e94-4a4a-9348-c2f16cb8de69] STATE=waiting_for_query | USER='forgot password for Jira'
+2025-10-28 17:45:15,891 | INFO | MainThread | [global] [air-0e3d3144-a0df-48cb-bbf6-dfeeb22ad501] USER: Teams keeps crashing
+2025-10-28 17:45:15,891 | INFO | MainThread | [air-0e3d3144-a0df-48cb-bbf6-dfeeb22ad501] STATE=waiting_for_query | USER='Teams keeps crashing'
+2025-10-28 17:45:16,022 | INFO | MainThread | [global] [air-c7b20313-2122-495a-a2e9-cb75c04ea394] USER: unable to access shared folder
+2025-10-28 17:45:16,023 | INFO | MainThread | [air-c7b20313-2122-495a-a2e9-cb75c04ea394] STATE=waiting_for_query | USER='unable to access shared folder'
+2025-10-28 17:45:16,448 | INFO | MainThread | [global] [air-e2d4d7b0-3aed-46ee-b75d-5e5c1b38ec50] USER: need access for D365
+2025-10-28 17:45:16,448 | INFO | MainThread | [air-e2d4d7b0-3aed-46ee-b75d-5e5c1b38ec50] STATE=waiting_for_query | USER='need access for D365'
+2025-10-28 17:45:16,496 | INFO | MainThread | [global] [air-255651cc-df6a-4c80-ab85-0747971df3b9] USER: printer not detected
+2025-10-28 17:45:16,497 | INFO | MainThread | [air-255651cc-df6a-4c80-ab85-0747971df3b9] STATE=waiting_for_query | USER='printer not detected'
+2025-10-28 17:45:16,860 | INFO | MainThread | [global] [air-fbc2a59d-48d1-4b41-a5d4-69ce8e62bc28] USER: VPN not connecting
+2025-10-28 17:45:16,901 | INFO | MainThread | [air-fbc2a59d-48d1-4b41-a5d4-69ce8e62bc28] STATE=waiting_for_query | USER='VPN not connecting'
+2025-10-28 17:45:16,920 | INFO | MainThread | [global] [air-1daf7737-64ff-4995-b9dc-76356dab9510] USER: unable to connect to wifi
+2025-10-28 17:45:16,921 | INFO | MainThread | [air-1daf7737-64ff-4995-b9dc-76356dab9510] STATE=waiting_for_query | USER='unable to connect to wifi'
+2025-10-28 17:45:16,922 | INFO | MainThread | [global] [air-c01b78c6-5455-4dd8-a0e7-d52d21c86019] USER: laptop is running slow
+2025-10-28 17:45:16,922 | INFO | MainThread | [air-c01b78c6-5455-4dd8-a0e7-d52d21c86019] STATE=waiting_for_query | USER='laptop is running slow'
+2025-10-28 17:45:16,935 | INFO | Use pytorch device_name: cpu
+2025-10-28 17:45:16,939 | INFO | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-28 17:45:16,945 | INFO | Use pytorch device_name: cpu
+2025-10-28 17:45:16,946 | INFO | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-28 17:45:16,951 | INFO | Use pytorch device_name: cpu
+2025-10-28 17:45:16,951 | INFO | Use pytorch device_name: cpu
+2025-10-28 17:45:16,953 | INFO | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-28 17:45:16,955 | INFO | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-28 17:45:16,959 | INFO | Use pytorch device_name: cpu
+2025-10-28 17:45:16,960 | INFO | Use pytorch device_name: cpu
+2025-10-28 17:45:16,960 | INFO | Use pytorch device_name: cpu
+2025-10-28 17:45:16,961 | INFO | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-28 17:45:16,962 | INFO | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-28 17:45:16,967 | INFO | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-28 17:45:17,139 | INFO | Use pytorch device_name: cpu
+2025-10-28 17:45:17,139 | INFO | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-28 17:45:17,140 | INFO | Use pytorch device_name: cpu
+2025-10-28 17:45:17,141 | INFO | Use pytorch device_name: cpu
+2025-10-28 17:45:17,142 | INFO | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-28 17:45:17,142 | INFO | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-28 17:45:21,538 | ERROR | MainThread | [global] ❌ Error processing message for air-e2d4d7b0-3aed-46ee-b75d-5e5c1b38ec50: 'coroutine' object is not iterable
+Traceback (most recent call last):
+  File "D:\AIR-DATA\Prototype\api_server.py", line 194, in chat_message
+    result = await logic.handle_message(session["data"], user_message)
+  File "D:\AIR-DATA\Prototype\src\logic.py", line 702, in handle_message
+    for idx, c in enumerate(top_categories, start=1):
+TypeError: 'coroutine' object is not iterable
+2025-10-28 17:45:21,551 | ERROR | MainThread | [global] ❌ Error processing message for air-255651cc-df6a-4c80-ab85-0747971df3b9: 'coroutine' object is not iterable
+Traceback (most recent call last):
+  File "D:\AIR-DATA\Prototype\api_server.py", line 194, in chat_message
+    result = await logic.handle_message(session["data"], user_message)
+  File "D:\AIR-DATA\Prototype\src\logic.py", line 702, in handle_message
+    for idx, c in enumerate(top_categories, start=1):
+TypeError: 'coroutine' object is not iterable
+2025-10-28 17:45:21,553 | ERROR | MainThread | [global] ❌ Error processing message for air-c01b78c6-5455-4dd8-a0e7-d52d21c86019: 'coroutine' object is not iterable
+Traceback (most recent call last):
+  File "D:\AIR-DATA\Prototype\api_server.py", line 194, in chat_message
+    result = await logic.handle_message(session["data"], user_message)
+  File "D:\AIR-DATA\Prototype\src\logic.py", line 702, in handle_message
+    for idx, c in enumerate(top_categories, start=1):
+TypeError: 'coroutine' object is not iterable
+2025-10-28 17:45:21,554 | ERROR | MainThread | [global] ❌ Error processing message for air-1d6778d2-1e94-4a4a-9348-c2f16cb8de69: 'coroutine' object is not iterable
+Traceback (most recent call last):
+  File "D:\AIR-DATA\Prototype\api_server.py", line 194, in chat_message
+    result = await logic.handle_message(session["data"], user_message)
+  File "D:\AIR-DATA\Prototype\src\logic.py", line 702, in handle_message
+    for idx, c in enumerate(top_categories, start=1):
+TypeError: 'coroutine' object is not iterable
+2025-10-28 17:45:21,619 | ERROR | MainThread | [global] ❌ Error processing message for air-fbc2a59d-48d1-4b41-a5d4-69ce8e62bc28: 'coroutine' object is not iterable
+Traceback (most recent call last):
+  File "D:\AIR-DATA\Prototype\api_server.py", line 194, in chat_message
+    result = await logic.handle_message(session["data"], user_message)
+  File "D:\AIR-DATA\Prototype\src\logic.py", line 702, in handle_message
+    for idx, c in enumerate(top_categories, start=1):
+TypeError: 'coroutine' object is not iterable
+2025-10-28 17:45:21,631 | ERROR | MainThread | [global] ❌ Error processing message for air-1daf7737-64ff-4995-b9dc-76356dab9510: 'coroutine' object is not iterable
+Traceback (most recent call last):
+  File "D:\AIR-DATA\Prototype\api_server.py", line 194, in chat_message
+    result = await logic.handle_message(session["data"], user_message)
+  File "D:\AIR-DATA\Prototype\src\logic.py", line 702, in handle_message
+    for idx, c in enumerate(top_categories, start=1):
+TypeError: 'coroutine' object is not iterable
+2025-10-28 17:45:22,468 | INFO | MainThread | [global] [air-255651cc-df6a-4c80-ab85-0747971df3b9] USER: 3
+2025-10-28 17:45:22,468 | INFO | MainThread | [air-255651cc-df6a-4c80-ab85-0747971df3b9] STATE=waiting_for_query | USER='3'
+2025-10-28 17:45:22,536 | ERROR | MainThread | [global] ❌ Error processing message for air-c7b20313-2122-495a-a2e9-cb75c04ea394: 'coroutine' object is not iterable
+Traceback (most recent call last):
+  File "D:\AIR-DATA\Prototype\api_server.py", line 194, in chat_message
+    result = await logic.handle_message(session["data"], user_message)
+  File "D:\AIR-DATA\Prototype\src\logic.py", line 702, in handle_message
+    for idx, c in enumerate(top_categories, start=1):
+TypeError: 'coroutine' object is not iterable
+2025-10-28 17:45:22,539 | ERROR | MainThread | [global] ❌ Error processing message for air-0e3d3144-a0df-48cb-bbf6-dfeeb22ad501: 'coroutine' object is not iterable
+Traceback (most recent call last):
+  File "D:\AIR-DATA\Prototype\api_server.py", line 194, in chat_message
+    result = await logic.handle_message(session["data"], user_message)
+  File "D:\AIR-DATA\Prototype\src\logic.py", line 702, in handle_message
+    for idx, c in enumerate(top_categories, start=1):
+TypeError: 'coroutine' object is not iterable
+2025-10-28 17:45:22,542 | ERROR | MainThread | [global] ❌ Error processing message for air-3a89b6be-1d12-4197-802d-b9947d6e6de5: 'coroutine' object is not iterable
+Traceback (most recent call last):
+  File "D:\AIR-DATA\Prototype\api_server.py", line 194, in chat_message
+    result = await logic.handle_message(session["data"], user_message)
+  File "D:\AIR-DATA\Prototype\src\logic.py", line 702, in handle_message
+    for idx, c in enumerate(top_categories, start=1):
+TypeError: 'coroutine' object is not iterable
+2025-10-28 17:45:22,547 | ERROR | MainThread | [global] ❌ Error processing message for air-784939ac-3789-44ea-804d-9e1a44f3ff33: 'coroutine' object is not iterable
+Traceback (most recent call last):
+  File "D:\AIR-DATA\Prototype\api_server.py", line 194, in chat_message
+    result = await logic.handle_message(session["data"], user_message)
+  File "D:\AIR-DATA\Prototype\src\logic.py", line 702, in handle_message
+    for idx, c in enumerate(top_categories, start=1):
+TypeError: 'coroutine' object is not iterable
+2025-10-28 17:45:22,622 | INFO | Use pytorch device_name: cpu
+2025-10-28 17:45:22,623 | INFO | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-28 17:45:22,659 | INFO | MainThread | [global] [air-fbc2a59d-48d1-4b41-a5d4-69ce8e62bc28] USER: 3
+2025-10-28 17:45:22,659 | INFO | MainThread | [air-fbc2a59d-48d1-4b41-a5d4-69ce8e62bc28] STATE=waiting_for_query | USER='3'
+2025-10-28 17:45:22,759 | INFO | Use pytorch device_name: cpu
+2025-10-28 17:45:22,760 | INFO | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-28 17:45:23,266 | INFO | MainThread | [global] [air-e2d4d7b0-3aed-46ee-b75d-5e5c1b38ec50] USER: 3
+2025-10-28 17:45:23,266 | INFO | MainThread | [air-e2d4d7b0-3aed-46ee-b75d-5e5c1b38ec50] STATE=waiting_for_query | USER='3'
+2025-10-28 17:45:23,298 | INFO | MainThread | [global] [air-c01b78c6-5455-4dd8-a0e7-d52d21c86019] USER: 1
+2025-10-28 17:45:23,299 | INFO | MainThread | [air-c01b78c6-5455-4dd8-a0e7-d52d21c86019] STATE=waiting_for_query | USER='1'
+2025-10-28 17:45:23,352 | INFO | MainThread | [global] [air-1d6778d2-1e94-4a4a-9348-c2f16cb8de69] USER: 2
+2025-10-28 17:45:23,355 | INFO | MainThread | [air-1d6778d2-1e94-4a4a-9348-c2f16cb8de69] STATE=waiting_for_query | USER='2'
+2025-10-28 17:45:23,364 | INFO | Use pytorch device_name: cpu
+2025-10-28 17:45:23,364 | INFO | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-28 17:45:23,438 | INFO | MainThread | [global] [air-0e3d3144-a0df-48cb-bbf6-dfeeb22ad501] USER: 3
+2025-10-28 17:45:23,454 | INFO | MainThread | [air-0e3d3144-a0df-48cb-bbf6-dfeeb22ad501] STATE=waiting_for_query | USER='3'
+2025-10-28 17:45:23,510 | INFO | Use pytorch device_name: cpu
+2025-10-28 17:45:23,510 | INFO | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-28 17:45:23,512 | INFO | Use pytorch device_name: cpu
+2025-10-28 17:45:23,513 | INFO | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-28 17:45:23,588 | INFO | Use pytorch device_name: cpu
+2025-10-28 17:45:23,588 | INFO | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-28 17:45:23,643 | INFO | MainThread | [global] [air-1daf7737-64ff-4995-b9dc-76356dab9510] USER: 1
+2025-10-28 17:45:23,643 | INFO | MainThread | [air-1daf7737-64ff-4995-b9dc-76356dab9510] STATE=waiting_for_query | USER='1'
+2025-10-28 17:45:23,704 | INFO | MainThread | [global] [air-784939ac-3789-44ea-804d-9e1a44f3ff33] USER: 3
+2025-10-28 17:45:23,727 | INFO | MainThread | [air-784939ac-3789-44ea-804d-9e1a44f3ff33] STATE=waiting_for_query | USER='3'
+2025-10-28 17:45:23,735 | INFO | Use pytorch device_name: cpu
+2025-10-28 17:45:23,735 | INFO | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-28 17:45:23,823 | INFO | Use pytorch device_name: cpu
+2025-10-28 17:45:23,824 | INFO | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-28 17:45:24,162 | INFO | MainThread | [global] [air-c7b20313-2122-495a-a2e9-cb75c04ea394] USER: 2
+2025-10-28 17:45:24,162 | INFO | MainThread | [air-c7b20313-2122-495a-a2e9-cb75c04ea394] STATE=waiting_for_query | USER='2'
+2025-10-28 17:45:24,249 | INFO | MainThread | [global] [air-3a89b6be-1d12-4197-802d-b9947d6e6de5] USER: 3
+2025-10-28 17:45:24,253 | INFO | MainThread | [air-3a89b6be-1d12-4197-802d-b9947d6e6de5] STATE=waiting_for_query | USER='3'
+2025-10-28 17:45:24,268 | INFO | Use pytorch device_name: cpu
+2025-10-28 17:45:24,269 | INFO | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-28 17:45:24,376 | INFO | Use pytorch device_name: cpu
+2025-10-28 17:45:24,376 | INFO | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-28 17:45:25,701 | ERROR | MainThread | [global] ❌ Error processing message for air-255651cc-df6a-4c80-ab85-0747971df3b9: 'coroutine' object is not iterable
+Traceback (most recent call last):
+  File "D:\AIR-DATA\Prototype\api_server.py", line 194, in chat_message
+    result = await logic.handle_message(session["data"], user_message)
+  File "D:\AIR-DATA\Prototype\src\logic.py", line 702, in handle_message
+    for idx, c in enumerate(top_categories, start=1):
+TypeError: 'coroutine' object is not iterable
+2025-10-28 17:45:26,012 | ERROR | MainThread | [global] ❌ Error processing message for air-fbc2a59d-48d1-4b41-a5d4-69ce8e62bc28: 'coroutine' object is not iterable
+Traceback (most recent call last):
+  File "D:\AIR-DATA\Prototype\api_server.py", line 194, in chat_message
+    result = await logic.handle_message(session["data"], user_message)
+  File "D:\AIR-DATA\Prototype\src\logic.py", line 702, in handle_message
+    for idx, c in enumerate(top_categories, start=1):
+TypeError: 'coroutine' object is not iterable
+2025-10-28 17:45:26,545 | ERROR | MainThread | [global] ❌ Error processing message for air-e2d4d7b0-3aed-46ee-b75d-5e5c1b38ec50: 'coroutine' object is not iterable
+Traceback (most recent call last):
+  File "D:\AIR-DATA\Prototype\api_server.py", line 194, in chat_message
+    result = await logic.handle_message(session["data"], user_message)
+  File "D:\AIR-DATA\Prototype\src\logic.py", line 702, in handle_message
+    for idx, c in enumerate(top_categories, start=1):
+TypeError: 'coroutine' object is not iterable
+2025-10-28 17:45:26,789 | ERROR | MainThread | [global] ❌ Error processing message for air-1d6778d2-1e94-4a4a-9348-c2f16cb8de69: 'coroutine' object is not iterable
+Traceback (most recent call last):
+  File "D:\AIR-DATA\Prototype\api_server.py", line 194, in chat_message
+    result = await logic.handle_message(session["data"], user_message)
+  File "D:\AIR-DATA\Prototype\src\logic.py", line 702, in handle_message
+    for idx, c in enumerate(top_categories, start=1):
+TypeError: 'coroutine' object is not iterable
+2025-10-28 17:45:26,832 | ERROR | MainThread | [global] ❌ Error processing message for air-c01b78c6-5455-4dd8-a0e7-d52d21c86019: 'coroutine' object is not iterable
+Traceback (most recent call last):
+  File "D:\AIR-DATA\Prototype\api_server.py", line 194, in chat_message
+    result = await logic.handle_message(session["data"], user_message)
+  File "D:\AIR-DATA\Prototype\src\logic.py", line 702, in handle_message
+    for idx, c in enumerate(top_categories, start=1):
+TypeError: 'coroutine' object is not iterable
+2025-10-28 17:45:26,949 | ERROR | MainThread | [global] ❌ Error processing message for air-0e3d3144-a0df-48cb-bbf6-dfeeb22ad501: 'coroutine' object is not iterable
+Traceback (most recent call last):
+  File "D:\AIR-DATA\Prototype\api_server.py", line 194, in chat_message
+    result = await logic.handle_message(session["data"], user_message)
+  File "D:\AIR-DATA\Prototype\src\logic.py", line 702, in handle_message
+    for idx, c in enumerate(top_categories, start=1):
+TypeError: 'coroutine' object is not iterable
+2025-10-28 17:45:27,181 | ERROR | MainThread | [global] ❌ Error processing message for air-784939ac-3789-44ea-804d-9e1a44f3ff33: 'coroutine' object is not iterable
+Traceback (most recent call last):
+  File "D:\AIR-DATA\Prototype\api_server.py", line 194, in chat_message
+    result = await logic.handle_message(session["data"], user_message)
+  File "D:\AIR-DATA\Prototype\src\logic.py", line 702, in handle_message
+    for idx, c in enumerate(top_categories, start=1):
+TypeError: 'coroutine' object is not iterable
+2025-10-28 17:45:27,252 | ERROR | MainThread | [global] ❌ Error processing message for air-1daf7737-64ff-4995-b9dc-76356dab9510: 'coroutine' object is not iterable
+Traceback (most recent call last):
+  File "D:\AIR-DATA\Prototype\api_server.py", line 194, in chat_message
+    result = await logic.handle_message(session["data"], user_message)
+  File "D:\AIR-DATA\Prototype\src\logic.py", line 702, in handle_message
+    for idx, c in enumerate(top_categories, start=1):
+TypeError: 'coroutine' object is not iterable
+2025-10-28 17:45:27,424 | INFO | MainThread | [global] [air-e2d4d7b0-3aed-46ee-b75d-5e5c1b38ec50] USER: auto_answer_1_2
+2025-10-28 17:45:27,424 | INFO | MainThread | [air-e2d4d7b0-3aed-46ee-b75d-5e5c1b38ec50] STATE=waiting_for_query | USER='auto_answer_1_2'
+2025-10-28 17:45:27,543 | INFO | MainThread | [global] [air-fbc2a59d-48d1-4b41-a5d4-69ce8e62bc28] USER: auto_answer_1_4
+2025-10-28 17:45:27,544 | INFO | MainThread | [air-fbc2a59d-48d1-4b41-a5d4-69ce8e62bc28] STATE=waiting_for_query | USER='auto_answer_1_4'
+2025-10-28 17:45:27,546 | INFO | MainThread | [global] [air-255651cc-df6a-4c80-ab85-0747971df3b9] USER: auto_answer_1_8
+2025-10-28 17:45:27,547 | INFO | MainThread | [air-255651cc-df6a-4c80-ab85-0747971df3b9] STATE=waiting_for_query | USER='auto_answer_1_8'
+2025-10-28 17:45:27,561 | ERROR | MainThread | [global] ❌ Error processing message for air-c7b20313-2122-495a-a2e9-cb75c04ea394: 'coroutine' object is not iterable
+Traceback (most recent call last):
+  File "D:\AIR-DATA\Prototype\api_server.py", line 194, in chat_message
+    result = await logic.handle_message(session["data"], user_message)
+  File "D:\AIR-DATA\Prototype\src\logic.py", line 702, in handle_message
+    for idx, c in enumerate(top_categories, start=1):
+TypeError: 'coroutine' object is not iterable
+2025-10-28 17:45:27,564 | INFO | Use pytorch device_name: cpu
+2025-10-28 17:45:27,564 | INFO | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-28 17:45:27,711 | ERROR | MainThread | [global] ❌ Error processing message for air-3a89b6be-1d12-4197-802d-b9947d6e6de5: 'coroutine' object is not iterable
+Traceback (most recent call last):
+  File "D:\AIR-DATA\Prototype\api_server.py", line 194, in chat_message
+    result = await logic.handle_message(session["data"], user_message)
+  File "D:\AIR-DATA\Prototype\src\logic.py", line 702, in handle_message
+    for idx, c in enumerate(top_categories, start=1):
+TypeError: 'coroutine' object is not iterable
+2025-10-28 17:45:27,712 | INFO | Use pytorch device_name: cpu
+2025-10-28 17:45:27,712 | INFO | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-28 17:45:27,715 | INFO | Use pytorch device_name: cpu
+2025-10-28 17:45:27,716 | INFO | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-28 17:45:28,087 | INFO | MainThread | [global] [air-c01b78c6-5455-4dd8-a0e7-d52d21c86019] USER: auto_answer_1_3
+2025-10-28 17:45:28,088 | INFO | MainThread | [air-c01b78c6-5455-4dd8-a0e7-d52d21c86019] STATE=waiting_for_query | USER='auto_answer_1_3'
+2025-10-28 17:45:28,176 | INFO | Use pytorch device_name: cpu
+2025-10-28 17:45:28,176 | INFO | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-28 17:45:28,215 | INFO | MainThread | [global] [air-1daf7737-64ff-4995-b9dc-76356dab9510] USER: auto_answer_1_1
+2025-10-28 17:45:28,216 | INFO | MainThread | [air-1daf7737-64ff-4995-b9dc-76356dab9510] STATE=waiting_for_query | USER='auto_answer_1_1'
+2025-10-28 17:45:28,216 | INFO | MainThread | [global] [air-0e3d3144-a0df-48cb-bbf6-dfeeb22ad501] USER: auto_answer_1_9
+2025-10-28 17:45:28,216 | INFO | MainThread | [air-0e3d3144-a0df-48cb-bbf6-dfeeb22ad501] STATE=waiting_for_query | USER='auto_answer_1_9'
+2025-10-28 17:45:28,358 | INFO | MainThread | [global] [air-784939ac-3789-44ea-804d-9e1a44f3ff33] USER: auto_answer_1_7
+2025-10-28 17:45:28,361 | INFO | MainThread | [air-784939ac-3789-44ea-804d-9e1a44f3ff33] STATE=waiting_for_query | USER='auto_answer_1_7'
+2025-10-28 17:45:28,369 | INFO | Use pytorch device_name: cpu
+2025-10-28 17:45:28,370 | INFO | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-28 17:45:28,370 | INFO | Use pytorch device_name: cpu
+2025-10-28 17:45:28,372 | INFO | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-28 17:45:28,454 | INFO | Use pytorch device_name: cpu
+2025-10-28 17:45:28,455 | INFO | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-28 17:45:28,719 | INFO | MainThread | [global] [air-3a89b6be-1d12-4197-802d-b9947d6e6de5] USER: auto_answer_1_5
+2025-10-28 17:45:28,720 | INFO | MainThread | [air-3a89b6be-1d12-4197-802d-b9947d6e6de5] STATE=waiting_for_query | USER='auto_answer_1_5'
+2025-10-28 17:45:28,720 | INFO | MainThread | [global] [air-1d6778d2-1e94-4a4a-9348-c2f16cb8de69] USER: auto_answer_1_6
+2025-10-28 17:45:28,721 | INFO | MainThread | [air-1d6778d2-1e94-4a4a-9348-c2f16cb8de69] STATE=waiting_for_query | USER='auto_answer_1_6'
+2025-10-28 17:45:28,868 | INFO | Use pytorch device_name: cpu
+2025-10-28 17:45:28,868 | INFO | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-28 17:45:28,869 | INFO | Use pytorch device_name: cpu
+2025-10-28 17:45:28,870 | INFO | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-28 17:45:29,435 | INFO | MainThread | [global] [air-c7b20313-2122-495a-a2e9-cb75c04ea394] USER: auto_answer_1_10
+2025-10-28 17:45:29,436 | INFO | MainThread | [air-c7b20313-2122-495a-a2e9-cb75c04ea394] STATE=waiting_for_query | USER='auto_answer_1_10'
+2025-10-28 17:45:29,529 | INFO | Use pytorch device_name: cpu
+2025-10-28 17:45:29,529 | INFO | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-28 17:45:30,775 | ERROR | MainThread | [global] ❌ Error processing message for air-e2d4d7b0-3aed-46ee-b75d-5e5c1b38ec50: 'coroutine' object is not iterable
+Traceback (most recent call last):
+  File "D:\AIR-DATA\Prototype\api_server.py", line 194, in chat_message
+    result = await logic.handle_message(session["data"], user_message)
+  File "D:\AIR-DATA\Prototype\src\logic.py", line 702, in handle_message
+    for idx, c in enumerate(top_categories, start=1):
+TypeError: 'coroutine' object is not iterable
+2025-10-28 17:45:31,378 | ERROR | MainThread | [global] ❌ Error processing message for air-255651cc-df6a-4c80-ab85-0747971df3b9: 'coroutine' object is not iterable
+Traceback (most recent call last):
+  File "D:\AIR-DATA\Prototype\api_server.py", line 194, in chat_message
+    result = await logic.handle_message(session["data"], user_message)
+  File "D:\AIR-DATA\Prototype\src\logic.py", line 702, in handle_message
+    for idx, c in enumerate(top_categories, start=1):
+TypeError: 'coroutine' object is not iterable
+2025-10-28 17:45:31,620 | ERROR | MainThread | [global] ❌ Error processing message for air-1daf7737-64ff-4995-b9dc-76356dab9510: 'coroutine' object is not iterable
+Traceback (most recent call last):
+  File "D:\AIR-DATA\Prototype\api_server.py", line 194, in chat_message
+    result = await logic.handle_message(session["data"], user_message)
+  File "D:\AIR-DATA\Prototype\src\logic.py", line 702, in handle_message
+    for idx, c in enumerate(top_categories, start=1):
+TypeError: 'coroutine' object is not iterable
+2025-10-28 17:45:31,626 | ERROR | MainThread | [global] ❌ Error processing message for air-c01b78c6-5455-4dd8-a0e7-d52d21c86019: 'coroutine' object is not iterable
+Traceback (most recent call last):
+  File "D:\AIR-DATA\Prototype\api_server.py", line 194, in chat_message
+    result = await logic.handle_message(session["data"], user_message)
+  File "D:\AIR-DATA\Prototype\src\logic.py", line 702, in handle_message
+    for idx, c in enumerate(top_categories, start=1):
+TypeError: 'coroutine' object is not iterable
+2025-10-28 17:45:31,637 | ERROR | MainThread | [global] ❌ Error processing message for air-784939ac-3789-44ea-804d-9e1a44f3ff33: 'coroutine' object is not iterable
+Traceback (most recent call last):
+  File "D:\AIR-DATA\Prototype\api_server.py", line 194, in chat_message
+    result = await logic.handle_message(session["data"], user_message)
+  File "D:\AIR-DATA\Prototype\src\logic.py", line 702, in handle_message
+    for idx, c in enumerate(top_categories, start=1):
+TypeError: 'coroutine' object is not iterable
+2025-10-28 17:45:31,638 | ERROR | MainThread | [global] ❌ Error processing message for air-fbc2a59d-48d1-4b41-a5d4-69ce8e62bc28: 'coroutine' object is not iterable
+Traceback (most recent call last):
+  File "D:\AIR-DATA\Prototype\api_server.py", line 194, in chat_message
+    result = await logic.handle_message(session["data"], user_message)
+  File "D:\AIR-DATA\Prototype\src\logic.py", line 702, in handle_message
+    for idx, c in enumerate(top_categories, start=1):
+TypeError: 'coroutine' object is not iterable
+2025-10-28 17:45:32,005 | ERROR | MainThread | [global] ❌ Error processing message for air-0e3d3144-a0df-48cb-bbf6-dfeeb22ad501: 'coroutine' object is not iterable
+Traceback (most recent call last):
+  File "D:\AIR-DATA\Prototype\api_server.py", line 194, in chat_message
+    result = await logic.handle_message(session["data"], user_message)
+  File "D:\AIR-DATA\Prototype\src\logic.py", line 702, in handle_message
+    for idx, c in enumerate(top_categories, start=1):
+TypeError: 'coroutine' object is not iterable
+2025-10-28 17:45:32,126 | INFO | MainThread | [global] [air-e2d4d7b0-3aed-46ee-b75d-5e5c1b38ec50] USER: auto_answer_2_2
+2025-10-28 17:45:32,126 | INFO | MainThread | [air-e2d4d7b0-3aed-46ee-b75d-5e5c1b38ec50] STATE=waiting_for_query | USER='auto_answer_2_2'
+2025-10-28 17:45:32,222 | INFO | Use pytorch device_name: cpu
+2025-10-28 17:45:32,222 | INFO | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-28 17:45:32,225 | ERROR | MainThread | [global] ❌ Error processing message for air-3a89b6be-1d12-4197-802d-b9947d6e6de5: 'coroutine' object is not iterable
+Traceback (most recent call last):
+  File "D:\AIR-DATA\Prototype\api_server.py", line 194, in chat_message
+    result = await logic.handle_message(session["data"], user_message)
+  File "D:\AIR-DATA\Prototype\src\logic.py", line 702, in handle_message
+    for idx, c in enumerate(top_categories, start=1):
+TypeError: 'coroutine' object is not iterable
+2025-10-28 17:45:32,328 | ERROR | MainThread | [global] ❌ Error processing message for air-1d6778d2-1e94-4a4a-9348-c2f16cb8de69: 'coroutine' object is not iterable
+Traceback (most recent call last):
+  File "D:\AIR-DATA\Prototype\api_server.py", line 194, in chat_message
+    result = await logic.handle_message(session["data"], user_message)
+  File "D:\AIR-DATA\Prototype\src\logic.py", line 702, in handle_message
+    for idx, c in enumerate(top_categories, start=1):
+TypeError: 'coroutine' object is not iterable
+2025-10-28 17:45:32,363 | INFO | MainThread | [global] [air-255651cc-df6a-4c80-ab85-0747971df3b9] USER: auto_answer_2_8
+2025-10-28 17:45:32,364 | INFO | MainThread | [air-255651cc-df6a-4c80-ab85-0747971df3b9] STATE=waiting_for_query | USER='auto_answer_2_8'
+2025-10-28 17:45:32,449 | INFO | Use pytorch device_name: cpu
+2025-10-28 17:45:32,450 | INFO | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-28 17:45:32,617 | INFO | MainThread | [global] [air-fbc2a59d-48d1-4b41-a5d4-69ce8e62bc28] USER: auto_answer_2_4
+2025-10-28 17:45:32,617 | INFO | MainThread | [air-fbc2a59d-48d1-4b41-a5d4-69ce8e62bc28] STATE=waiting_for_query | USER='auto_answer_2_4'
+2025-10-28 17:45:32,680 | INFO | MainThread | [global] [air-c01b78c6-5455-4dd8-a0e7-d52d21c86019] USER: auto_answer_2_3
+2025-10-28 17:45:32,692 | INFO | MainThread | [air-c01b78c6-5455-4dd8-a0e7-d52d21c86019] STATE=waiting_for_query | USER='auto_answer_2_3'
+2025-10-28 17:45:32,713 | INFO | Use pytorch device_name: cpu
+2025-10-28 17:45:32,714 | INFO | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-28 17:45:32,804 | INFO | Use pytorch device_name: cpu
+2025-10-28 17:45:32,804 | INFO | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-28 17:45:32,807 | ERROR | MainThread | [global] ❌ Error processing message for air-c7b20313-2122-495a-a2e9-cb75c04ea394: 'coroutine' object is not iterable
+Traceback (most recent call last):
+  File "D:\AIR-DATA\Prototype\api_server.py", line 194, in chat_message
+    result = await logic.handle_message(session["data"], user_message)
+  File "D:\AIR-DATA\Prototype\src\logic.py", line 702, in handle_message
+    for idx, c in enumerate(top_categories, start=1):
+TypeError: 'coroutine' object is not iterable
+2025-10-28 17:45:32,918 | INFO | MainThread | [global] [air-0e3d3144-a0df-48cb-bbf6-dfeeb22ad501] USER: auto_answer_2_9
+2025-10-28 17:45:32,918 | INFO | MainThread | [air-0e3d3144-a0df-48cb-bbf6-dfeeb22ad501] STATE=waiting_for_query | USER='auto_answer_2_9'
+2025-10-28 17:45:33,017 | INFO | Use pytorch device_name: cpu
+2025-10-28 17:45:33,017 | INFO | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-28 17:45:33,139 | INFO | MainThread | [global] [air-1daf7737-64ff-4995-b9dc-76356dab9510] USER: auto_answer_2_1
+2025-10-28 17:45:33,139 | INFO | MainThread | [air-1daf7737-64ff-4995-b9dc-76356dab9510] STATE=waiting_for_query | USER='auto_answer_2_1'
+2025-10-28 17:45:33,227 | INFO | Use pytorch device_name: cpu
+2025-10-28 17:45:33,227 | INFO | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-28 17:45:33,566 | INFO | MainThread | [global] [air-784939ac-3789-44ea-804d-9e1a44f3ff33] USER: auto_answer_2_7
+2025-10-28 17:45:33,567 | INFO | MainThread | [air-784939ac-3789-44ea-804d-9e1a44f3ff33] STATE=waiting_for_query | USER='auto_answer_2_7'
+2025-10-28 17:45:33,567 | INFO | MainThread | [global] [air-1d6778d2-1e94-4a4a-9348-c2f16cb8de69] USER: auto_answer_2_6
+2025-10-28 17:45:33,567 | INFO | MainThread | [air-1d6778d2-1e94-4a4a-9348-c2f16cb8de69] STATE=waiting_for_query | USER='auto_answer_2_6'
+2025-10-28 17:45:33,686 | INFO | MainThread | [global] [air-3a89b6be-1d12-4197-802d-b9947d6e6de5] USER: auto_answer_2_5
+2025-10-28 17:45:33,703 | INFO | MainThread | [air-3a89b6be-1d12-4197-802d-b9947d6e6de5] STATE=waiting_for_query | USER='auto_answer_2_5'
+2025-10-28 17:45:33,715 | INFO | Use pytorch device_name: cpu
+2025-10-28 17:45:33,716 | INFO | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-28 17:45:33,716 | INFO | Use pytorch device_name: cpu
+2025-10-28 17:45:33,717 | INFO | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-28 17:45:33,801 | INFO | Use pytorch device_name: cpu
+2025-10-28 17:45:33,802 | INFO | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-28 17:45:34,154 | INFO | MainThread | [global] [air-c7b20313-2122-495a-a2e9-cb75c04ea394] USER: auto_answer_2_10
+2025-10-28 17:45:34,154 | INFO | MainThread | [air-c7b20313-2122-495a-a2e9-cb75c04ea394] STATE=waiting_for_query | USER='auto_answer_2_10'
+2025-10-28 17:45:34,268 | INFO | Use pytorch device_name: cpu
+2025-10-28 17:45:34,268 | INFO | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-28 17:45:35,577 | ERROR | MainThread | [global] ❌ Error processing message for air-e2d4d7b0-3aed-46ee-b75d-5e5c1b38ec50: 'coroutine' object is not iterable
+Traceback (most recent call last):
+  File "D:\AIR-DATA\Prototype\api_server.py", line 194, in chat_message
+    result = await logic.handle_message(session["data"], user_message)
+  File "D:\AIR-DATA\Prototype\src\logic.py", line 702, in handle_message
+    for idx, c in enumerate(top_categories, start=1):
+TypeError: 'coroutine' object is not iterable
+2025-10-28 17:45:35,617 | ERROR | MainThread | [global] ❌ Error processing message for air-255651cc-df6a-4c80-ab85-0747971df3b9: 'coroutine' object is not iterable
+Traceback (most recent call last):
+  File "D:\AIR-DATA\Prototype\api_server.py", line 194, in chat_message
+    result = await logic.handle_message(session["data"], user_message)
+  File "D:\AIR-DATA\Prototype\src\logic.py", line 702, in handle_message
+    for idx, c in enumerate(top_categories, start=1):
+TypeError: 'coroutine' object is not iterable
+2025-10-28 17:45:35,951 | ERROR | MainThread | [global] ❌ Error processing message for air-fbc2a59d-48d1-4b41-a5d4-69ce8e62bc28: 'coroutine' object is not iterable
+Traceback (most recent call last):
+  File "D:\AIR-DATA\Prototype\api_server.py", line 194, in chat_message
+    result = await logic.handle_message(session["data"], user_message)
+  File "D:\AIR-DATA\Prototype\src\logic.py", line 702, in handle_message
+    for idx, c in enumerate(top_categories, start=1):
+TypeError: 'coroutine' object is not iterable
+2025-10-28 17:45:36,059 | ERROR | MainThread | [global] ❌ Error processing message for air-c01b78c6-5455-4dd8-a0e7-d52d21c86019: 'coroutine' object is not iterable
+Traceback (most recent call last):
+  File "D:\AIR-DATA\Prototype\api_server.py", line 194, in chat_message
+    result = await logic.handle_message(session["data"], user_message)
+  File "D:\AIR-DATA\Prototype\src\logic.py", line 702, in handle_message
+    for idx, c in enumerate(top_categories, start=1):
+TypeError: 'coroutine' object is not iterable
+2025-10-28 17:45:36,183 | ERROR | MainThread | [global] ❌ Error processing message for air-0e3d3144-a0df-48cb-bbf6-dfeeb22ad501: 'coroutine' object is not iterable
+Traceback (most recent call last):
+  File "D:\AIR-DATA\Prototype\api_server.py", line 194, in chat_message
+    result = await logic.handle_message(session["data"], user_message)
+  File "D:\AIR-DATA\Prototype\src\logic.py", line 702, in handle_message
+    for idx, c in enumerate(top_categories, start=1):
+TypeError: 'coroutine' object is not iterable
+2025-10-28 17:45:36,326 | ERROR | MainThread | [global] ❌ Error processing message for air-1daf7737-64ff-4995-b9dc-76356dab9510: 'coroutine' object is not iterable
+Traceback (most recent call last):
+  File "D:\AIR-DATA\Prototype\api_server.py", line 194, in chat_message
+    result = await logic.handle_message(session["data"], user_message)
+  File "D:\AIR-DATA\Prototype\src\logic.py", line 702, in handle_message
+    for idx, c in enumerate(top_categories, start=1):
+TypeError: 'coroutine' object is not iterable
+2025-10-28 17:45:36,965 | ERROR | MainThread | [global] ❌ Error processing message for air-784939ac-3789-44ea-804d-9e1a44f3ff33: 'coroutine' object is not iterable
+Traceback (most recent call last):
+  File "D:\AIR-DATA\Prototype\api_server.py", line 194, in chat_message
+    result = await logic.handle_message(session["data"], user_message)
+  File "D:\AIR-DATA\Prototype\src\logic.py", line 702, in handle_message
+    for idx, c in enumerate(top_categories, start=1):
+TypeError: 'coroutine' object is not iterable
+2025-10-28 17:45:37,055 | ERROR | MainThread | [global] ❌ Error processing message for air-1d6778d2-1e94-4a4a-9348-c2f16cb8de69: 'coroutine' object is not iterable
+Traceback (most recent call last):
+  File "D:\AIR-DATA\Prototype\api_server.py", line 194, in chat_message
+    result = await logic.handle_message(session["data"], user_message)
+  File "D:\AIR-DATA\Prototype\src\logic.py", line 702, in handle_message
+    for idx, c in enumerate(top_categories, start=1):
+TypeError: 'coroutine' object is not iterable
+2025-10-28 17:45:37,057 | ERROR | MainThread | [global] ❌ Error processing message for air-3a89b6be-1d12-4197-802d-b9947d6e6de5: 'coroutine' object is not iterable
+Traceback (most recent call last):
+  File "D:\AIR-DATA\Prototype\api_server.py", line 194, in chat_message
+    result = await logic.handle_message(session["data"], user_message)
+  File "D:\AIR-DATA\Prototype\src\logic.py", line 702, in handle_message
+    for idx, c in enumerate(top_categories, start=1):
+TypeError: 'coroutine' object is not iterable
+2025-10-28 17:45:37,120 | INFO | MainThread | [global] [air-255651cc-df6a-4c80-ab85-0747971df3b9] USER: auto_answer_3_8
+2025-10-28 17:45:37,121 | INFO | MainThread | [air-255651cc-df6a-4c80-ab85-0747971df3b9] STATE=waiting_for_query | USER='auto_answer_3_8'
+2025-10-28 17:45:37,211 | INFO | Use pytorch device_name: cpu
+2025-10-28 17:45:37,211 | INFO | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-28 17:45:37,281 | INFO | MainThread | [global] [air-1daf7737-64ff-4995-b9dc-76356dab9510] USER: auto_answer_3_1
+2025-10-28 17:45:37,281 | INFO | MainThread | [air-1daf7737-64ff-4995-b9dc-76356dab9510] STATE=waiting_for_query | USER='auto_answer_3_1'
+2025-10-28 17:45:37,343 | INFO | MainThread | [global] [air-e2d4d7b0-3aed-46ee-b75d-5e5c1b38ec50] USER: auto_answer_3_2
+2025-10-28 17:45:37,365 | INFO | MainThread | [air-e2d4d7b0-3aed-46ee-b75d-5e5c1b38ec50] STATE=waiting_for_query | USER='auto_answer_3_2'
+2025-10-28 17:45:37,380 | INFO | Use pytorch device_name: cpu
+2025-10-28 17:45:37,381 | INFO | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-28 17:45:37,382 | ERROR | MainThread | [global] ❌ Error processing message for air-c7b20313-2122-495a-a2e9-cb75c04ea394: 'coroutine' object is not iterable
+Traceback (most recent call last):
+  File "D:\AIR-DATA\Prototype\api_server.py", line 194, in chat_message
+    result = await logic.handle_message(session["data"], user_message)
+  File "D:\AIR-DATA\Prototype\src\logic.py", line 702, in handle_message
+    for idx, c in enumerate(top_categories, start=1):
+TypeError: 'coroutine' object is not iterable
+2025-10-28 17:45:37,438 | INFO | MainThread | [global] [air-fbc2a59d-48d1-4b41-a5d4-69ce8e62bc28] USER: auto_answer_3_4
+2025-10-28 17:45:37,464 | INFO | MainThread | [air-fbc2a59d-48d1-4b41-a5d4-69ce8e62bc28] STATE=waiting_for_query | USER='auto_answer_3_4'
+2025-10-28 17:45:37,474 | INFO | Use pytorch device_name: cpu
+2025-10-28 17:45:37,475 | INFO | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-28 17:45:37,558 | INFO | Use pytorch device_name: cpu
+2025-10-28 17:45:37,558 | INFO | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-28 17:45:37,913 | INFO | MainThread | [global] [air-3a89b6be-1d12-4197-802d-b9947d6e6de5] USER: auto_answer_3_5
+2025-10-28 17:45:37,913 | INFO | MainThread | [air-3a89b6be-1d12-4197-802d-b9947d6e6de5] STATE=waiting_for_query | USER='auto_answer_3_5'
+2025-10-28 17:45:38,005 | INFO | Use pytorch device_name: cpu
+2025-10-28 17:45:38,005 | INFO | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-28 17:45:38,009 | INFO | MainThread | [global] [air-0e3d3144-a0df-48cb-bbf6-dfeeb22ad501] USER: auto_answer_3_9
+2025-10-28 17:45:38,009 | INFO | MainThread | [air-0e3d3144-a0df-48cb-bbf6-dfeeb22ad501] STATE=waiting_for_query | USER='auto_answer_3_9'
+2025-10-28 17:45:38,087 | INFO | MainThread | [global] [air-c01b78c6-5455-4dd8-a0e7-d52d21c86019] USER: auto_answer_3_3
+2025-10-28 17:45:38,101 | INFO | MainThread | [air-c01b78c6-5455-4dd8-a0e7-d52d21c86019] STATE=waiting_for_query | USER='auto_answer_3_3'
+2025-10-28 17:45:38,109 | INFO | Use pytorch device_name: cpu
+2025-10-28 17:45:38,110 | INFO | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-28 17:45:38,194 | INFO | Use pytorch device_name: cpu
+2025-10-28 17:45:38,194 | INFO | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-28 17:45:38,557 | INFO | MainThread | [global] [air-1d6778d2-1e94-4a4a-9348-c2f16cb8de69] USER: auto_answer_3_6
+2025-10-28 17:45:38,558 | INFO | MainThread | [air-1d6778d2-1e94-4a4a-9348-c2f16cb8de69] STATE=waiting_for_query | USER='auto_answer_3_6'
+2025-10-28 17:45:38,651 | INFO | Use pytorch device_name: cpu
+2025-10-28 17:45:38,651 | INFO | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-28 17:45:38,684 | INFO | MainThread | [global] [air-c7b20313-2122-495a-a2e9-cb75c04ea394] USER: auto_answer_3_10
+2025-10-28 17:45:38,684 | INFO | MainThread | [air-c7b20313-2122-495a-a2e9-cb75c04ea394] STATE=waiting_for_query | USER='auto_answer_3_10'
+2025-10-28 17:45:38,784 | INFO | Use pytorch device_name: cpu
+2025-10-28 17:45:38,784 | INFO | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-28 17:45:38,795 | INFO | MainThread | [global] [air-784939ac-3789-44ea-804d-9e1a44f3ff33] USER: auto_answer_3_7
+2025-10-28 17:45:38,796 | INFO | MainThread | [air-784939ac-3789-44ea-804d-9e1a44f3ff33] STATE=waiting_for_query | USER='auto_answer_3_7'
+2025-10-28 17:45:38,895 | INFO | Use pytorch device_name: cpu
+2025-10-28 17:45:38,895 | INFO | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-28 17:45:40,520 | ERROR | MainThread | [global] ❌ Error processing message for air-255651cc-df6a-4c80-ab85-0747971df3b9: 'coroutine' object is not iterable
+Traceback (most recent call last):
+  File "D:\AIR-DATA\Prototype\api_server.py", line 194, in chat_message
+    result = await logic.handle_message(session["data"], user_message)
+  File "D:\AIR-DATA\Prototype\src\logic.py", line 702, in handle_message
+    for idx, c in enumerate(top_categories, start=1):
+TypeError: 'coroutine' object is not iterable
+2025-10-28 17:45:40,656 | ERROR | MainThread | [global] ❌ Error processing message for air-1daf7737-64ff-4995-b9dc-76356dab9510: 'coroutine' object is not iterable
+Traceback (most recent call last):
+  File "D:\AIR-DATA\Prototype\api_server.py", line 194, in chat_message
+    result = await logic.handle_message(session["data"], user_message)
+  File "D:\AIR-DATA\Prototype\src\logic.py", line 702, in handle_message
+    for idx, c in enumerate(top_categories, start=1):
+TypeError: 'coroutine' object is not iterable
+2025-10-28 17:45:40,717 | ERROR | MainThread | [global] ❌ Error processing message for air-e2d4d7b0-3aed-46ee-b75d-5e5c1b38ec50: 'coroutine' object is not iterable
+Traceback (most recent call last):
+  File "D:\AIR-DATA\Prototype\api_server.py", line 194, in chat_message
+    result = await logic.handle_message(session["data"], user_message)
+  File "D:\AIR-DATA\Prototype\src\logic.py", line 702, in handle_message
+    for idx, c in enumerate(top_categories, start=1):
+TypeError: 'coroutine' object is not iterable
+2025-10-28 17:45:40,768 | ERROR | MainThread | [global] ❌ Error processing message for air-fbc2a59d-48d1-4b41-a5d4-69ce8e62bc28: 'coroutine' object is not iterable
+Traceback (most recent call last):
+  File "D:\AIR-DATA\Prototype\api_server.py", line 194, in chat_message
+    result = await logic.handle_message(session["data"], user_message)
+  File "D:\AIR-DATA\Prototype\src\logic.py", line 702, in handle_message
+    for idx, c in enumerate(top_categories, start=1):
+TypeError: 'coroutine' object is not iterable
+2025-10-28 17:45:41,277 | ERROR | MainThread | [global] ❌ Error processing message for air-3a89b6be-1d12-4197-802d-b9947d6e6de5: 'coroutine' object is not iterable
+Traceback (most recent call last):
+  File "D:\AIR-DATA\Prototype\api_server.py", line 194, in chat_message
+    result = await logic.handle_message(session["data"], user_message)
+  File "D:\AIR-DATA\Prototype\src\logic.py", line 702, in handle_message
+    for idx, c in enumerate(top_categories, start=1):
+TypeError: 'coroutine' object is not iterable
+2025-10-28 17:45:41,426 | ERROR | MainThread | [global] ❌ Error processing message for air-c01b78c6-5455-4dd8-a0e7-d52d21c86019: 'coroutine' object is not iterable
+Traceback (most recent call last):
+  File "D:\AIR-DATA\Prototype\api_server.py", line 194, in chat_message
+    result = await logic.handle_message(session["data"], user_message)
+  File "D:\AIR-DATA\Prototype\src\logic.py", line 702, in handle_message
+    for idx, c in enumerate(top_categories, start=1):
+TypeError: 'coroutine' object is not iterable
+2025-10-28 17:45:41,462 | ERROR | MainThread | [global] ❌ Error processing message for air-0e3d3144-a0df-48cb-bbf6-dfeeb22ad501: 'coroutine' object is not iterable
+Traceback (most recent call last):
+  File "D:\AIR-DATA\Prototype\api_server.py", line 194, in chat_message
+    result = await logic.handle_message(session["data"], user_message)
+  File "D:\AIR-DATA\Prototype\src\logic.py", line 702, in handle_message
+    for idx, c in enumerate(top_categories, start=1):
+TypeError: 'coroutine' object is not iterable
+2025-10-28 17:45:41,798 | ERROR | MainThread | [global] ❌ Error processing message for air-1d6778d2-1e94-4a4a-9348-c2f16cb8de69: 'coroutine' object is not iterable
+Traceback (most recent call last):
+  File "D:\AIR-DATA\Prototype\api_server.py", line 194, in chat_message
+    result = await logic.handle_message(session["data"], user_message)
+  File "D:\AIR-DATA\Prototype\src\logic.py", line 702, in handle_message
+    for idx, c in enumerate(top_categories, start=1):
+TypeError: 'coroutine' object is not iterable
+2025-10-28 17:45:41,858 | ERROR | MainThread | [global] ❌ Error processing message for air-c7b20313-2122-495a-a2e9-cb75c04ea394: 'coroutine' object is not iterable
+Traceback (most recent call last):
+  File "D:\AIR-DATA\Prototype\api_server.py", line 194, in chat_message
+    result = await logic.handle_message(session["data"], user_message)
+  File "D:\AIR-DATA\Prototype\src\logic.py", line 702, in handle_message
+    for idx, c in enumerate(top_categories, start=1):
+TypeError: 'coroutine' object is not iterable
+2025-10-28 17:45:41,902 | INFO | MainThread | [global] [air-255651cc-df6a-4c80-ab85-0747971df3b9] USER: auto_answer_4_8
+2025-10-28 17:45:41,902 | INFO | MainThread | [air-255651cc-df6a-4c80-ab85-0747971df3b9] STATE=waiting_for_query | USER='auto_answer_4_8'
+2025-10-28 17:45:41,997 | INFO | Use pytorch device_name: cpu
+2025-10-28 17:45:41,997 | INFO | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-28 17:45:42,043 | ERROR | MainThread | [global] ❌ Error processing message for air-784939ac-3789-44ea-804d-9e1a44f3ff33: 'coroutine' object is not iterable
+Traceback (most recent call last):
+  File "D:\AIR-DATA\Prototype\api_server.py", line 194, in chat_message
+    result = await logic.handle_message(session["data"], user_message)
+  File "D:\AIR-DATA\Prototype\src\logic.py", line 702, in handle_message
+    for idx, c in enumerate(top_categories, start=1):
+TypeError: 'coroutine' object is not iterable
+2025-10-28 17:45:42,190 | INFO | MainThread | [global] [air-fbc2a59d-48d1-4b41-a5d4-69ce8e62bc28] USER: auto_answer_4_4
+2025-10-28 17:45:42,191 | INFO | MainThread | [air-fbc2a59d-48d1-4b41-a5d4-69ce8e62bc28] STATE=waiting_for_query | USER='auto_answer_4_4'
+2025-10-28 17:45:42,282 | INFO | Use pytorch device_name: cpu
+2025-10-28 17:45:42,282 | INFO | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-28 17:45:42,348 | INFO | MainThread | [global] [air-1daf7737-64ff-4995-b9dc-76356dab9510] USER: auto_answer_4_1
+2025-10-28 17:45:42,348 | INFO | MainThread | [air-1daf7737-64ff-4995-b9dc-76356dab9510] STATE=waiting_for_query | USER='auto_answer_4_1'
+2025-10-28 17:45:42,410 | INFO | MainThread | [global] [air-0e3d3144-a0df-48cb-bbf6-dfeeb22ad501] USER: auto_answer_4_9
+2025-10-28 17:45:42,429 | INFO | MainThread | [air-0e3d3144-a0df-48cb-bbf6-dfeeb22ad501] STATE=waiting_for_query | USER='auto_answer_4_9'
+2025-10-28 17:45:42,430 | INFO | MainThread | [global] [air-3a89b6be-1d12-4197-802d-b9947d6e6de5] USER: auto_answer_4_5
+2025-10-28 17:45:42,432 | INFO | MainThread | [air-3a89b6be-1d12-4197-802d-b9947d6e6de5] STATE=waiting_for_query | USER='auto_answer_4_5'
+2025-10-28 17:45:42,433 | INFO | MainThread | [global] [air-e2d4d7b0-3aed-46ee-b75d-5e5c1b38ec50] USER: auto_answer_4_2
+2025-10-28 17:45:42,435 | INFO | MainThread | [air-e2d4d7b0-3aed-46ee-b75d-5e5c1b38ec50] STATE=waiting_for_query | USER='auto_answer_4_2'
+2025-10-28 17:45:42,446 | INFO | Use pytorch device_name: cpu
+2025-10-28 17:45:42,446 | INFO | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-28 17:45:42,604 | INFO | MainThread | [global] [air-c01b78c6-5455-4dd8-a0e7-d52d21c86019] USER: auto_answer_4_3
+2025-10-28 17:45:42,617 | INFO | MainThread | [air-c01b78c6-5455-4dd8-a0e7-d52d21c86019] STATE=waiting_for_query | USER='auto_answer_4_3'
+2025-10-28 17:45:42,628 | INFO | Use pytorch device_name: cpu
+2025-10-28 17:45:42,629 | INFO | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-28 17:45:42,631 | INFO | Use pytorch device_name: cpu
+2025-10-28 17:45:42,632 | INFO | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-28 17:45:42,634 | INFO | Use pytorch device_name: cpu
+2025-10-28 17:45:42,635 | INFO | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-28 17:45:42,694 | INFO | MainThread | [global] [air-1d6778d2-1e94-4a4a-9348-c2f16cb8de69] USER: auto_answer_4_6
+2025-10-28 17:45:42,707 | INFO | MainThread | [air-1d6778d2-1e94-4a4a-9348-c2f16cb8de69] STATE=waiting_for_query | USER='auto_answer_4_6'
+2025-10-28 17:45:42,716 | INFO | Use pytorch device_name: cpu
+2025-10-28 17:45:42,716 | INFO | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-28 17:45:42,807 | INFO | Use pytorch device_name: cpu
+2025-10-28 17:45:42,807 | INFO | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-28 17:45:42,905 | INFO | MainThread | [global] [air-784939ac-3789-44ea-804d-9e1a44f3ff33] USER: auto_answer_4_7
+2025-10-28 17:45:42,905 | INFO | MainThread | [air-784939ac-3789-44ea-804d-9e1a44f3ff33] STATE=waiting_for_query | USER='auto_answer_4_7'
+2025-10-28 17:45:42,905 | INFO | MainThread | [global] [air-c7b20313-2122-495a-a2e9-cb75c04ea394] USER: auto_answer_4_10
+2025-10-28 17:45:42,906 | INFO | MainThread | [air-c7b20313-2122-495a-a2e9-cb75c04ea394] STATE=waiting_for_query | USER='auto_answer_4_10'
+2025-10-28 17:45:43,060 | INFO | Use pytorch device_name: cpu
+2025-10-28 17:45:43,060 | INFO | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-28 17:45:43,061 | INFO | Use pytorch device_name: cpu
+2025-10-28 17:45:43,061 | INFO | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-28 17:45:45,180 | ERROR | MainThread | [global] ❌ Error processing message for air-255651cc-df6a-4c80-ab85-0747971df3b9: 'coroutine' object is not iterable
+Traceback (most recent call last):
+  File "D:\AIR-DATA\Prototype\api_server.py", line 194, in chat_message
+    result = await logic.handle_message(session["data"], user_message)
+  File "D:\AIR-DATA\Prototype\src\logic.py", line 702, in handle_message
+    for idx, c in enumerate(top_categories, start=1):
+TypeError: 'coroutine' object is not iterable
+2025-10-28 17:45:45,539 | ERROR | MainThread | [global] ❌ Error processing message for air-fbc2a59d-48d1-4b41-a5d4-69ce8e62bc28: 'coroutine' object is not iterable
+Traceback (most recent call last):
+  File "D:\AIR-DATA\Prototype\api_server.py", line 194, in chat_message
+    result = await logic.handle_message(session["data"], user_message)
+  File "D:\AIR-DATA\Prototype\src\logic.py", line 702, in handle_message
+    for idx, c in enumerate(top_categories, start=1):
+TypeError: 'coroutine' object is not iterable
+2025-10-28 17:45:45,672 | ERROR | MainThread | [global] ❌ Error processing message for air-1daf7737-64ff-4995-b9dc-76356dab9510: 'coroutine' object is not iterable
+Traceback (most recent call last):
+  File "D:\AIR-DATA\Prototype\api_server.py", line 194, in chat_message
+    result = await logic.handle_message(session["data"], user_message)
+  File "D:\AIR-DATA\Prototype\src\logic.py", line 702, in handle_message
+    for idx, c in enumerate(top_categories, start=1):
+TypeError: 'coroutine' object is not iterable
+2025-10-28 17:45:46,067 | ERROR | MainThread | [global] ❌ Error processing message for air-3a89b6be-1d12-4197-802d-b9947d6e6de5: 'coroutine' object is not iterable
+Traceback (most recent call last):
+  File "D:\AIR-DATA\Prototype\api_server.py", line 194, in chat_message
+    result = await logic.handle_message(session["data"], user_message)
+  File "D:\AIR-DATA\Prototype\src\logic.py", line 702, in handle_message
+    for idx, c in enumerate(top_categories, start=1):
+TypeError: 'coroutine' object is not iterable
+2025-10-28 17:45:46,308 | ERROR | MainThread | [global] ❌ Error processing message for air-0e3d3144-a0df-48cb-bbf6-dfeeb22ad501: 'coroutine' object is not iterable
+Traceback (most recent call last):
+  File "D:\AIR-DATA\Prototype\api_server.py", line 194, in chat_message
+    result = await logic.handle_message(session["data"], user_message)
+  File "D:\AIR-DATA\Prototype\src\logic.py", line 702, in handle_message
+    for idx, c in enumerate(top_categories, start=1):
+TypeError: 'coroutine' object is not iterable
+2025-10-28 17:45:46,401 | ERROR | MainThread | [global] ❌ Error processing message for air-1d6778d2-1e94-4a4a-9348-c2f16cb8de69: 'coroutine' object is not iterable
+Traceback (most recent call last):
+  File "D:\AIR-DATA\Prototype\api_server.py", line 194, in chat_message
+    result = await logic.handle_message(session["data"], user_message)
+  File "D:\AIR-DATA\Prototype\src\logic.py", line 702, in handle_message
+    for idx, c in enumerate(top_categories, start=1):
+TypeError: 'coroutine' object is not iterable
+2025-10-28 17:45:46,403 | ERROR | MainThread | [global] ❌ Error processing message for air-e2d4d7b0-3aed-46ee-b75d-5e5c1b38ec50: 'coroutine' object is not iterable
+Traceback (most recent call last):
+  File "D:\AIR-DATA\Prototype\api_server.py", line 194, in chat_message
+    result = await logic.handle_message(session["data"], user_message)
+  File "D:\AIR-DATA\Prototype\src\logic.py", line 702, in handle_message
+    for idx, c in enumerate(top_categories, start=1):
+TypeError: 'coroutine' object is not iterable
+2025-10-28 17:45:46,436 | ERROR | MainThread | [global] ❌ Error processing message for air-c01b78c6-5455-4dd8-a0e7-d52d21c86019: 'coroutine' object is not iterable
+Traceback (most recent call last):
+  File "D:\AIR-DATA\Prototype\api_server.py", line 194, in chat_message
+    result = await logic.handle_message(session["data"], user_message)
+  File "D:\AIR-DATA\Prototype\src\logic.py", line 702, in handle_message
+    for idx, c in enumerate(top_categories, start=1):
+TypeError: 'coroutine' object is not iterable
+2025-10-28 17:45:46,539 | ERROR | MainThread | [global] ❌ Error processing message for air-c7b20313-2122-495a-a2e9-cb75c04ea394: 'coroutine' object is not iterable
+Traceback (most recent call last):
+  File "D:\AIR-DATA\Prototype\api_server.py", line 194, in chat_message
+    result = await logic.handle_message(session["data"], user_message)
+  File "D:\AIR-DATA\Prototype\src\logic.py", line 702, in handle_message
+    for idx, c in enumerate(top_categories, start=1):
+TypeError: 'coroutine' object is not iterable
+2025-10-28 17:45:46,542 | ERROR | MainThread | [global] ❌ Error processing message for air-784939ac-3789-44ea-804d-9e1a44f3ff33: 'coroutine' object is not iterable
+Traceback (most recent call last):
+  File "D:\AIR-DATA\Prototype\api_server.py", line 194, in chat_message
+    result = await logic.handle_message(session["data"], user_message)
+  File "D:\AIR-DATA\Prototype\src\logic.py", line 702, in handle_message
+    for idx, c in enumerate(top_categories, start=1):
+TypeError: 'coroutine' object is not iterable
+2025-10-28 17:46:22,804 | INFO | MainThread | [global] 🔻 Shutting down API and cleaning sessions...
+2025-10-28 17:46:22,805 | INFO | MainThread | [global] ✅ Shutdown cleanup complete.

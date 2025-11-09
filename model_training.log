@@ -1,0 +1,28 @@
+2025-10-25 00:32:25,443 - INFO - Successfully loaded CSV using 'latin-1' encoding.
+2025-10-25 00:32:25,461 - INFO - Use pytorch device_name: cpu
+2025-10-25 00:32:25,461 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-25 00:44:55,608 - INFO - Validation Accuracy: 0.7830
+2025-10-25 00:44:55,608 - INFO - Test Accuracy: 0.7730
+2025-10-25 00:44:55,779 - INFO - Hybrid classifier trained and saved to ./models/com_hybrid_classifier.pkl.
+2025-10-27 21:41:24,237 - INFO - Successfully loaded CSV using 'latin-1' encoding.
+2025-10-27 21:41:24,255 - INFO - Use pytorch device_name: cpu
+2025-10-27 21:41:24,256 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-27 21:41:24,313 - WARNING - No sentence-transformers model found with name sentence-transformers/all-MiniLM-L6-v2. Creating a new one with mean pooling.
+2025-10-27 21:42:09,794 - INFO - Successfully loaded CSV using 'latin-1' encoding.
+2025-10-27 21:42:09,813 - INFO - Use pytorch device_name: cpu
+2025-10-27 21:42:09,813 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-27 21:42:39,690 - INFO - Successfully loaded CSV using 'latin-1' encoding.
+2025-10-27 21:42:39,707 - INFO - Use pytorch device_name: cpu
+2025-10-27 21:42:39,707 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-27 21:44:50,592 - INFO - Successfully loaded CSV using 'latin-1' encoding.
+2025-10-27 21:44:50,610 - INFO - Use pytorch device_name: cpu
+2025-10-27 21:44:50,610 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-27 21:45:31,602 - INFO - Successfully loaded CSV using 'latin-1' encoding.
+2025-10-27 21:45:31,620 - INFO - Use pytorch device_name: cpu
+2025-10-27 21:45:31,620 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-27 23:32:10,752 - INFO - Successfully loaded CSV using 'latin-1' encoding.
+2025-10-27 23:32:10,782 - INFO - Use pytorch device_name: cpu
+2025-10-27 23:32:10,783 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-27 23:32:56,847 - INFO - Successfully loaded CSV using 'latin-1' encoding.
+2025-10-27 23:32:56,872 - INFO - Use pytorch device_name: cpu
+2025-10-27 23:32:56,872 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2

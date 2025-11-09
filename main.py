@@ -2,8 +2,9 @@ import os
 from src.embedder.build_embeddings import build_embeddings
 from src.classifier.train_classifier import train_hybrid_model
 from src.logic import ChatLogic
+import pandas as pd
 import warnings
-warnings.filterwarnings("ignore")   
+warnings.filterwarnings("ignore")
 
 
 
@@ -16,11 +17,13 @@ def main():
         print("Training hybrid classifier...")
         train_hybrid_model()
 
+
     print("Starting IT Support Chatbot.........")
 
 
     bot = ChatLogic()
     bot.run()
+
 
 if __name__ == "__main__":
     main()

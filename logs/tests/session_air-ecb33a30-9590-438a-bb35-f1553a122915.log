@@ -1,0 +1,7 @@
+[17:55:35] BOT: Hello! 👋 I'm your IT Support Assistant. Please describe your issue.
+[17:55:44] USER: need access for D365
+BOT: I found these top categories for your issue — please reply with the number (1-3) of the best match:
+1. External System Interfaces
+2. Email & Collaboration
+3. Mailbox & Group Emails
+[17:55:46] ❌ Exception: Expecting value: line 1 column 1 (char 0)

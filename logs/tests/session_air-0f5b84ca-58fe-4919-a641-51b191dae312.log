@@ -1,0 +1,17 @@
+[16:40:23] BOT: Hello! 👋 I'm your IT Support Assistant. Please describe your issue.
+[16:40:34] USER: need access for D365
+BOT: I found these top categories for your issue — please reply with the number (1-3) of the best match:
+1. External System Interfaces
+2. Email & Collaboration
+3. Mailbox & Group Emails
+[16:40:47] USER: selected 3
+BOT: Do you need D365 app access or data view access?
+[16:41:22] USER: auto_answer_1_2
+BOT: Is this for one or multiple users?
+[16:41:32] USER: auto_answer_2_2
+BOT: Do you have a specific list of users who need D365 access?
+[16:41:38] USER: auto_answer_3_2
+BOT: Please provide some more context or details about the issue, in form of text or screenshots. (optional)
+[16:41:43] USER: auto_answer_4_2
+BOT: Ticket creation returned: 401 - {"errorMessages":["You do not have permission to create issues in this project."],"errors":{}}
+[16:41:43] ✅ Chat completed successfully
