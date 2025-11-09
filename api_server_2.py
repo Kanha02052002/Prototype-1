@@ -9,8 +9,6 @@ from fastapi import FastAPI, HTTPException, Request, Query
 from concurrent.futures import ThreadPoolExecutor
 from src.logic import ChatLogic, get_session_logger
 
-# ────────────────────────────────────────────────
-# Global setup
 _executor = ThreadPoolExecutor(max_workers=15)
 _sessions = {}
 _sessions_lock = asyncio.Lock()
@@ -20,8 +18,6 @@ GREETING = "Hello! 👋 I'm your IT Support Assistant. Please describe your issu
 GLOBAL_LOGGER = get_session_logger("global")
 
 
-# ────────────────────────────────────────────────
-# Async session cleanup task
 async def cleanup_stale_sessions():
     """Periodically remove sessions idle for more than SESSION_TIMEOUT."""
     while True:
@@ -47,10 +43,8 @@ async def cleanup_stale_sessions():
             break
         except Exception as e:
             GLOBAL_LOGGER.error(f"Unexpected error in cleanup_stale_sessions: {e}", exc_info=True)
-            await asyncio.sleep(30)  # Wait before retrying
-
-
-# ────────────────────────────────────────────────
+            await asyncio.sleep(30)  
+            
 async def cleanup_session_after_completion(session_id: str):
     """Gracefully cleanup after a session is finished."""
     await asyncio.sleep(10)
@@ -59,8 +53,6 @@ async def cleanup_session_after_completion(session_id: str):
             del _sessions[session_id]
     GLOBAL_LOGGER.info(f"Session {session_id} cleaned up after completion.")
 
-
-# ────────────────────────────────────────────────
 def check_readiness():
     """Check dataset, env vars, and model cache availability."""
     from dotenv import load_dotenv
@@ -83,9 +75,6 @@ def check_readiness():
     os.makedirs("models_cache", exist_ok=True)
     GLOBAL_LOGGER.info("✅ Readiness check passed — environment and dataset OK.")
 
-
-# ────────────────────────────────────────────────
-# Lifespan Manager
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     GLOBAL_LOGGER.info("🚀 Starting IT Support Chatbot API (async version)...")
@@ -95,18 +84,16 @@ async def lifespan(app: FastAPI):
         GLOBAL_LOGGER.error(f"Startup readiness failed: {e}", exc_info=True)
         raise e
 
-    # Start async cleanup in background
     cleanup_task = asyncio.create_task(cleanup_stale_sessions())
     GLOBAL_LOGGER.info("🧹 Background cleanup task started.")
     try:
         yield
     finally:
-        # Cancel cleanup task on shutdown
         cleanup_task.cancel()
         try:
             await cleanup_task
         except asyncio.CancelledError:
-            pass  # Expected after cancellation
+            pass  
 
         # On shutdown
         GLOBAL_LOGGER.info("🔻 Shutting down API...")
@@ -119,17 +106,10 @@ async def lifespan(app: FastAPI):
             _sessions.clear()
         GLOBAL_LOGGER.info("✅ Shutdown cleanup complete.")
 
-
-# ────────────────────────────────────────────────
-# FastAPI initialization
 app = FastAPI(title="IT Support Chatbot API", lifespan=lifespan)
 
-
-# ────────────────────────────────────────────────
 @app.post("/chat/start")
 async def start_chat():
-    """Start a new async chat session."""
-    # Create new logic instance (concurrency handled internally)
     logic = ChatLogic()
     sid = logic.key
     session = {
@@ -146,14 +126,11 @@ async def start_chat():
     GLOBAL_LOGGER.info(f"🆕 New session started: {sid}")
     return {"session_id": sid, "greeting": GREETING}
 
-
-# ────────────────────────────────────────────────
 @app.post("/chat/message")
 async def chat_message(
     session_id: str = Query(..., description="Session ID"),
     user_message: str = Query(..., description="User message content")
 ):
-    """Process a chat message asynchronously."""
     async with _sessions_lock:
         if session_id not in _sessions:
             raise HTTPException(status_code=404, detail=f"Invalid session_id: {session_id}")
@@ -191,11 +168,8 @@ async def chat_message(
         "done": done
     }
 
-
-# ────────────────────────────────────────────────
 @app.get("/chat/history/{session_id}")
 async def get_history(session_id: str):
-    """Return full session chat history."""
     async with _sessions_lock:
         if session_id not in _sessions:
             raise HTTPException(status_code=404, detail="Invalid session_id")
@@ -206,11 +180,8 @@ async def get_history(session_id: str):
         "history": session["history"]
     }
 
-
-# ────────────────────────────────────────────────
 @app.get("/")
 async def health():
-    """Health check endpoint."""
     try:
         check_readiness()
         return {"status": "ok", "message": "🚀 IT Support Chatbot API is fully operational."}
